@@ -1,0 +1,7 @@
+{
+  "baseUrl": "http://localhost:8888",
+  "fixturesFolder": false,
+  "pluginsFile": false,
+  "retries": 1,
+  "projectId": "y1o3na"
+}

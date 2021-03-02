@@ -1,0 +1,22 @@
+name: Stryker mutation test
+on: [pull_request]
+jobs:
+  mutation-run:
+    name: Stryker run
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: npm install
+        run: npm install
+      - name: start app
+        run: npm run start:ci &
+      - name: wait for app  
+        uses: nev7n/wait_for_response@v1
+        with:
+          url: 'http://localhost:8888/'
+          responseCode: 200
+          timeout: 2000
+          interval: 500
+      - name: run Stryker
+        run: npm run test:mutations
