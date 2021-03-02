@@ -4,3 +4,5 @@
 
 ## Start app and run cypress
 `npm run test` 
+
+### more info
