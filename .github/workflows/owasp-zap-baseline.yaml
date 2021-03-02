@@ -11,7 +11,7 @@ jobs:
       - name: npm install
         run: npm install
       - name: start app
-        run: npm run start:ci 
+        run: npm run start:ci &
       - name: wait for app  
         uses: nev7n/wait_for_response@v1
         with:
