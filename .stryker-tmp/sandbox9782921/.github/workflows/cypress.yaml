@@ -1,0 +1,24 @@
+name: Cypress tests
+on: [pull_request]
+jobs:
+  cypress-run:
+    name: Cypress run
+    runs-on: ubuntu-16.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: npm install
+        run: npm install  
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
+        with:
+          record: true
+          start: npm run start:ci  
+          # quote the url to be safe against YML parsing surprises
+          wait-on: 'http://localhost:8888'
+        env:
+          # pass the Dashboard record key as an environment variable
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          # pass GitHub token to allow accurately detecting a build vs a re-run build
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          #COMMIT_INFO_MESSAGE: ${{ github.event.pull_request.title }}
