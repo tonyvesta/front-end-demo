@@ -8,8 +8,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        with:
-          ref: main
       - name: start app
         run: npm run start:ci 
       - name: wait for app  
