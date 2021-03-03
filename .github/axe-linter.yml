@@ -1,0 +1,2 @@
+exclude:
+  - ./stryker-tmp/* 
