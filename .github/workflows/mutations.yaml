@@ -11,3 +11,8 @@ jobs:
         run: npm install
       - name: run Stryker
         run: npm run test:mutations
+      - name: Upload artifacts
+        uses: actions/upload-artifact@master
+        with:
+          name: Lighthouse reports
+          path: /reports/mutation/html
