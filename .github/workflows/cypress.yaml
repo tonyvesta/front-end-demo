@@ -35,5 +35,5 @@ jobs:
           minAccessibilityScore: "90"
           minBestPracticesScore: "50"
           minPerformanceScore: "50"
-          minProgressiveWebAppScore: "50"
+          minProgressiveWebAppScore: "0"
           minSeoScore: "50"
