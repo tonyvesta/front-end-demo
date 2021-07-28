@@ -1,0 +1,39 @@
+name: Test Lighthouse Check with Minimum Score Enforcement
+on: [pull_request]
+
+jobs:
+  lighthouse-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: npm install
+        run: npm install
+      - name: start app
+        run: npm run start:ci &
+      - name: wait for app  
+        uses: nev7n/wait_for_response@v1
+        with:
+          url: 'http://localhost:8888/'
+          responseCode: 200
+          timeout: 2000
+          interval: 500
+      - name: Run Lighthouse
+        uses: foo-software/lighthouse-check-action@master
+        id: lighthouseCheck
+        with:
+          urls: 'http://localhost:8888/'
+          # ... all your other inputs
+      - name: Handle Lighthouse Check results
+        uses: foo-software/lighthouse-check-status-action@master
+        with:
+          lighthouseCheckResults: ${{ steps.lighthouseCheck.outputs.lighthouseCheckResults }}
+          minAccessibilityScore: "90"
+          minBestPracticesScore: "50"
+          minPerformanceScore: "50"
+          minProgressiveWebAppScore: "50"
+          minSeoScore: "50"
+      - name: Upload artifacts
+        uses: actions/upload-artifact@master
+        with:
+          name: Lighthouse reports
+          path: /tmp/artifacts
