@@ -10,7 +10,7 @@ jobs:
       - run: git fetch --prune --unshallow
       - name: version cmd
         id: version
-        run:  ::set-output name=PROVIDER_VERSION::git describe --abbrev=0 --tags
+        run:  echo '::set-output name=PROVIDER_VERSION::git describe --abbrev=0 --tags'
       - name: output version from varbiable
         run: echo "the provider version is ${{ steps.version.outputs.PROVIDER_VERSION }}"
         
