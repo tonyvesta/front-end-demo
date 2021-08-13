@@ -10,7 +10,7 @@ jobs:
       - run: git fetch --prune --unshallow
       - name: version cmd
         id: version
-        run:  echo 'PROVIDER_VERSION=git describe --abbrev=0 --tags' >> $GITHUB_ENV
+        run:  echo 'PROVIDER_VERSION=$(git describe --abbrev=0 --tags)' >> $GITHUB_ENV
       - name: output version from varbiable
         run: echo "the provider version is ${{ env.PROVIDER_VERSION }}"
         
