@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest    
     steps:  
       - name: version cmd
-      - run: echo git describe --abbrev=0 --tags
+        run: echo git describe --abbrev=0 --tags
       - id: get_version
         uses: battila7/get-version-action@v2
       - run: echo ${{ steps.get_version.outputs.version }}
