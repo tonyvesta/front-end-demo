@@ -1,0 +1,12 @@
+on:
+  workflow_dispatch:
+  push:
+        
+jobs:
+  version:
+    runs-on: ubuntu-latest    
+  steps:
+    - id: get_version
+      uses: battila7/get-version-action@v2
+    - run: echo ${{ steps.get_version.outputs.version }}
+    - run: echo ${{ steps.get_version.outputs.version-without-v }}
