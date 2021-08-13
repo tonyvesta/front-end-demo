@@ -6,7 +6,7 @@ jobs:
   version:
     runs-on: ubuntu-latest    
     steps:  
-      - id: version cmd
+      - name: version cmd
       - run: echo git describe --abbrev=0 --tags
       - id: get_version
         uses: battila7/get-version-action@v2
