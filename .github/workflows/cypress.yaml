@@ -16,7 +16,7 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           record: true
-          start: npm run start:ci  
+          start: npm run start:ci --env allure=true
           # quote the url to be safe against YML parsing surprises
           wait-on: 'http://localhost:8888'
         env:
