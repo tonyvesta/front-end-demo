@@ -4,5 +4,9 @@
   "fixturesFolder": false,
   "pluginsFile": false,
   "retries": 1,
-  "projectId": "y1o3na"
+  "projectId": "y1o3na",
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "results/my-test-output-[hash].xml"
+  }
 }
