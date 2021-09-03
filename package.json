@@ -56,7 +56,7 @@
     "start-server-and-test": "1.11.7",
     "typescript": "3.9.7",
     "istanbul": "0.4.5",
-    "@cypress-allure-plugin": "2.11.1"
+    "@shelex/cypress-allure-plugin": "2.11.1"
   },
   "nyc": {
     "reporter": [
