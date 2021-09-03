@@ -1,4 +1,7 @@
+const allureWriter = require('@shelex/cypress-allure-plugin/writer');
+
 module.exports = (on, config) => {
+    allureWriter(on, config);
     //require('@cypress/code-coverage/task')(on, config)
     require('./node_modules/@cypress/code-coverage/task')(on, config)
  
