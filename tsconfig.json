@@ -8,6 +8,8 @@
     ]
   },
   "include": [
-    "cypress/**/*.js"
+    "cypress/**/*.js",
+    "../node_modules/@shelex/cypress-allure-plugin/reporter",
+    "../node_modules/cypress"
   ]
 }
