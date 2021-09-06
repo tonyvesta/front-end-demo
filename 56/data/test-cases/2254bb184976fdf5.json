@@ -1,0 +1,105 @@
+{
+  "uid" : "2254bb184976fdf5",
+  "name" : "TodoMVC - React Editing should trim entered text",
+  "historyId" : "Editing:should trim entered text#TodoMVC - React Editing should trim entered text",
+  "time" : {
+    "start" : 1630926363000,
+    "stop" : 1630926365213,
+    "duration" : 2213
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Editing"
+  }, {
+    "name" : "testClass",
+    "value" : "should trim entered text"
+  }, {
+    "name" : "package",
+    "value" : "should trim entered text"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "c318b1c129063900",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/55//#testresult/c318b1c129063900",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630925739000,
+          "stop" : 1630925740850,
+          "duration" : 1850
+        }
+      }, {
+        "uid" : "756044c729d84f17",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/54//#testresult/756044c729d84f17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630925067000,
+          "stop" : 1630925069351,
+          "duration" : 2351
+        }
+      }, {
+        "uid" : "136adf6e714a59a5",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/52//#testresult/136adf6e714a59a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630920297000,
+          "stop" : 1630920298842,
+          "duration" : 1842
+        }
+      }, {
+        "uid" : "ae462e5ed9aebfd1",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/ae462e5ed9aebfd1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919800000,
+          "stop" : 1630919801759,
+          "duration" : 1759
+        }
+      }, {
+        "uid" : "599224785de0bb39",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/599224785de0bb39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919129000,
+          "stop" : 1630919130916,
+          "duration" : 1916
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2254bb184976fdf5.json",
+  "parameterValues" : [ ]
+}

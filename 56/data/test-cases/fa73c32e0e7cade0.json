@@ -1,0 +1,105 @@
+{
+  "uid" : "fa73c32e0e7cade0",
+  "name" : "TodoMVC - React Routing should allow me to display completed items",
+  "historyId" : "Routing:should allow me to display completed items#TodoMVC - React Routing should allow me to display completed items",
+  "time" : {
+    "start" : 1630926380000,
+    "stop" : 1630926381670,
+    "duration" : 1670
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Routing"
+  }, {
+    "name" : "testClass",
+    "value" : "should allow me to display completed items"
+  }, {
+    "name" : "package",
+    "value" : "should allow me to display completed items"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "4a96094d67c4239d",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/55//#testresult/4a96094d67c4239d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630925753000,
+          "stop" : 1630925754399,
+          "duration" : 1399
+        }
+      }, {
+        "uid" : "2a188e17bfd90720",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/54//#testresult/2a188e17bfd90720",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630925084000,
+          "stop" : 1630925085666,
+          "duration" : 1666
+        }
+      }, {
+        "uid" : "411f08c2d896702b",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/52//#testresult/411f08c2d896702b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630920311000,
+          "stop" : 1630920312381,
+          "duration" : 1381
+        }
+      }, {
+        "uid" : "5badd7f262fe5246",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/5badd7f262fe5246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919814000,
+          "stop" : 1630919815275,
+          "duration" : 1275
+        }
+      }, {
+        "uid" : "c6a9bf74a4824cd",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/c6a9bf74a4824cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919143000,
+          "stop" : 1630919144285,
+          "duration" : 1285
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fa73c32e0e7cade0.json",
+  "parameterValues" : [ ]
+}

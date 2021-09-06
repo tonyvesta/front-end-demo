@@ -1,0 +1,105 @@
+{
+  "uid" : "3a3c2fb037ffea7e",
+  "name" : "TodoMVC - React Editing should hide other controls when editing",
+  "historyId" : "Editing:should hide other controls when editing#TodoMVC - React Editing should hide other controls when editing",
+  "time" : {
+    "start" : 1630926363000,
+    "stop" : 1630926364493,
+    "duration" : 1493
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Editing"
+  }, {
+    "name" : "testClass",
+    "value" : "should hide other controls when editing"
+  }, {
+    "name" : "package",
+    "value" : "should hide other controls when editing"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "58f0a4dd0bddd7eb",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/55//#testresult/58f0a4dd0bddd7eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630925739000,
+          "stop" : 1630925740302,
+          "duration" : 1302
+        }
+      }, {
+        "uid" : "2679c48726cb59b0",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/54//#testresult/2679c48726cb59b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630925067000,
+          "stop" : 1630925068684,
+          "duration" : 1684
+        }
+      }, {
+        "uid" : "d499fb81541a89a2",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/52//#testresult/d499fb81541a89a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630920297000,
+          "stop" : 1630920298309,
+          "duration" : 1309
+        }
+      }, {
+        "uid" : "37712fda93b665af",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/37712fda93b665af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919800000,
+          "stop" : 1630919801514,
+          "duration" : 1514
+        }
+      }, {
+        "uid" : "1672005064dd9555",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/1672005064dd9555",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919129000,
+          "stop" : 1630919130425,
+          "duration" : 1425
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3a3c2fb037ffea7e.json",
+  "parameterValues" : [ ]
+}
