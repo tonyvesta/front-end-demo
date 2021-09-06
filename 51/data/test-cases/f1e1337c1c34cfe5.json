@@ -1,0 +1,69 @@
+{
+  "uid" : "f1e1337c1c34cfe5",
+  "name" : "TodoMVC - React Mark all as completed complete all checkbox should update state when items are completed / cleared",
+  "historyId" : "Mark all as completed:complete all checkbox should update state when items are completed / cleared#TodoMVC - React Mark all as completed complete all checkbox should update state when items are completed / cleared",
+  "time" : {
+    "start" : 1630919791000,
+    "stop" : 1630919792644,
+    "duration" : 1644
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Mark all as completed"
+  }, {
+    "name" : "testClass",
+    "value" : "complete all checkbox should update state when items are completed / cleared"
+  }, {
+    "name" : "package",
+    "value" : "complete all checkbox should update state when items are completed / cleared"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "3b2420f9272db652",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/3b2420f9272db652",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919120000,
+          "stop" : 1630919121756,
+          "duration" : 1756
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f1e1337c1c34cfe5.json",
+  "parameterValues" : [ ]
+}

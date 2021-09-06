@@ -1,0 +1,69 @@
+{
+  "uid" : "5834d283577130ef",
+  "name" : "TodoMVC - React Routing should highlight the currently applied filter",
+  "historyId" : "Routing:should highlight the currently applied filter#TodoMVC - React Routing should highlight the currently applied filter",
+  "time" : {
+    "start" : 1630919814000,
+    "stop" : 1630919815338,
+    "duration" : 1338
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Routing"
+  }, {
+    "name" : "testClass",
+    "value" : "should highlight the currently applied filter"
+  }, {
+    "name" : "package",
+    "value" : "should highlight the currently applied filter"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e8c2a56c72e4e57",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/e8c2a56c72e4e57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919143000,
+          "stop" : 1630919144296,
+          "duration" : 1296
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5834d283577130ef.json",
+  "parameterValues" : [ ]
+}

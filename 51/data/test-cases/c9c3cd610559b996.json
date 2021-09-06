@@ -1,0 +1,69 @@
+{
+  "uid" : "c9c3cd610559b996",
+  "name" : "TodoMVC - React adds 2 todos",
+  "historyId" : "TodoMVC - React:adds 2 todos#TodoMVC - React adds 2 todos",
+  "time" : {
+    "start" : 1630919783000,
+    "stop" : 1630919784114,
+    "duration" : 1114
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "TodoMVC - React"
+  }, {
+    "name" : "testClass",
+    "value" : "adds 2 todos"
+  }, {
+    "name" : "package",
+    "value" : "adds 2 todos"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "7796684f44787661",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/7796684f44787661",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919113000,
+          "stop" : 1630919114079,
+          "duration" : 1079
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c9c3cd610559b996.json",
+  "parameterValues" : [ ]
+}
