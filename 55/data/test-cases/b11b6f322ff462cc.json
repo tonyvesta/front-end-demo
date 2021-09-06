@@ -1,0 +1,96 @@
+{
+  "uid" : "b11b6f322ff462cc",
+  "name" : "TodoMVC - React Editing should save edits on blur",
+  "historyId" : "Editing:should save edits on blur#TodoMVC - React Editing should save edits on blur",
+  "time" : {
+    "start" : 1630925739000,
+    "stop" : 1630925740678,
+    "duration" : 1678
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Editing"
+  }, {
+    "name" : "testClass",
+    "value" : "should save edits on blur"
+  }, {
+    "name" : "package",
+    "value" : "should save edits on blur"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "fd28a37a8b788aba",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/54//#testresult/fd28a37a8b788aba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630925067000,
+          "stop" : 1630925069208,
+          "duration" : 2208
+        }
+      }, {
+        "uid" : "f86d8ca801e8a34a",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/52//#testresult/f86d8ca801e8a34a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630920297000,
+          "stop" : 1630920298699,
+          "duration" : 1699
+        }
+      }, {
+        "uid" : "32b4712934a00d7d",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/32b4712934a00d7d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919800000,
+          "stop" : 1630919801775,
+          "duration" : 1775
+        }
+      }, {
+        "uid" : "ac968d8cea332928",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/ac968d8cea332928",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919129000,
+          "stop" : 1630919130883,
+          "duration" : 1883
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b11b6f322ff462cc.json",
+  "parameterValues" : [ ]
+}

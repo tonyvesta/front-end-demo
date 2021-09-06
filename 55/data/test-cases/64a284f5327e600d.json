@@ -1,0 +1,96 @@
+{
+  "uid" : "64a284f5327e600d",
+  "name" : "todo page When page is initially opened should display the help text \"Double-click to edit a todo\", \"Created by petehunt\", \"Part of TodoMVC\"",
+  "historyId" : "When page is initially opened:should display the help text \"Double-click to edit a todo\", \"Created by petehunt\", \"Part of TodoMVC\"#todo page When page is initially opened should display the help text \"Double-click to edit a todo\", \"Created by petehunt\", \"Part of TodoMVC\"",
+  "time" : {
+    "start" : 1630925784000,
+    "stop" : 1630925784271,
+    "duration" : 271
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "When page is initially opened"
+  }, {
+    "name" : "testClass",
+    "value" : "should display the help text \"Double-click to edit a todo\", \"Created by petehunt\", \"Part of TodoMVC\""
+  }, {
+    "name" : "package",
+    "value" : "should display the help text \"Double-click to edit a todo\", \"Created by petehunt\", \"Part of TodoMVC\""
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "bbd7fbe6062bb25b",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/54//#testresult/bbd7fbe6062bb25b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630925117000,
+          "stop" : 1630925117340,
+          "duration" : 340
+        }
+      }, {
+        "uid" : "47bc1b7833ae2c65",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/52//#testresult/47bc1b7833ae2c65",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630920345000,
+          "stop" : 1630920345301,
+          "duration" : 301
+        }
+      }, {
+        "uid" : "5bb01ff215fcde69",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/5bb01ff215fcde69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919837000,
+          "stop" : 1630919837288,
+          "duration" : 288
+        }
+      }, {
+        "uid" : "7fbc8bb115b16d15",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/7fbc8bb115b16d15",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919171000,
+          "stop" : 1630919171218,
+          "duration" : 218
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "64a284f5327e600d.json",
+  "parameterValues" : [ ]
+}

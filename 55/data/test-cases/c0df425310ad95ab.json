@@ -1,0 +1,96 @@
+{
+  "uid" : "c0df425310ad95ab",
+  "name" : "TodoMVC - React Mark all as completed should allow me to mark all items as completed",
+  "historyId" : "Mark all as completed:should allow me to mark all items as completed#TodoMVC - React Mark all as completed should allow me to mark all items as completed",
+  "time" : {
+    "start" : 1630925729000,
+    "stop" : 1630925730634,
+    "duration" : 1634
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Mark all as completed"
+  }, {
+    "name" : "testClass",
+    "value" : "should allow me to mark all items as completed"
+  }, {
+    "name" : "package",
+    "value" : "should allow me to mark all items as completed"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "3bb953850aa81f04",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/54//#testresult/3bb953850aa81f04",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630925057000,
+          "stop" : 1630925058592,
+          "duration" : 1592
+        }
+      }, {
+        "uid" : "81fa3b1fc33f5f03",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/52//#testresult/81fa3b1fc33f5f03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630920287000,
+          "stop" : 1630920288605,
+          "duration" : 1605
+        }
+      }, {
+        "uid" : "ed9ee2eb8e761658",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/ed9ee2eb8e761658",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919791000,
+          "stop" : 1630919792428,
+          "duration" : 1428
+        }
+      }, {
+        "uid" : "2f8bc2061230b571",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/2f8bc2061230b571",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919120000,
+          "stop" : 1630919121488,
+          "duration" : 1488
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c0df425310ad95ab.json",
+  "parameterValues" : [ ]
+}

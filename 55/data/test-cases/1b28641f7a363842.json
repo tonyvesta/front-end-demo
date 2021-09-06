@@ -1,0 +1,96 @@
+{
+  "uid" : "1b28641f7a363842",
+  "name" : "TodoMVC - React When page is initially opened should focus on the todo input field",
+  "historyId" : "When page is initially opened:should focus on the todo input field#TodoMVC - React When page is initially opened should focus on the todo input field",
+  "time" : {
+    "start" : 1630925721000,
+    "stop" : 1630925721529,
+    "duration" : 529
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "When page is initially opened"
+  }, {
+    "name" : "testClass",
+    "value" : "should focus on the todo input field"
+  }, {
+    "name" : "package",
+    "value" : "should focus on the todo input field"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "a9b1b45a84e91c06",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/54//#testresult/a9b1b45a84e91c06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630925051000,
+          "stop" : 1630925051411,
+          "duration" : 411
+        }
+      }, {
+        "uid" : "e6cba684c03a5117",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/52//#testresult/e6cba684c03a5117",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630920279000,
+          "stop" : 1630920279476,
+          "duration" : 476
+        }
+      }, {
+        "uid" : "f63ea92189a61ebf",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/f63ea92189a61ebf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919784000,
+          "stop" : 1630919784491,
+          "duration" : 491
+        }
+      }, {
+        "uid" : "296c83104f74777f",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/296c83104f74777f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919114000,
+          "stop" : 1630919114422,
+          "duration" : 422
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1b28641f7a363842.json",
+  "parameterValues" : [ ]
+}
