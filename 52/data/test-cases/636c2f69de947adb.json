@@ -1,0 +1,78 @@
+{
+  "uid" : "636c2f69de947adb",
+  "name" : "TodoMVC - React Counter should display the current number of todo items",
+  "historyId" : "Counter:should display the current number of todo items#TodoMVC - React Counter should display the current number of todo items",
+  "time" : {
+    "start" : 1630920305000,
+    "stop" : 1630920305900,
+    "duration" : 900
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Counter"
+  }, {
+    "name" : "testClass",
+    "value" : "should display the current number of todo items"
+  }, {
+    "name" : "package",
+    "value" : "should display the current number of todo items"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "fed1457c08d43965",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/fed1457c08d43965",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919808000,
+          "stop" : 1630919808848,
+          "duration" : 848
+        }
+      }, {
+        "uid" : "58782bbe3fbc6809",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/58782bbe3fbc6809",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919138000,
+          "stop" : 1630919138768,
+          "duration" : 768
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "636c2f69de947adb.json",
+  "parameterValues" : [ ]
+}

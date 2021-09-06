@@ -1,0 +1,78 @@
+{
+  "uid" : "5215e06e0c80eac",
+  "name" : "todo page When page is initially opened the cursor should have focus on the todo input field",
+  "historyId" : "When page is initially opened:the cursor should have focus on the todo input field#todo page When page is initially opened the cursor should have focus on the todo input field",
+  "time" : {
+    "start" : 1630920345000,
+    "stop" : 1630920345492,
+    "duration" : 492
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "When page is initially opened"
+  }, {
+    "name" : "testClass",
+    "value" : "the cursor should have focus on the todo input field"
+  }, {
+    "name" : "package",
+    "value" : "the cursor should have focus on the todo input field"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "143847a57fb86e4d",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/143847a57fb86e4d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919837000,
+          "stop" : 1630919837418,
+          "duration" : 418
+        }
+      }, {
+        "uid" : "a217d98034243e54",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/a217d98034243e54",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919171000,
+          "stop" : 1630919171390,
+          "duration" : 390
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5215e06e0c80eac.json",
+  "parameterValues" : [ ]
+}

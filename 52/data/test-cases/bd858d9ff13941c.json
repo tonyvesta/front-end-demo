@@ -1,0 +1,78 @@
+{
+  "uid" : "bd858d9ff13941c",
+  "name" : "TodoMVC - React New Todo should trim text input",
+  "historyId" : "New Todo:should trim text input#TodoMVC - React New Todo should trim text input",
+  "time" : {
+    "start" : 1630920280000,
+    "stop" : 1630920280831,
+    "duration" : 831
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "New Todo"
+  }, {
+    "name" : "testClass",
+    "value" : "should trim text input"
+  }, {
+    "name" : "package",
+    "value" : "should trim text input"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "65ee845d303d3735",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/65ee845d303d3735",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919785000,
+          "stop" : 1630919785770,
+          "duration" : 770
+        }
+      }, {
+        "uid" : "8b2e50a103955665",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/8b2e50a103955665",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919115000,
+          "stop" : 1630919115759,
+          "duration" : 759
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bd858d9ff13941c.json",
+  "parameterValues" : [ ]
+}

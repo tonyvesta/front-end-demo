@@ -1,0 +1,78 @@
+{
+  "uid" : "3d047c98f811ef76",
+  "name" : "TodoMVC - React Editing should cancel edits on escape",
+  "historyId" : "Editing:should cancel edits on escape#TodoMVC - React Editing should cancel edits on escape",
+  "time" : {
+    "start" : 1630920297000,
+    "stop" : 1630920298565,
+    "duration" : 1565
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Editing"
+  }, {
+    "name" : "testClass",
+    "value" : "should cancel edits on escape"
+  }, {
+    "name" : "package",
+    "value" : "should cancel edits on escape"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "ff9b85f4853cb4e1",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/ff9b85f4853cb4e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919800000,
+          "stop" : 1630919801438,
+          "duration" : 1438
+        }
+      }, {
+        "uid" : "fa34544b42a5e50a",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/fa34544b42a5e50a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919129000,
+          "stop" : 1630919130472,
+          "duration" : 1472
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3d047c98f811ef76.json",
+  "parameterValues" : [ ]
+}

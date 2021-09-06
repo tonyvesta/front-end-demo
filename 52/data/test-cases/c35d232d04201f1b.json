@@ -1,0 +1,78 @@
+{
+  "uid" : "c35d232d04201f1b",
+  "name" : "TodoMVC - React Routing should highlight the currently applied filter",
+  "historyId" : "Routing:should highlight the currently applied filter#TodoMVC - React Routing should highlight the currently applied filter",
+  "time" : {
+    "start" : 1630920311000,
+    "stop" : 1630920312443,
+    "duration" : 1443
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Routing"
+  }, {
+    "name" : "testClass",
+    "value" : "should highlight the currently applied filter"
+  }, {
+    "name" : "package",
+    "value" : "should highlight the currently applied filter"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "5834d283577130ef",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/5834d283577130ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919814000,
+          "stop" : 1630919815338,
+          "duration" : 1338
+        }
+      }, {
+        "uid" : "e8c2a56c72e4e57",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/e8c2a56c72e4e57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919143000,
+          "stop" : 1630919144296,
+          "duration" : 1296
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c35d232d04201f1b.json",
+  "parameterValues" : [ ]
+}

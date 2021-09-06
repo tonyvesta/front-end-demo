@@ -1,0 +1,78 @@
+{
+  "uid" : "d499fb81541a89a2",
+  "name" : "TodoMVC - React Editing should hide other controls when editing",
+  "historyId" : "Editing:should hide other controls when editing#TodoMVC - React Editing should hide other controls when editing",
+  "time" : {
+    "start" : 1630920297000,
+    "stop" : 1630920298309,
+    "duration" : 1309
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Editing"
+  }, {
+    "name" : "testClass",
+    "value" : "should hide other controls when editing"
+  }, {
+    "name" : "package",
+    "value" : "should hide other controls when editing"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "37712fda93b665af",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/37712fda93b665af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919800000,
+          "stop" : 1630919801514,
+          "duration" : 1514
+        }
+      }, {
+        "uid" : "1672005064dd9555",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/1672005064dd9555",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919129000,
+          "stop" : 1630919130425,
+          "duration" : 1425
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d499fb81541a89a2.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,78 @@
+{
+  "uid" : "c4a3bd90aa4f453e",
+  "name" : "TodoMVC - React Item should allow me to un-mark items as complete",
+  "historyId" : "Item:should allow me to un-mark items as complete#TodoMVC - React Item should allow me to un-mark items as complete",
+  "time" : {
+    "start" : 1630920292000,
+    "stop" : 1630920293286,
+    "duration" : 1286
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Item"
+  }, {
+    "name" : "testClass",
+    "value" : "should allow me to un-mark items as complete"
+  }, {
+    "name" : "package",
+    "value" : "should allow me to un-mark items as complete"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "9b7d31d8a2d0d37",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/9b7d31d8a2d0d37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919796000,
+          "stop" : 1630919797082,
+          "duration" : 1082
+        }
+      }, {
+        "uid" : "19cd01a7e79fd8c6",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/19cd01a7e79fd8c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919125000,
+          "stop" : 1630919126085,
+          "duration" : 1085
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c4a3bd90aa4f453e.json",
+  "parameterValues" : [ ]
+}

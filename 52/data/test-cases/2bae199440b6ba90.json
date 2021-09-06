@@ -1,0 +1,78 @@
+{
+  "uid" : "2bae199440b6ba90",
+  "name" : "todo creation field should have the placeholder text \"What needs to be done?\"",
+  "historyId" : "todo creation field:should have the placeholder text \"What needs to be done?\"#todo creation field should have the placeholder text \"What needs to be done?\"",
+  "time" : {
+    "start" : 1630920339000,
+    "stop" : 1630920339723,
+    "duration" : 723
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "todo creation field"
+  }, {
+    "name" : "testClass",
+    "value" : "should have the placeholder text \"What needs to be done?\""
+  }, {
+    "name" : "package",
+    "value" : "should have the placeholder text \"What needs to be done?\""
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "f052f7997eb19710",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/f052f7997eb19710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919833000,
+          "stop" : 1630919833439,
+          "duration" : 439
+        }
+      }, {
+        "uid" : "99de3e9b04d78bbb",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/99de3e9b04d78bbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919167000,
+          "stop" : 1630919167425,
+          "duration" : 425
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2bae199440b6ba90.json",
+  "parameterValues" : [ ]
+}

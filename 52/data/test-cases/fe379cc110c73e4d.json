@@ -1,0 +1,78 @@
+{
+  "uid" : "fe379cc110c73e4d",
+  "name" : "TodoMVC - React New Todo should clear text input field when an item is added",
+  "historyId" : "New Todo:should clear text input field when an item is added#TodoMVC - React New Todo should clear text input field when an item is added",
+  "time" : {
+    "start" : 1630920280000,
+    "stop" : 1630920280930,
+    "duration" : 930
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "New Todo"
+  }, {
+    "name" : "testClass",
+    "value" : "should clear text input field when an item is added"
+  }, {
+    "name" : "package",
+    "value" : "should clear text input field when an item is added"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "723db7105231e07b",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/723db7105231e07b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919785000,
+          "stop" : 1630919785873,
+          "duration" : 873
+        }
+      }, {
+        "uid" : "6a28f3b216c6b20b",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/6a28f3b216c6b20b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919115000,
+          "stop" : 1630919115703,
+          "duration" : 703
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fe379cc110c73e4d.json",
+  "parameterValues" : [ ]
+}
