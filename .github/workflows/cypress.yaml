@@ -81,3 +81,21 @@ jobs:
             state: 'success'
             sha: ${{ github.event.pull_request.head.sha }}
             target_url: https://to-jo.github.io/front-end-demo/${{ github.run_number }}
+            
+      - uses: actions/checkout@master
+      - name: Bump version and push tag
+        uses: darioblanco/bump-semver@v1.0.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+            
+      - name: Create unpublished JIRA release
+        uses: darioblanco/jira-wizard@main
+        with:
+          app: myapp
+          host: ${{ secrets.JIRA_HOST }}
+          email: ${{ secrets.JIRA_EMAIL }}
+          apiToken: ${{ secrets.JIRA_API_TOKEN }}
+          projectKey: PROJECTONE
+          issueRegex: \\[(PROJECTONE|PROJECTTWO)-\\d+\\]
+          version: 1.0.0
+          draft: false
