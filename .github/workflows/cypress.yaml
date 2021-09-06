@@ -26,6 +26,7 @@ jobs:
           # pass GitHub token to allow accurately detecting a build vs a re-run build
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           #COMMIT_INFO_MESSAGE: ${{ github.event.pull_request.title }}
+          
       - name: Run Lighthouse
         uses: foo-software/lighthouse-check-action@master
         id: lighthouseCheck
