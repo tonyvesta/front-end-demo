@@ -1,0 +1,87 @@
+{
+  "uid" : "9afa4857ee2d344c",
+  "name" : "TodoMVC - React Editing should remove the item if an empty text string was entered",
+  "historyId" : "Editing:should remove the item if an empty text string was entered#TodoMVC - React Editing should remove the item if an empty text string was entered",
+  "time" : {
+    "start" : 1630925067000,
+    "stop" : 1630925068777,
+    "duration" : 1777
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Editing"
+  }, {
+    "name" : "testClass",
+    "value" : "should remove the item if an empty text string was entered"
+  }, {
+    "name" : "package",
+    "value" : "should remove the item if an empty text string was entered"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "de2211d00b5fde4f",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/52//#testresult/de2211d00b5fde4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630920297000,
+          "stop" : 1630920298447,
+          "duration" : 1447
+        }
+      }, {
+        "uid" : "5548cd76f5a74de3",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/5548cd76f5a74de3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919800000,
+          "stop" : 1630919801394,
+          "duration" : 1394
+        }
+      }, {
+        "uid" : "d6d2e0fd657f0322",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/d6d2e0fd657f0322",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919129000,
+          "stop" : 1630919130387,
+          "duration" : 1387
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9afa4857ee2d344c.json",
+  "parameterValues" : [ ]
+}

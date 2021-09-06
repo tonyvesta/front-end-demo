@@ -1,0 +1,87 @@
+{
+  "uid" : "c6b62e51ca702291",
+  "name" : "TodoMVC - React Persistence should persist its data",
+  "historyId" : "Persistence:should persist its data#TodoMVC - React Persistence should persist its data",
+  "time" : {
+    "start" : 1630925083000,
+    "stop" : 1630925084521,
+    "duration" : 1521
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Persistence"
+  }, {
+    "name" : "testClass",
+    "value" : "should persist its data"
+  }, {
+    "name" : "package",
+    "value" : "should persist its data"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "80c23bef3a3e7f40",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/52//#testresult/80c23bef3a3e7f40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630920310000,
+          "stop" : 1630920311295,
+          "duration" : 1295
+        }
+      }, {
+        "uid" : "f5267d2f9ad4ca1c",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/f5267d2f9ad4ca1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919813000,
+          "stop" : 1630919814151,
+          "duration" : 1151
+        }
+      }, {
+        "uid" : "7acd71550b467849",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/7acd71550b467849",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919142000,
+          "stop" : 1630919143135,
+          "duration" : 1135
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c6b62e51ca702291.json",
+  "parameterValues" : [ ]
+}

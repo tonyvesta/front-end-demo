@@ -1,0 +1,87 @@
+{
+  "uid" : "5e1862bf2b81ceeb",
+  "name" : "TodoMVC - React No Todos should hide #main and #footer",
+  "historyId" : "No Todos:should hide #main and #footer#TodoMVC - React No Todos should hide #main and #footer",
+  "time" : {
+    "start" : 1630925051000,
+    "stop" : 1630925051288,
+    "duration" : 288
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "No Todos"
+  }, {
+    "name" : "testClass",
+    "value" : "should hide #main and #footer"
+  }, {
+    "name" : "package",
+    "value" : "should hide #main and #footer"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "6c595cc6ca6bccce",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/52//#testresult/6c595cc6ca6bccce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630920280000,
+          "stop" : 1630920280361,
+          "duration" : 361
+        }
+      }, {
+        "uid" : "a90a2cf2fc14c4ed",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/a90a2cf2fc14c4ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919784000,
+          "stop" : 1630919784354,
+          "duration" : 354
+        }
+      }, {
+        "uid" : "3ca9155d29afae18",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/3ca9155d29afae18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919114000,
+          "stop" : 1630919114327,
+          "duration" : 327
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5e1862bf2b81ceeb.json",
+  "parameterValues" : [ ]
+}

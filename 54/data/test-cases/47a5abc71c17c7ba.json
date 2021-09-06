@@ -1,0 +1,87 @@
+{
+  "uid" : "47a5abc71c17c7ba",
+  "name" : "TodoMVC - React Item should allow me to edit an item",
+  "historyId" : "Item:should allow me to edit an item#TodoMVC - React Item should allow me to edit an item",
+  "time" : {
+    "start" : 1630925063000,
+    "stop" : 1630925065099,
+    "duration" : 2099
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Item"
+  }, {
+    "name" : "testClass",
+    "value" : "should allow me to edit an item"
+  }, {
+    "name" : "package",
+    "value" : "should allow me to edit an item"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "f2134437fa5528b5",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/52//#testresult/f2134437fa5528b5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630920292000,
+          "stop" : 1630920294067,
+          "duration" : 2067
+        }
+      }, {
+        "uid" : "9eef71cdb4853f2a",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/9eef71cdb4853f2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919796000,
+          "stop" : 1630919798071,
+          "duration" : 2071
+        }
+      }, {
+        "uid" : "ede462716fbd445b",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/ede462716fbd445b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919125000,
+          "stop" : 1630919126866,
+          "duration" : 1866
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "47a5abc71c17c7ba.json",
+  "parameterValues" : [ ]
+}
