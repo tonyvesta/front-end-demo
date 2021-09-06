@@ -85,8 +85,10 @@ jobs:
             
       - name: Bump version and push tag
         uses: darioblanco/bump-semver@v1.0.0
+        id: version
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: tag
             
       - name: Create unpublished JIRA release
         uses: darioblanco/jira-wizard@main
@@ -97,5 +99,5 @@ jobs:
           apiToken: ${{ secrets.JIRA_API_TOKEN }}
           projectKey: TJ
           issueRegex: \\[(TJ)-\\d+\\]
-          version: ${{ outputs.Bump version and push tag.tag }}
+          version: ${{ outputs.version.tag }}
           draft: false
