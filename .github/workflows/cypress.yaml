@@ -95,7 +95,7 @@ jobs:
           host: ${{ secrets.JIRA_HOST }}
           email: ${{ secrets.JIRA_EMAIL }}
           apiToken: ${{ secrets.JIRA_API_TOKEN }}
-          projectKey: PROJECTONE
-          issueRegex: \\[(PROJECTONE|PROJECTTWO)-\\d+\\]
+          projectKey: TJ
+          issueRegex: \\[(TJ)-\\d+\\]
           version: 1.0.0
           draft: false
