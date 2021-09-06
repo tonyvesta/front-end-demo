@@ -1,0 +1,49 @@
+{
+  "uid" : "9a6304c28883a7f5",
+  "name" : "TodoMVC - React Contrast has good contrast when empty",
+  "historyId" : "Contrast:has good contrast when empty#TodoMVC - React Contrast has good contrast when empty",
+  "time" : {
+    "start" : 1630919151000,
+    "stop" : 1630919151363,
+    "duration" : 363
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Contrast"
+  }, {
+    "name" : "testClass",
+    "value" : "has good contrast when empty"
+  }, {
+    "name" : "package",
+    "value" : "has good contrast when empty"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a6304c28883a7f5.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,49 @@
+{
+  "uid" : "f39848234749f901",
+  "name" : "TodoMVC - React New Todo should show #main and #footer when items added",
+  "historyId" : "New Todo:should show #main and #footer when items added#TodoMVC - React New Todo should show #main and #footer when items added",
+  "time" : {
+    "start" : 1630919115000,
+    "stop" : 1630919115687,
+    "duration" : 687
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "New Todo"
+  }, {
+    "name" : "testClass",
+    "value" : "should show #main and #footer when items added"
+  }, {
+    "name" : "package",
+    "value" : "should show #main and #footer when items added"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f39848234749f901.json",
+  "parameterValues" : [ ]
+}

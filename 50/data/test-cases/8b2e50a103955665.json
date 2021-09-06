@@ -1,0 +1,49 @@
+{
+  "uid" : "8b2e50a103955665",
+  "name" : "TodoMVC - React New Todo should trim text input",
+  "historyId" : "New Todo:should trim text input#TodoMVC - React New Todo should trim text input",
+  "time" : {
+    "start" : 1630919115000,
+    "stop" : 1630919115759,
+    "duration" : 759
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "New Todo"
+  }, {
+    "name" : "testClass",
+    "value" : "should trim text input"
+  }, {
+    "name" : "package",
+    "value" : "should trim text input"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8b2e50a103955665.json",
+  "parameterValues" : [ ]
+}

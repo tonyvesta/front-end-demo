@@ -1,0 +1,49 @@
+{
+  "uid" : "43ff3dbbadb37987",
+  "name" : "TodoMVC - React Routing should allow me to display active items",
+  "historyId" : "Routing:should allow me to display active items#TodoMVC - React Routing should allow me to display active items",
+  "time" : {
+    "start" : 1630919143000,
+    "stop" : 1630919144404,
+    "duration" : 1404
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Routing"
+  }, {
+    "name" : "testClass",
+    "value" : "should allow me to display active items"
+  }, {
+    "name" : "package",
+    "value" : "should allow me to display active items"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "43ff3dbbadb37987.json",
+  "parameterValues" : [ ]
+}

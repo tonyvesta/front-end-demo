@@ -1,0 +1,49 @@
+{
+  "uid" : "f0e791e7decaa95c",
+  "name" : "TodoMVC - React Routing should allow me to display all items",
+  "historyId" : "Routing:should allow me to display all items#TodoMVC - React Routing should allow me to display all items",
+  "time" : {
+    "start" : 1630919143000,
+    "stop" : 1630919144456,
+    "duration" : 1456
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Routing"
+  }, {
+    "name" : "testClass",
+    "value" : "should allow me to display all items"
+  }, {
+    "name" : "package",
+    "value" : "should allow me to display all items"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f0e791e7decaa95c.json",
+  "parameterValues" : [ ]
+}

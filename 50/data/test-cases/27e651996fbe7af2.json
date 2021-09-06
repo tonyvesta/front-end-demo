@@ -1,0 +1,49 @@
+{
+  "uid" : "27e651996fbe7af2",
+  "name" : "TodoMVC - React Routing should respect the back button",
+  "historyId" : "Routing:should respect the back button#TodoMVC - React Routing should respect the back button",
+  "time" : {
+    "start" : 1630919143000,
+    "stop" : 1630919144608,
+    "duration" : 1608
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Routing"
+  }, {
+    "name" : "testClass",
+    "value" : "should respect the back button"
+  }, {
+    "name" : "package",
+    "value" : "should respect the back button"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "27e651996fbe7af2.json",
+  "parameterValues" : [ ]
+}

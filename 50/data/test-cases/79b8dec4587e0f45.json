@@ -1,0 +1,49 @@
+{
+  "uid" : "79b8dec4587e0f45",
+  "name" : "Adding a todo item displays the item as as a todo",
+  "historyId" : "Adding a todo item:displays the item as as a todo#Adding a todo item displays the item as as a todo",
+  "time" : {
+    "start" : 1630919106000,
+    "stop" : 1630919106853,
+    "duration" : 853
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Adding a todo item"
+  }, {
+    "name" : "testClass",
+    "value" : "displays the item as as a todo"
+  }, {
+    "name" : "package",
+    "value" : "displays the item as as a todo"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "79b8dec4587e0f45.json",
+  "parameterValues" : [ ]
+}

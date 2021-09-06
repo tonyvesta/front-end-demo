@@ -1,0 +1,49 @@
+{
+  "uid" : "3ca9155d29afae18",
+  "name" : "TodoMVC - React No Todos should hide #main and #footer",
+  "historyId" : "No Todos:should hide #main and #footer#TodoMVC - React No Todos should hide #main and #footer",
+  "time" : {
+    "start" : 1630919114000,
+    "stop" : 1630919114327,
+    "duration" : 327
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "No Todos"
+  }, {
+    "name" : "testClass",
+    "value" : "should hide #main and #footer"
+  }, {
+    "name" : "package",
+    "value" : "should hide #main and #footer"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3ca9155d29afae18.json",
+  "parameterValues" : [ ]
+}

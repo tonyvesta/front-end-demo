@@ -1,0 +1,49 @@
+{
+  "uid" : "8f2ce3d04ed0e4fc",
+  "name" : "TodoMVC - React Clear completed button should display the correct text",
+  "historyId" : "Clear completed button:should display the correct text#TodoMVC - React Clear completed button should display the correct text",
+  "time" : {
+    "start" : 1630919138000,
+    "stop" : 1630919139222,
+    "duration" : 1222
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Clear completed button"
+  }, {
+    "name" : "testClass",
+    "value" : "should display the correct text"
+  }, {
+    "name" : "package",
+    "value" : "should display the correct text"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8f2ce3d04ed0e4fc.json",
+  "parameterValues" : [ ]
+}

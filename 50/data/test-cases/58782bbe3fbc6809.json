@@ -1,0 +1,49 @@
+{
+  "uid" : "58782bbe3fbc6809",
+  "name" : "TodoMVC - React Counter should display the current number of todo items",
+  "historyId" : "Counter:should display the current number of todo items#TodoMVC - React Counter should display the current number of todo items",
+  "time" : {
+    "start" : 1630919138000,
+    "stop" : 1630919138768,
+    "duration" : 768
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Counter"
+  }, {
+    "name" : "testClass",
+    "value" : "should display the current number of todo items"
+  }, {
+    "name" : "package",
+    "value" : "should display the current number of todo items"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "58782bbe3fbc6809.json",
+  "parameterValues" : [ ]
+}

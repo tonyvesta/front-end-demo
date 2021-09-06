@@ -1,0 +1,49 @@
+{
+  "uid" : "bff560ab847e2f47",
+  "name" : "TodoMVC - React New Todo should allow me to add todo items",
+  "historyId" : "New Todo:should allow me to add todo items#TodoMVC - React New Todo should allow me to add todo items",
+  "time" : {
+    "start" : 1630919115000,
+    "stop" : 1630919116173,
+    "duration" : 1173
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "New Todo"
+  }, {
+    "name" : "testClass",
+    "value" : "should allow me to add todo items"
+  }, {
+    "name" : "package",
+    "value" : "should allow me to add todo items"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bff560ab847e2f47.json",
+  "parameterValues" : [ ]
+}

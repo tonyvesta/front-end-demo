@@ -1,0 +1,49 @@
+{
+  "uid" : "2f8bc2061230b571",
+  "name" : "TodoMVC - React Mark all as completed should allow me to mark all items as completed",
+  "historyId" : "Mark all as completed:should allow me to mark all items as completed#TodoMVC - React Mark all as completed should allow me to mark all items as completed",
+  "time" : {
+    "start" : 1630919120000,
+    "stop" : 1630919121488,
+    "duration" : 1488
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Mark all as completed"
+  }, {
+    "name" : "testClass",
+    "value" : "should allow me to mark all items as completed"
+  }, {
+    "name" : "package",
+    "value" : "should allow me to mark all items as completed"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2f8bc2061230b571.json",
+  "parameterValues" : [ ]
+}
