@@ -97,5 +97,5 @@ jobs:
           apiToken: ${{ secrets.JIRA_API_TOKEN }}
           projectKey: TJ
           issueRegex: \\[(TJ)-\\d+\\]
-          version: 1.0.0
+          version: ${{ outputs.Bump version and push tag.tag }}
           draft: false
