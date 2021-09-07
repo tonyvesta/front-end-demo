@@ -1,0 +1,141 @@
+{
+  "uid" : "66c6466198143d48",
+  "name" : "TodoMVC - React Editing should cancel edits on escape",
+  "historyId" : "Editing:should cancel edits on escape#TodoMVC - React Editing should cancel edits on escape",
+  "time" : {
+    "start" : 1631027990000,
+    "stop" : 1631027991525,
+    "duration" : 1525
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Editing"
+  }, {
+    "name" : "testClass",
+    "value" : "should cancel edits on escape"
+  }, {
+    "name" : "package",
+    "value" : "should cancel edits on escape"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "aaa002afadbca3d4",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/62//#testresult/aaa002afadbca3d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631027822000,
+          "stop" : 1631027823446,
+          "duration" : 1446
+        }
+      }, {
+        "uid" : "9f687b36ef858a97",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/61//#testresult/9f687b36ef858a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631027300000,
+          "stop" : 1631027301436,
+          "duration" : 1436
+        }
+      }, {
+        "uid" : "e0d8e60b510d2fa2",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/57//#testresult/e0d8e60b510d2fa2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630926715000,
+          "stop" : 1630926716828,
+          "duration" : 1828
+        }
+      }, {
+        "uid" : "a19b15dab4a54237",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/56//#testresult/a19b15dab4a54237",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630926363000,
+          "stop" : 1630926364823,
+          "duration" : 1823
+        }
+      }, {
+        "uid" : "704143a697dae3d",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/55//#testresult/704143a697dae3d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630925739000,
+          "stop" : 1630925740561,
+          "duration" : 1561
+        }
+      }, {
+        "uid" : "a99efa1f6464d10d",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/54//#testresult/a99efa1f6464d10d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630925067000,
+          "stop" : 1630925068709,
+          "duration" : 1709
+        }
+      }, {
+        "uid" : "3d047c98f811ef76",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/52//#testresult/3d047c98f811ef76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630920297000,
+          "stop" : 1630920298565,
+          "duration" : 1565
+        }
+      }, {
+        "uid" : "ff9b85f4853cb4e1",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/ff9b85f4853cb4e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919800000,
+          "stop" : 1630919801438,
+          "duration" : 1438
+        }
+      }, {
+        "uid" : "fa34544b42a5e50a",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/fa34544b42a5e50a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919129000,
+          "stop" : 1630919130472,
+          "duration" : 1472
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "66c6466198143d48.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,141 @@
+{
+  "uid" : "8703fe4eeca2b89b",
+  "name" : "TodoMVC - React Counter should display the current number of todo items",
+  "historyId" : "Counter:should display the current number of todo items#TodoMVC - React Counter should display the current number of todo items",
+  "time" : {
+    "start" : 1631027998000,
+    "stop" : 1631027998879,
+    "duration" : 879
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Counter"
+  }, {
+    "name" : "testClass",
+    "value" : "should display the current number of todo items"
+  }, {
+    "name" : "package",
+    "value" : "should display the current number of todo items"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "6fd8a24e61b8f582",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/62//#testresult/6fd8a24e61b8f582",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631027830000,
+          "stop" : 1631027830812,
+          "duration" : 812
+        }
+      }, {
+        "uid" : "cc86afc5058e1f6c",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/61//#testresult/cc86afc5058e1f6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631027307000,
+          "stop" : 1631027307782,
+          "duration" : 782
+        }
+      }, {
+        "uid" : "a84eba6a70110371",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/57//#testresult/a84eba6a70110371",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630926724000,
+          "stop" : 1630926725021,
+          "duration" : 1021
+        }
+      }, {
+        "uid" : "a7192b0e2614212b",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/56//#testresult/a7192b0e2614212b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630926372000,
+          "stop" : 1630926373055,
+          "duration" : 1055
+        }
+      }, {
+        "uid" : "86991757cd5ccf9f",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/55//#testresult/86991757cd5ccf9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630925746000,
+          "stop" : 1630925746829,
+          "duration" : 829
+        }
+      }, {
+        "uid" : "f7d5f3903c8909b2",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/54//#testresult/f7d5f3903c8909b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630925077000,
+          "stop" : 1630925077980,
+          "duration" : 980
+        }
+      }, {
+        "uid" : "636c2f69de947adb",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/52//#testresult/636c2f69de947adb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630920305000,
+          "stop" : 1630920305900,
+          "duration" : 900
+        }
+      }, {
+        "uid" : "fed1457c08d43965",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/fed1457c08d43965",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919808000,
+          "stop" : 1630919808848,
+          "duration" : 848
+        }
+      }, {
+        "uid" : "58782bbe3fbc6809",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/58782bbe3fbc6809",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919138000,
+          "stop" : 1630919138768,
+          "duration" : 768
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8703fe4eeca2b89b.json",
+  "parameterValues" : [ ]
+}

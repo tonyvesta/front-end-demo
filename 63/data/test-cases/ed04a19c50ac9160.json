@@ -1,0 +1,141 @@
+{
+  "uid" : "ed04a19c50ac9160",
+  "name" : "TodoMVC - React New Todo should clear text input field when an item is added",
+  "historyId" : "New Todo:should clear text input field when an item is added#TodoMVC - React New Todo should clear text input field when an item is added",
+  "time" : {
+    "start" : 1631027973000,
+    "stop" : 1631027973816,
+    "duration" : 816
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "New Todo"
+  }, {
+    "name" : "testClass",
+    "value" : "should clear text input field when an item is added"
+  }, {
+    "name" : "package",
+    "value" : "should clear text input field when an item is added"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "2f2d8ced46761d84",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/62//#testresult/2f2d8ced46761d84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631027807000,
+          "stop" : 1631027807860,
+          "duration" : 860
+        }
+      }, {
+        "uid" : "877ed8de8ab95ebe",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/61//#testresult/877ed8de8ab95ebe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631027287000,
+          "stop" : 1631027287583,
+          "duration" : 583
+        }
+      }, {
+        "uid" : "1d008047768ece4f",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/57//#testresult/1d008047768ece4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630926699000,
+          "stop" : 1630926699713,
+          "duration" : 713
+        }
+      }, {
+        "uid" : "4cc0245b96402dd1",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/56//#testresult/4cc0245b96402dd1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630926347000,
+          "stop" : 1630926347654,
+          "duration" : 654
+        }
+      }, {
+        "uid" : "b39cd6ffbfa3fff1",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/55//#testresult/b39cd6ffbfa3fff1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630925722000,
+          "stop" : 1630925722807,
+          "duration" : 807
+        }
+      }, {
+        "uid" : "f88f13bd34a06b15",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/54//#testresult/f88f13bd34a06b15",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630925052000,
+          "stop" : 1630925052648,
+          "duration" : 648
+        }
+      }, {
+        "uid" : "fe379cc110c73e4d",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/52//#testresult/fe379cc110c73e4d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630920280000,
+          "stop" : 1630920280930,
+          "duration" : 930
+        }
+      }, {
+        "uid" : "723db7105231e07b",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/723db7105231e07b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919785000,
+          "stop" : 1630919785873,
+          "duration" : 873
+        }
+      }, {
+        "uid" : "6a28f3b216c6b20b",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/6a28f3b216c6b20b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919115000,
+          "stop" : 1630919115703,
+          "duration" : 703
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ed04a19c50ac9160.json",
+  "parameterValues" : [ ]
+}
