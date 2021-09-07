@@ -84,6 +84,7 @@ jobs:
             target_url: https://to-jo.github.io/front-end-demo/${{ github.run_number }}
             
       - name: Bump version and push tag
+        if: github.ref == 'refs/heads/main'
         uses: darioblanco/bump-semver@v1.0.0
         id: version
         with:
@@ -91,6 +92,7 @@ jobs:
           outputs: tag
             
       - name: Create unpublished JIRA release
+        if: github.ref == 'refs/heads/main'
         uses: darioblanco/jira-wizard@main
         with:
           app: myapp
