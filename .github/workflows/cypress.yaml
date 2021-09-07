@@ -99,5 +99,5 @@ jobs:
           apiToken: ${{ secrets.JIRA_API_TOKEN }}
           projectKey: TJ
           issueRegex: \\[(TJ)-\\d+\\]
-          version: ${{ outputs.version.tag }}
+          version: ${{ steps.version.outputs.tag }}
           draft: false
