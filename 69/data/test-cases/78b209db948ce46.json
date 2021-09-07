@@ -1,0 +1,195 @@
+{
+  "uid" : "78b209db948ce46",
+  "name" : "TodoMVC - React Routing should allow me to display completed items",
+  "historyId" : "Routing:should allow me to display completed items#TodoMVC - React Routing should allow me to display completed items",
+  "time" : {
+    "start" : 1631030138000,
+    "stop" : 1631030139332,
+    "duration" : 1332
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Routing"
+  }, {
+    "name" : "testClass",
+    "value" : "should allow me to display completed items"
+  }, {
+    "name" : "package",
+    "value" : "should allow me to display completed items"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 16,
+        "unknown" : 0,
+        "total" : 16
+      },
+      "items" : [ {
+        "uid" : "d2867fd13ef8e966",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/68//#testresult/d2867fd13ef8e966",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631029501000,
+          "stop" : 1631029502272,
+          "duration" : 1272
+        }
+      }, {
+        "uid" : "56bb3f9473e1de7f",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/67//#testresult/56bb3f9473e1de7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631029410000,
+          "stop" : 1631029411251,
+          "duration" : 1251
+        }
+      }, {
+        "uid" : "8f6cfcbb659cc743",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/66//#testresult/8f6cfcbb659cc743",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631028911000,
+          "stop" : 1631028912365,
+          "duration" : 1365
+        }
+      }, {
+        "uid" : "8864a222fbad799c",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/65//#testresult/8864a222fbad799c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631028728000,
+          "stop" : 1631028729413,
+          "duration" : 1413
+        }
+      }, {
+        "uid" : "8274bd9cfd7eb463",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/64//#testresult/8274bd9cfd7eb463",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631028632000,
+          "stop" : 1631028633287,
+          "duration" : 1287
+        }
+      }, {
+        "uid" : "7688955ef569fc2f",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/63//#testresult/7688955ef569fc2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631028004000,
+          "stop" : 1631028005387,
+          "duration" : 1387
+        }
+      }, {
+        "uid" : "385110049d812233",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/62//#testresult/385110049d812233",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631027836000,
+          "stop" : 1631027837332,
+          "duration" : 1332
+        }
+      }, {
+        "uid" : "90c761d7ead61295",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/61//#testresult/90c761d7ead61295",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631027313000,
+          "stop" : 1631027314283,
+          "duration" : 1283
+        }
+      }, {
+        "uid" : "ffaf983f923c796f",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/57//#testresult/ffaf983f923c796f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630926732000,
+          "stop" : 1630926733538,
+          "duration" : 1538
+        }
+      }, {
+        "uid" : "fa73c32e0e7cade0",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/56//#testresult/fa73c32e0e7cade0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630926380000,
+          "stop" : 1630926381670,
+          "duration" : 1670
+        }
+      }, {
+        "uid" : "4a96094d67c4239d",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/55//#testresult/4a96094d67c4239d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630925753000,
+          "stop" : 1630925754399,
+          "duration" : 1399
+        }
+      }, {
+        "uid" : "2a188e17bfd90720",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/54//#testresult/2a188e17bfd90720",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630925084000,
+          "stop" : 1630925085666,
+          "duration" : 1666
+        }
+      }, {
+        "uid" : "411f08c2d896702b",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/52//#testresult/411f08c2d896702b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630920311000,
+          "stop" : 1630920312381,
+          "duration" : 1381
+        }
+      }, {
+        "uid" : "5badd7f262fe5246",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/51//#testresult/5badd7f262fe5246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919814000,
+          "stop" : 1630919815275,
+          "duration" : 1275
+        }
+      }, {
+        "uid" : "c6a9bf74a4824cd",
+        "reportUrl" : "https://to-jo.github.io/front-end-demo/50//#testresult/c6a9bf74a4824cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630919143000,
+          "stop" : 1630919144285,
+          "duration" : 1285
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "78b209db948ce46.json",
+  "parameterValues" : [ ]
+}
