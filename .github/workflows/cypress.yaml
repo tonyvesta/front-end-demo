@@ -3,7 +3,7 @@ on: [pull_request]
 jobs:
   cypress-run:
     name: Cypress run
-    runs-on: ubuntu-16.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -26,6 +26,7 @@ jobs:
           # pass GitHub token to allow accurately detecting a build vs a re-run build
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           #COMMIT_INFO_MESSAGE: ${{ github.event.pull_request.title }}
+          
       - name: Run Lighthouse
         uses: foo-software/lighthouse-check-action@master
         id: lighthouseCheck
@@ -37,7 +38,7 @@ jobs:
         with:
           lighthouseCheckResults: ${{ steps.lighthouseCheck.outputs.lighthouseCheckResults }}
           minAccessibilityScore: "90"
-          minBestPracticesScore: "50"
+          minBestPracticesScore: "0"
           minPerformanceScore: "40"
           minProgressiveWebAppScore: "0"
           minSeoScore: "50"
@@ -81,3 +82,24 @@ jobs:
             state: 'success'
             sha: ${{ github.event.pull_request.head.sha }}
             target_url: https://to-jo.github.io/front-end-demo/${{ github.run_number }}
+            
+      - name: Bump version and push tag
+        if: github.ref == 'refs/heads/main'
+        uses: darioblanco/bump-semver@v1.0.0
+        id: version
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: tag
+            
+      - name: Create unpublished JIRA release
+        if: github.ref == 'refs/heads/main'
+        uses: darioblanco/jira-wizard@main
+        with:
+          app: myapp
+          host: ${{ secrets.JIRA_HOST }}
+          email: ${{ secrets.JIRA_EMAIL }}
+          apiToken: ${{ secrets.JIRA_API_TOKEN }}
+          projectKey: TJ
+          issueRegex: \\[(TJ)-\\d+\\]
+          version: ${{ steps.version.outputs.tag }}
+          draft: false
