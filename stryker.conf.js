@@ -11,7 +11,7 @@ module.exports = {
     },
     reporters: ['progress', 'clear-text', 'html'],
     coverageAnalysis: 'off',
-    "thresholds": { "high": 80, "low": 60, "break": 99.9 }
+    "thresholds": { "high": 80, "low": 60, "break": 90 }
     // mutator: {
     //   plugins: ['@babel/plugin-syntax-jsx'],
     // },
