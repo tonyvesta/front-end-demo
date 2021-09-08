@@ -15,6 +15,14 @@
     "retry" : 0
   }
 }, {
+  "buildOrder" : 92,
+  "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 38,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 91,
   "reportUrl" : "https://tonyvesta.github.io/front-end-demo/91/",
   "reportName" : "Allure Report with history",
@@ -145,14 +153,6 @@
 }, {
   "buildOrder" : 76,
   "reportUrl" : "https://tonyvesta.github.io/front-end-demo/76/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 38,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 75,
-  "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75/",
   "reportName" : "Allure Report with history",
   "data" : {
     "run" : 38,

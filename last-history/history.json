@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "f589d9ebd935b537",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/f589d9ebd935b537",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114432000,
+        "stop" : 1631114433338,
+        "duration" : 1338
+      }
+    }, {
       "uid" : "72fd131fcdc2854a",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/72fd131fcdc2854a",
       "status" : "passed",
@@ -179,15 +188,6 @@
         "stop" : 1631087541300,
         "duration" : 1300
       }
-    }, {
-      "uid" : "9f6c6539fe7d7de",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/9f6c6539fe7d7de",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087471000,
-        "stop" : 1631087472278,
-        "duration" : 1278
-      }
     } ]
   },
   "Editing:should trim entered text#TodoMVC - React Editing should trim entered text" : {
@@ -195,11 +195,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "f796c18efa0f4dc6",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/f796c18efa0f4dc6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114423000,
+        "stop" : 1631114424856,
+        "duration" : 1856
+      }
+    }, {
       "uid" : "8c9509c10d56f648",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/8c9509c10d56f648",
       "status" : "passed",
@@ -370,15 +379,6 @@
         "stop" : 1631087532161,
         "duration" : 2161
       }
-    }, {
-      "uid" : "39b211f603699799",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/39b211f603699799",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087463000,
-        "stop" : 1631087464747,
-        "duration" : 1747
-      }
     } ]
   },
   "When page is initially opened:should have the heading \"todos\"#todo page When page is initially opened should have the heading \"todos\"" : {
@@ -386,11 +386,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 40,
+      "passed" : 41,
       "unknown" : 0,
-      "total" : 40
+      "total" : 41
     },
     "items" : [ {
+      "uid" : "e06a811a44ca6f26",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/e06a811a44ca6f26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114466000,
+        "stop" : 1631114466500,
+        "duration" : 500
+      }
+    }, {
       "uid" : "c81aeddd335e67b",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/c81aeddd335e67b",
       "status" : "passed",
@@ -561,15 +570,6 @@
         "stop" : 1631087573383,
         "duration" : 383
       }
-    }, {
-      "uid" : "bf8502df04e8a04f",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/bf8502df04e8a04f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087501000,
-        "stop" : 1631087501402,
-        "duration" : 402
-      }
     } ]
   },
   "Adding a todo item:displays the item as as a todo#Adding a todo item displays the item as as a todo" : {
@@ -577,11 +577,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "ffeb393408fb906b",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/ffeb393408fb906b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114397000,
+        "stop" : 1631114398137,
+        "duration" : 1137
+      }
+    }, {
       "uid" : "9cb6ef82fc2881cc",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/9cb6ef82fc2881cc",
       "status" : "passed",
@@ -752,15 +761,6 @@
         "stop" : 1631087506812,
         "duration" : 812
       }
-    }, {
-      "uid" : "be311eff7badaeb8",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/be311eff7badaeb8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087439000,
-        "stop" : 1631087439879,
-        "duration" : 879
-      }
     } ]
   },
   "Item:should allow me to edit an item#TodoMVC - React Item should allow me to edit an item" : {
@@ -768,11 +768,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "650fd179020e6761",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/650fd179020e6761",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114419000,
+        "stop" : 1631114420829,
+        "duration" : 1829
+      }
+    }, {
       "uid" : "61040c7a0636fd44",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/61040c7a0636fd44",
       "status" : "passed",
@@ -943,15 +952,6 @@
         "stop" : 1631087526996,
         "duration" : 1996
       }
-    }, {
-      "uid" : "2147a0f3e8aa9ed0",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/2147a0f3e8aa9ed0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087459000,
-        "stop" : 1631087460681,
-        "duration" : 1681
-      }
     } ]
   },
   "Clear completed button:should remove completed items when clicked#TodoMVC - React Clear completed button should remove completed items when clicked" : {
@@ -959,11 +959,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "9aef30a93ba3523c",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/9aef30a93ba3523c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114432000,
+        "stop" : 1631114433342,
+        "duration" : 1342
+      }
+    }, {
       "uid" : "dee5bc2fa1670df",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/dee5bc2fa1670df",
       "status" : "passed",
@@ -1134,15 +1143,6 @@
         "stop" : 1631087541320,
         "duration" : 1320
       }
-    }, {
-      "uid" : "c4381c21ed2cf9d8",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/c4381c21ed2cf9d8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087471000,
-        "stop" : 1631087472318,
-        "duration" : 1318
-      }
     } ]
   },
   "Mark all as completed:complete all checkbox should update state when items are completed / cleared#TodoMVC - React Mark all as completed complete all checkbox should update state when items are completed / cleared" : {
@@ -1150,11 +1150,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "cfbdaf814e8bcdbd",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/cfbdaf814e8bcdbd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114415000,
+        "stop" : 1631114416538,
+        "duration" : 1538
+      }
+    }, {
       "uid" : "74d83143cfc220c7",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/74d83143cfc220c7",
       "status" : "passed",
@@ -1325,15 +1334,6 @@
         "stop" : 1631087521671,
         "duration" : 1671
       }
-    }, {
-      "uid" : "2c5115c2261c637c",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/2c5115c2261c637c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087455000,
-        "stop" : 1631087456514,
-        "duration" : 1514
-      }
     } ]
   },
   "Counter:should display the current number of todo items#TodoMVC - React Counter should display the current number of todo items" : {
@@ -1341,11 +1341,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "aaf6a480078b4aea",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/aaf6a480078b4aea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114431000,
+        "stop" : 1631114431818,
+        "duration" : 818
+      }
+    }, {
       "uid" : "e2b6eac8ceea5d6e",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/e2b6eac8ceea5d6e",
       "status" : "passed",
@@ -1516,15 +1525,6 @@
         "stop" : 1631087540079,
         "duration" : 1079
       }
-    }, {
-      "uid" : "52db113e4886a9bb",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/52db113e4886a9bb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087470000,
-        "stop" : 1631087470799,
-        "duration" : 799
-      }
     } ]
   },
   "Routing:should allow me to display all items#TodoMVC - React Routing should allow me to display all items" : {
@@ -1532,11 +1532,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "b668e450419122fa",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/b668e450419122fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114437000,
+        "stop" : 1631114438535,
+        "duration" : 1535
+      }
+    }, {
       "uid" : "b2aef80f3d9fdc08",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/b2aef80f3d9fdc08",
       "status" : "passed",
@@ -1707,15 +1716,6 @@
         "stop" : 1631087546472,
         "duration" : 1472
       }
-    }, {
-      "uid" : "5fc600bdacc2210f",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/5fc600bdacc2210f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087476000,
-        "stop" : 1631087477414,
-        "duration" : 1414
-      }
     } ]
   },
   "Routing:should highlight the currently applied filter#TodoMVC - React Routing should highlight the currently applied filter" : {
@@ -1723,11 +1723,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "f577b4ea75297313",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/f577b4ea75297313",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114437000,
+        "stop" : 1631114438408,
+        "duration" : 1408
+      }
+    }, {
       "uid" : "7508ea07f4a95b8e",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/7508ea07f4a95b8e",
       "status" : "passed",
@@ -1898,15 +1907,6 @@
         "stop" : 1631087546322,
         "duration" : 1322
       }
-    }, {
-      "uid" : "a5added1eeda66d",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/a5added1eeda66d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087476000,
-        "stop" : 1631087477290,
-        "duration" : 1290
-      }
     } ]
   },
   "New Todo:should show #main and #footer when items added#TodoMVC - React New Todo should show #main and #footer when items added" : {
@@ -1914,11 +1914,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "3c71eddf88d468c",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/3c71eddf88d468c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114408000,
+        "stop" : 1631114408801,
+        "duration" : 801
+      }
+    }, {
       "uid" : "e220bdabe9fcd790",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/e220bdabe9fcd790",
       "status" : "passed",
@@ -2089,15 +2098,6 @@
         "stop" : 1631087513732,
         "duration" : 732
       }
-    }, {
-      "uid" : "2bac5cb26655dad7",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/2bac5cb26655dad7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087449000,
-        "stop" : 1631087449588,
-        "duration" : 588
-      }
     } ]
   },
   "Editing:should save edits on blur#TodoMVC - React Editing should save edits on blur" : {
@@ -2105,11 +2105,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "5dcb28038ade20f9",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/5dcb28038ade20f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114423000,
+        "stop" : 1631114424682,
+        "duration" : 1682
+      }
+    }, {
       "uid" : "66077804e5cee3f9",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/66077804e5cee3f9",
       "status" : "passed",
@@ -2280,15 +2289,6 @@
         "stop" : 1631087532115,
         "duration" : 2115
       }
-    }, {
-      "uid" : "fef17e3209a52e58",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/fef17e3209a52e58",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087463000,
-        "stop" : 1631087464583,
-        "duration" : 1583
-      }
     } ]
   },
   "todo creation field:should have the placeholder text \"What needs to be done?\"#todo creation field should have the placeholder text \"What needs to be done?\"" : {
@@ -2296,11 +2296,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 40,
+      "passed" : 41,
       "unknown" : 0,
-      "total" : 40
+      "total" : 41
     },
     "items" : [ {
+      "uid" : "866e70708a854ac7",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/866e70708a854ac7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114461000,
+        "stop" : 1631114461592,
+        "duration" : 592
+      }
+    }, {
       "uid" : "8aa72682d0fa884b",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/8aa72682d0fa884b",
       "status" : "passed",
@@ -2471,15 +2480,6 @@
         "stop" : 1631087568552,
         "duration" : 552
       }
-    }, {
-      "uid" : "6fa40348898d46e6",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/6fa40348898d46e6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087496000,
-        "stop" : 1631087496639,
-        "duration" : 639
-      }
     } ]
   },
   "When page is initially opened:the cursor should have focus on the todo input field#todo page When page is initially opened the cursor should have focus on the todo input field" : {
@@ -2487,11 +2487,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 40,
+      "passed" : 41,
       "unknown" : 0,
-      "total" : 40
+      "total" : 41
     },
     "items" : [ {
+      "uid" : "7a92edaffdc991c0",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/7a92edaffdc991c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114466000,
+        "stop" : 1631114466528,
+        "duration" : 528
+      }
+    }, {
       "uid" : "62ff0470f05d77e8",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/62ff0470f05d77e8",
       "status" : "passed",
@@ -2662,15 +2671,6 @@
         "stop" : 1631087573598,
         "duration" : 598
       }
-    }, {
-      "uid" : "12e0106614d26bbf",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/12e0106614d26bbf",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087501000,
-        "stop" : 1631087501513,
-        "duration" : 513
-      }
     } ]
   },
   "New Todo:should trim text input#TodoMVC - React New Todo should trim text input" : {
@@ -2678,11 +2678,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "e9dd9338d57859ce",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/e9dd9338d57859ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114408000,
+        "stop" : 1631114408896,
+        "duration" : 896
+      }
+    }, {
       "uid" : "bbd5794ca00bd1aa",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/bbd5794ca00bd1aa",
       "status" : "passed",
@@ -2853,15 +2862,6 @@
         "stop" : 1631087513920,
         "duration" : 920
       }
-    }, {
-      "uid" : "4dacba56fcc904c9",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/4dacba56fcc904c9",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087449000,
-        "stop" : 1631087449839,
-        "duration" : 839
-      }
     } ]
   },
   "Item:should allow me to un-mark items as complete#TodoMVC - React Item should allow me to un-mark items as complete" : {
@@ -2869,11 +2869,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "d328f8b07fd3c712",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/d328f8b07fd3c712",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114419000,
+        "stop" : 1631114420032,
+        "duration" : 1032
+      }
+    }, {
       "uid" : "eba7cf2e05746e5d",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/eba7cf2e05746e5d",
       "status" : "passed",
@@ -3044,15 +3053,6 @@
         "stop" : 1631087526553,
         "duration" : 1553
       }
-    }, {
-      "uid" : "e27c894f1202ed10",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/e27c894f1202ed10",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087459000,
-        "stop" : 1631087459966,
-        "duration" : 966
-      }
     } ]
   },
   "Mark all as completed:should allow me to clear the complete state of all items#TodoMVC - React Mark all as completed should allow me to clear the complete state of all items" : {
@@ -3060,11 +3060,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "af1553e19145b300",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/af1553e19145b300",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114415000,
+        "stop" : 1631114416377,
+        "duration" : 1377
+      }
+    }, {
       "uid" : "320b1ed096206cb3",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/320b1ed096206cb3",
       "status" : "passed",
@@ -3235,15 +3244,6 @@
         "stop" : 1631087521761,
         "duration" : 1761
       }
-    }, {
-      "uid" : "22d330c7cb2cc039",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/22d330c7cb2cc039",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087455000,
-        "stop" : 1631087456336,
-        "duration" : 1336
-      }
     } ]
   },
   "TodoMVC - React:adds 2 todos#TodoMVC - React adds 2 todos" : {
@@ -3251,11 +3251,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "9a4f118f0ac06d2",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/9a4f118f0ac06d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114405000,
+        "stop" : 1631114406383,
+        "duration" : 1383
+      }
+    }, {
       "uid" : "8f8c5969884a0f72",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/8f8c5969884a0f72",
       "status" : "passed",
@@ -3426,15 +3435,6 @@
         "stop" : 1631087511933,
         "duration" : 933
       }
-    }, {
-      "uid" : "bd29de7ee430a09d",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/bd29de7ee430a09d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087447000,
-        "stop" : 1631087448209,
-        "duration" : 1209
-      }
     } ]
   },
   "Routing:should allow me to display active items#TodoMVC - React Routing should allow me to display active items" : {
@@ -3442,11 +3442,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "73b9987fff763834",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/73b9987fff763834",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114437000,
+        "stop" : 1631114438466,
+        "duration" : 1466
+      }
+    }, {
       "uid" : "84a7a00df4f5380b",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/84a7a00df4f5380b",
       "status" : "passed",
@@ -3617,15 +3626,6 @@
         "stop" : 1631087546325,
         "duration" : 1325
       }
-    }, {
-      "uid" : "f66754eb5fc61864",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/f66754eb5fc61864",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087476000,
-        "stop" : 1631087477292,
-        "duration" : 1292
-      }
     } ]
   },
   "Contrast:has good contrast with several todos#TodoMVC - React Contrast has good contrast with several todos" : {
@@ -3633,11 +3633,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "d3f1dbe5f46eb0dd",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/d3f1dbe5f46eb0dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114445000,
+        "stop" : 1631114445957,
+        "duration" : 957
+      }
+    }, {
       "uid" : "8a973abf1089c3d9",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/8a973abf1089c3d9",
       "status" : "passed",
@@ -3808,15 +3817,6 @@
         "stop" : 1631087554010,
         "duration" : 1010
       }
-    }, {
-      "uid" : "93026d3a2587532b",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/93026d3a2587532b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087483000,
-        "stop" : 1631087483855,
-        "duration" : 855
-      }
     } ]
   },
   "New Todo:should allow me to add todo items#TodoMVC - React New Todo should allow me to add todo items" : {
@@ -3824,11 +3824,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "bad5b3bec2ad5ed0",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/bad5b3bec2ad5ed0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114408000,
+        "stop" : 1631114409290,
+        "duration" : 1290
+      }
+    }, {
       "uid" : "a58acbc314debdcc",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/a58acbc314debdcc",
       "status" : "passed",
@@ -3999,15 +4008,6 @@
         "stop" : 1631087514139,
         "duration" : 1139
       }
-    }, {
-      "uid" : "58fb9aed93965df7",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/58fb9aed93965df7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087449000,
-        "stop" : 1631087450186,
-        "duration" : 1186
-      }
     } ]
   },
   "Persistence:should persist its data#TodoMVC - React Persistence should persist its data" : {
@@ -4015,11 +4015,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "55764d6c408094c3",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/55764d6c408094c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114436000,
+        "stop" : 1631114437221,
+        "duration" : 1221
+      }
+    }, {
       "uid" : "30482895f65c776e",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/30482895f65c776e",
       "status" : "passed",
@@ -4190,15 +4199,6 @@
         "stop" : 1631087545089,
         "duration" : 1089
       }
-    }, {
-      "uid" : "a49ab632628419e8",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/a49ab632628419e8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087475000,
-        "stop" : 1631087476090,
-        "duration" : 1090
-      }
     } ]
   },
   "Clear completed button:should display the correct text#TodoMVC - React Clear completed button should display the correct text" : {
@@ -4206,11 +4206,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "906bc38791a6350c",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/906bc38791a6350c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114432000,
+        "stop" : 1631114433342,
+        "duration" : 1342
+      }
+    }, {
       "uid" : "f22912e72303abbe",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/f22912e72303abbe",
       "status" : "passed",
@@ -4381,15 +4390,6 @@
         "stop" : 1631087541576,
         "duration" : 1576
       }
-    }, {
-      "uid" : "144a5ae4d76cf564",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/144a5ae4d76cf564",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087471000,
-        "stop" : 1631087472220,
-        "duration" : 1220
-      }
     } ]
   },
   "New Todo:should clear text input field when an item is added#TodoMVC - React New Todo should clear text input field when an item is added" : {
@@ -4397,11 +4397,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "f15b2a8fa6456cbe",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/f15b2a8fa6456cbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114408000,
+        "stop" : 1631114408907,
+        "duration" : 907
+      }
+    }, {
       "uid" : "5dc17b81e30c4f01",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/5dc17b81e30c4f01",
       "status" : "passed",
@@ -4572,15 +4581,6 @@
         "stop" : 1631087513886,
         "duration" : 886
       }
-    }, {
-      "uid" : "e016ce46861d711",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/e016ce46861d711",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087449000,
-        "stop" : 1631087449662,
-        "duration" : 662
-      }
     } ]
   },
   "Editing:should cancel edits on escape#TodoMVC - React Editing should cancel edits on escape" : {
@@ -4588,11 +4588,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "f78f2316e45cb43e",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/f78f2316e45cb43e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114423000,
+        "stop" : 1631114424558,
+        "duration" : 1558
+      }
+    }, {
       "uid" : "8fbae4b3cff6c76b",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/8fbae4b3cff6c76b",
       "status" : "passed",
@@ -4763,15 +4772,6 @@
         "stop" : 1631087531816,
         "duration" : 1816
       }
-    }, {
-      "uid" : "93e4b13342f9c6fc",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/93e4b13342f9c6fc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087463000,
-        "stop" : 1631087464409,
-        "duration" : 1409
-      }
     } ]
   },
   "When page is initially opened:should display the help text \"Double-click to edit a todo\", \"Created by petehunt\", \"Part of TodoMVC\"#todo page When page is initially opened should display the help text \"Double-click to edit a todo\", \"Created by petehunt\", \"Part of TodoMVC\"" : {
@@ -4779,11 +4779,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 40,
+      "passed" : 41,
       "unknown" : 0,
-      "total" : 40
+      "total" : 41
     },
     "items" : [ {
+      "uid" : "bcc76f03febe9712",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/bcc76f03febe9712",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114466000,
+        "stop" : 1631114466519,
+        "duration" : 519
+      }
+    }, {
       "uid" : "5893f2e0fc0f7506",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/5893f2e0fc0f7506",
       "status" : "passed",
@@ -4954,15 +4963,6 @@
         "stop" : 1631087573353,
         "duration" : 353
       }
-    }, {
-      "uid" : "f896ca34cb6feb6e",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/f896ca34cb6feb6e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087501000,
-        "stop" : 1631087501404,
-        "duration" : 404
-      }
     } ]
   },
   "Contrast:has good contrast when empty#TodoMVC - React Contrast has good contrast when empty" : {
@@ -4970,11 +4970,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "2f770f01d43718cf",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/2f770f01d43718cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114445000,
+        "stop" : 1631114445582,
+        "duration" : 582
+      }
+    }, {
       "uid" : "e2013c93b38443c5",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/e2013c93b38443c5",
       "status" : "passed",
@@ -5145,15 +5154,6 @@
         "stop" : 1631087553385,
         "duration" : 385
       }
-    }, {
-      "uid" : "feeccc33159e26f0",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/feeccc33159e26f0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087483000,
-        "stop" : 1631087483418,
-        "duration" : 418
-      }
     } ]
   },
   "Editing:should remove the item if an empty text string was entered#TodoMVC - React Editing should remove the item if an empty text string was entered" : {
@@ -5161,11 +5161,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "e994df33c4dd1076",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/e994df33c4dd1076",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114423000,
+        "stop" : 1631114424460,
+        "duration" : 1460
+      }
+    }, {
       "uid" : "4031def4f0e3f42",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/4031def4f0e3f42",
       "status" : "passed",
@@ -5336,15 +5345,6 @@
         "stop" : 1631087531732,
         "duration" : 1732
       }
-    }, {
-      "uid" : "cb009a423170edd1",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/cb009a423170edd1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087463000,
-        "stop" : 1631087464359,
-        "duration" : 1359
-      }
     } ]
   },
   "No Todos:should hide #main and #footer#TodoMVC - React No Todos should hide #main and #footer" : {
@@ -5352,11 +5352,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "97d820d221671c49",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/97d820d221671c49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114407000,
+        "stop" : 1631114407395,
+        "duration" : 395
+      }
+    }, {
       "uid" : "3db3e6f67a38b5a1",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/3db3e6f67a38b5a1",
       "status" : "passed",
@@ -5527,15 +5536,6 @@
         "stop" : 1631087513380,
         "duration" : 380
       }
-    }, {
-      "uid" : "bcf46aca9b07198",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/bcf46aca9b07198",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087449000,
-        "stop" : 1631087449323,
-        "duration" : 323
-      }
     } ]
   },
   "New Todo:should append new items to the bottom of the list#TodoMVC - React New Todo should append new items to the bottom of the list" : {
@@ -5543,11 +5543,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "9393eb752f694a1f",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/9393eb752f694a1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114408000,
+        "stop" : 1631114409570,
+        "duration" : 1570
+      }
+    }, {
       "uid" : "2b040d96eec42722",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/2b040d96eec42722",
       "status" : "passed",
@@ -5718,15 +5727,6 @@
         "stop" : 1631087514486,
         "duration" : 1486
       }
-    }, {
-      "uid" : "dce089cdc1797f99",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/dce089cdc1797f99",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087449000,
-        "stop" : 1631087450232,
-        "duration" : 1232
-      }
     } ]
   },
   "When page is initially opened:should focus on the todo input field#TodoMVC - React When page is initially opened should focus on the todo input field" : {
@@ -5734,11 +5734,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "57a190d8a73f7652",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/57a190d8a73f7652",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114407000,
+        "stop" : 1631114407653,
+        "duration" : 653
+      }
+    }, {
       "uid" : "a4fa37d2a1778760",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/a4fa37d2a1778760",
       "status" : "passed",
@@ -5909,15 +5918,6 @@
         "stop" : 1631087512384,
         "duration" : 384
       }
-    }, {
-      "uid" : "955ae67ecc4fb5b1",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/955ae67ecc4fb5b1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087448000,
-        "stop" : 1631087448460,
-        "duration" : 460
-      }
     } ]
   },
   "Routing:should allow me to display completed items#TodoMVC - React Routing should allow me to display completed items" : {
@@ -5925,11 +5925,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "5a2fa1e48269f5ca",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/5a2fa1e48269f5ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114437000,
+        "stop" : 1631114438353,
+        "duration" : 1353
+      }
+    }, {
       "uid" : "8b97eebaec696029",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/8b97eebaec696029",
       "status" : "passed",
@@ -6100,15 +6109,6 @@
         "stop" : 1631087546299,
         "duration" : 1299
       }
-    }, {
-      "uid" : "1aa769ce6e1f2102",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/1aa769ce6e1f2102",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087476000,
-        "stop" : 1631087477271,
-        "duration" : 1271
-      }
     } ]
   },
   "When page is initially opened:should contain the todos creation field#todo page When page is initially opened should contain the todos creation field" : {
@@ -6116,11 +6116,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 40,
+      "passed" : 41,
       "unknown" : 0,
-      "total" : 40
+      "total" : 41
     },
     "items" : [ {
+      "uid" : "bce686559f44fab2",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/bce686559f44fab2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114466000,
+        "stop" : 1631114466589,
+        "duration" : 589
+      }
+    }, {
       "uid" : "f0ec50a4625be43",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/f0ec50a4625be43",
       "status" : "passed",
@@ -6291,15 +6300,6 @@
         "stop" : 1631087573497,
         "duration" : 497
       }
-    }, {
-      "uid" : "eea24922e6235fa3",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/eea24922e6235fa3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087501000,
-        "stop" : 1631087501445,
-        "duration" : 445
-      }
     } ]
   },
   "New Todo:adds items#TodoMVC - React New Todo adds items" : {
@@ -6307,11 +6307,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "ec3169dcf15dd318",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/ec3169dcf15dd318",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114408000,
+        "stop" : 1631114409174,
+        "duration" : 1174
+      }
+    }, {
       "uid" : "106d153df9afea29",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/106d153df9afea29",
       "status" : "passed",
@@ -6482,15 +6491,6 @@
         "stop" : 1631087514208,
         "duration" : 1208
       }
-    }, {
-      "uid" : "8abf38761033906e",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/8abf38761033906e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087449000,
-        "stop" : 1631087450106,
-        "duration" : 1106
-      }
     } ]
   },
   "Item:should allow me to mark items as complete#TodoMVC - React Item should allow me to mark items as complete" : {
@@ -6498,11 +6498,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "5d3a4eb4fd015b09",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/5d3a4eb4fd015b09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114419000,
+        "stop" : 1631114420017,
+        "duration" : 1017
+      }
+    }, {
       "uid" : "bf1438d847a7d5ec",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/bf1438d847a7d5ec",
       "status" : "passed",
@@ -6673,15 +6682,6 @@
         "stop" : 1631087526309,
         "duration" : 1309
       }
-    }, {
-      "uid" : "41d8bb7cb9425487",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/41d8bb7cb9425487",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087459000,
-        "stop" : 1631087459932,
-        "duration" : 932
-      }
     } ]
   },
   "Mark all as completed:should allow me to mark all items as completed#TodoMVC - React Mark all as completed should allow me to mark all items as completed" : {
@@ -6689,11 +6689,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "384ed9079be109f3",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/384ed9079be109f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114415000,
+        "stop" : 1631114416472,
+        "duration" : 1472
+      }
+    }, {
       "uid" : "b0ead8b8eeb97034",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/b0ead8b8eeb97034",
       "status" : "passed",
@@ -6864,15 +6873,6 @@
         "stop" : 1631087521590,
         "duration" : 1590
       }
-    }, {
-      "uid" : "ae187d6bc9ee1f2b",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/ae187d6bc9ee1f2b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087455000,
-        "stop" : 1631087456254,
-        "duration" : 1254
-      }
     } ]
   },
   "Routing:should respect the back button#TodoMVC - React Routing should respect the back button" : {
@@ -6880,11 +6880,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "490d54783fd222f8",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/490d54783fd222f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114437000,
+        "stop" : 1631114438684,
+        "duration" : 1684
+      }
+    }, {
       "uid" : "6941de9552c20c7f",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/6941de9552c20c7f",
       "status" : "passed",
@@ -7055,15 +7064,6 @@
         "stop" : 1631087546716,
         "duration" : 1716
       }
-    }, {
-      "uid" : "573970b693844417",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/573970b693844417",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087476000,
-        "stop" : 1631087477624,
-        "duration" : 1624
-      }
     } ]
   },
   "Editing:should hide other controls when editing#TodoMVC - React Editing should hide other controls when editing" : {
@@ -7071,11 +7071,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 41,
+      "passed" : 42,
       "unknown" : 0,
-      "total" : 41
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "7de3dc15502f0f9",
+      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/7de3dc15502f0f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631114423000,
+        "stop" : 1631114424384,
+        "duration" : 1384
+      }
+    }, {
       "uid" : "eea2ea70224a51a2",
       "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/eea2ea70224a51a2",
       "status" : "passed",
@@ -7245,15 +7254,6 @@
         "start" : 1631087530000,
         "stop" : 1631087531378,
         "duration" : 1378
-      }
-    }, {
-      "uid" : "8ae96f834649015f",
-      "reportUrl" : "https://tonyvesta.github.io/front-end-demo/75//#testresult/8ae96f834649015f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1631087463000,
-        "stop" : 1631087464233,
-        "duration" : 1233
       }
     } ]
   }
