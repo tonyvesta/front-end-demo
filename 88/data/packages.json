@@ -1,0 +1,651 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "displays the item as as a todo",
+    "children" : [ {
+      "name" : "Adding a todo item displays the item as as a todo",
+      "uid" : "f18224280ca2bb43",
+      "parentUid" : "7277961e06a09fd777307941bc19a5e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098036000,
+        "stop" : 1631098037029,
+        "duration" : 1029
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7277961e06a09fd777307941bc19a5e9"
+  }, {
+    "name" : "adds 2 todos",
+    "children" : [ {
+      "name" : "TodoMVC - React adds 2 todos",
+      "uid" : "32d2b445f49cf0e2",
+      "parentUid" : "6ce707f060bff3eab5bc05a74b766b8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098043000,
+        "stop" : 1631098044084,
+        "duration" : 1084
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6ce707f060bff3eab5bc05a74b766b8b"
+  }, {
+    "name" : "should focus on the todo input field",
+    "children" : [ {
+      "name" : "TodoMVC - React When page is initially opened should focus on the todo input field",
+      "uid" : "1741231482f1fef7",
+      "parentUid" : "9f977f450f0edcf4181abf7f9e143713",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098044000,
+        "stop" : 1631098044549,
+        "duration" : 549
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9f977f450f0edcf4181abf7f9e143713"
+  }, {
+    "name" : "should hide #main and #footer",
+    "children" : [ {
+      "name" : "TodoMVC - React No Todos should hide #main and #footer",
+      "uid" : "6e945c40527cde48",
+      "parentUid" : "83b8c7305f7bf7cc2e480d10d987b49f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098045000,
+        "stop" : 1631098045387,
+        "duration" : 387
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "83b8c7305f7bf7cc2e480d10d987b49f"
+  }, {
+    "name" : "should allow me to add todo items",
+    "children" : [ {
+      "name" : "TodoMVC - React New Todo should allow me to add todo items",
+      "uid" : "c48b85fc1944f421",
+      "parentUid" : "030e4b57cb5f5159393e036f9609c2f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098045000,
+        "stop" : 1631098046190,
+        "duration" : 1190
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "030e4b57cb5f5159393e036f9609c2f1"
+  }, {
+    "name" : "should show #main and #footer when items added",
+    "children" : [ {
+      "name" : "TodoMVC - React New Todo should show #main and #footer when items added",
+      "uid" : "579df43ae7eb5b8c",
+      "parentUid" : "9c6c733e38193cf97a39a56d9fdf440b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098045000,
+        "stop" : 1631098045725,
+        "duration" : 725
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9c6c733e38193cf97a39a56d9fdf440b"
+  }, {
+    "name" : "adds items",
+    "children" : [ {
+      "name" : "TodoMVC - React New Todo adds items",
+      "uid" : "3b39fe75a6ddc970",
+      "parentUid" : "cb0ed32c76b946f143337e6d4327b515",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098045000,
+        "stop" : 1631098046227,
+        "duration" : 1227
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cb0ed32c76b946f143337e6d4327b515"
+  }, {
+    "name" : "should trim text input",
+    "children" : [ {
+      "name" : "TodoMVC - React New Todo should trim text input",
+      "uid" : "e878a3d4c9c6dfa5",
+      "parentUid" : "1ae6bb18b7f83b08b80d62b0cb47a370",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098045000,
+        "stop" : 1631098045858,
+        "duration" : 858
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1ae6bb18b7f83b08b80d62b0cb47a370"
+  }, {
+    "name" : "should append new items to the bottom of the list",
+    "children" : [ {
+      "name" : "TodoMVC - React New Todo should append new items to the bottom of the list",
+      "uid" : "6ee0ffcca40a7344",
+      "parentUid" : "0b4865e249867bcfc6df111350732ef2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098045000,
+        "stop" : 1631098046392,
+        "duration" : 1392
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0b4865e249867bcfc6df111350732ef2"
+  }, {
+    "name" : "should clear text input field when an item is added",
+    "children" : [ {
+      "name" : "TodoMVC - React New Todo should clear text input field when an item is added",
+      "uid" : "cc008b0306e1d3e7",
+      "parentUid" : "5a5ea4678465d452d486411be21afefd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098045000,
+        "stop" : 1631098045931,
+        "duration" : 931
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5a5ea4678465d452d486411be21afefd"
+  }, {
+    "name" : "complete all checkbox should update state when items are completed / cleared",
+    "children" : [ {
+      "name" : "TodoMVC - React Mark all as completed complete all checkbox should update state when items are completed / cleared",
+      "uid" : "3f07114e1ae9369d",
+      "parentUid" : "68ca2c8140b3b126d49339e9a1f567b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098052000,
+        "stop" : 1631098053769,
+        "duration" : 1769
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "68ca2c8140b3b126d49339e9a1f567b4"
+  }, {
+    "name" : "should allow me to mark all items as completed",
+    "children" : [ {
+      "name" : "TodoMVC - React Mark all as completed should allow me to mark all items as completed",
+      "uid" : "b02624f134674a31",
+      "parentUid" : "1d5684e41c09afd8a3c4f66938109db1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098052000,
+        "stop" : 1631098053481,
+        "duration" : 1481
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1d5684e41c09afd8a3c4f66938109db1"
+  }, {
+    "name" : "should allow me to clear the complete state of all items",
+    "children" : [ {
+      "name" : "TodoMVC - React Mark all as completed should allow me to clear the complete state of all items",
+      "uid" : "e1535d177d7a74be",
+      "parentUid" : "462bbca855ae8099c308cd6c3e3caabd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098052000,
+        "stop" : 1631098053779,
+        "duration" : 1779
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "462bbca855ae8099c308cd6c3e3caabd"
+  }, {
+    "name" : "should allow me to un-mark items as complete",
+    "children" : [ {
+      "name" : "TodoMVC - React Item should allow me to un-mark items as complete",
+      "uid" : "9b2e16600c686bd7",
+      "parentUid" : "9d0fcf6daf1bbce8f0eb5667dcf7667e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098057000,
+        "stop" : 1631098058089,
+        "duration" : 1089
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9d0fcf6daf1bbce8f0eb5667dcf7667e"
+  }, {
+    "name" : "should allow me to mark items as complete",
+    "children" : [ {
+      "name" : "TodoMVC - React Item should allow me to mark items as complete",
+      "uid" : "b3914f5ca830b886",
+      "parentUid" : "842c5f39ba9ca8ae223e463ffb7860a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098057000,
+        "stop" : 1631098058285,
+        "duration" : 1285
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "842c5f39ba9ca8ae223e463ffb7860a0"
+  }, {
+    "name" : "should allow me to edit an item",
+    "children" : [ {
+      "name" : "TodoMVC - React Item should allow me to edit an item",
+      "uid" : "e571552005f49815",
+      "parentUid" : "56ea293259fd29cfe9bd4d1b4d08926e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098057000,
+        "stop" : 1631098058994,
+        "duration" : 1994
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "56ea293259fd29cfe9bd4d1b4d08926e"
+  }, {
+    "name" : "should save edits on blur",
+    "children" : [ {
+      "name" : "TodoMVC - React Editing should save edits on blur",
+      "uid" : "5a03c8d829d3c8b6",
+      "parentUid" : "03b15415b8bf1689bac0e41cbe823475",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098061000,
+        "stop" : 1631098062647,
+        "duration" : 1647
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "03b15415b8bf1689bac0e41cbe823475"
+  }, {
+    "name" : "should hide other controls when editing",
+    "children" : [ {
+      "name" : "TodoMVC - React Editing should hide other controls when editing",
+      "uid" : "907b0c8d96c5d994",
+      "parentUid" : "af2385149118bf4e3769d8029affc50b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098061000,
+        "stop" : 1631098062382,
+        "duration" : 1382
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "af2385149118bf4e3769d8029affc50b"
+  }, {
+    "name" : "should remove the item if an empty text string was entered",
+    "children" : [ {
+      "name" : "TodoMVC - React Editing should remove the item if an empty text string was entered",
+      "uid" : "7b50406e99a868e6",
+      "parentUid" : "13b106acb80c4fcb45b46a821fced248",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098061000,
+        "stop" : 1631098062399,
+        "duration" : 1399
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "13b106acb80c4fcb45b46a821fced248"
+  }, {
+    "name" : "should trim entered text",
+    "children" : [ {
+      "name" : "TodoMVC - React Editing should trim entered text",
+      "uid" : "8ed0439ffa1214d8",
+      "parentUid" : "3b6840d81f302e330acc721e58a2c7ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098061000,
+        "stop" : 1631098062786,
+        "duration" : 1786
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3b6840d81f302e330acc721e58a2c7ed"
+  }, {
+    "name" : "should cancel edits on escape",
+    "children" : [ {
+      "name" : "TodoMVC - React Editing should cancel edits on escape",
+      "uid" : "1006a601632983b9",
+      "parentUid" : "94f010fca9cef0e8988e5f89d003ff24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098061000,
+        "stop" : 1631098062515,
+        "duration" : 1515
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "94f010fca9cef0e8988e5f89d003ff24"
+  }, {
+    "name" : "should display the current number of todo items",
+    "children" : [ {
+      "name" : "TodoMVC - React Counter should display the current number of todo items",
+      "uid" : "be1a81ee95faf74",
+      "parentUid" : "ae7a125008799379b7f607f6e368e37b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098069000,
+        "stop" : 1631098069762,
+        "duration" : 762
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ae7a125008799379b7f607f6e368e37b"
+  }, {
+    "name" : "should remove completed items when clicked",
+    "children" : [ {
+      "name" : "TodoMVC - React Clear completed button should remove completed items when clicked",
+      "uid" : "92dec2e62ec3f457",
+      "parentUid" : "6169ef7b6428d4491e3377c3da1392fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098070000,
+        "stop" : 1631098071316,
+        "duration" : 1316
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6169ef7b6428d4491e3377c3da1392fd"
+  }, {
+    "name" : "should be hidden when there are no items that are completed",
+    "children" : [ {
+      "name" : "TodoMVC - React Clear completed button should be hidden when there are no items that are completed",
+      "uid" : "61204bb61886708e",
+      "parentUid" : "85e29e208886cd1ea45a91f13416fff8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098070000,
+        "stop" : 1631098071315,
+        "duration" : 1315
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "85e29e208886cd1ea45a91f13416fff8"
+  }, {
+    "name" : "should display the correct text",
+    "children" : [ {
+      "name" : "TodoMVC - React Clear completed button should display the correct text",
+      "uid" : "6141d0bb7c717d17",
+      "parentUid" : "eea1132715a8788cc6f75511cfab7d65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098070000,
+        "stop" : 1631098071266,
+        "duration" : 1266
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "eea1132715a8788cc6f75511cfab7d65"
+  }, {
+    "name" : "should persist its data",
+    "children" : [ {
+      "name" : "TodoMVC - React Persistence should persist its data",
+      "uid" : "d6deb584039c81d2",
+      "parentUid" : "e2e560f2119bc99cdb1df14f7ce0bdaf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098074000,
+        "stop" : 1631098075240,
+        "duration" : 1240
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e2e560f2119bc99cdb1df14f7ce0bdaf"
+  }, {
+    "name" : "should respect the back button",
+    "children" : [ {
+      "name" : "TodoMVC - React Routing should respect the back button",
+      "uid" : "7be7ae840faacee",
+      "parentUid" : "09bc412902553ab48ff0961d47bd9c16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098075000,
+        "stop" : 1631098076704,
+        "duration" : 1704
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "09bc412902553ab48ff0961d47bd9c16"
+  }, {
+    "name" : "should allow me to display active items",
+    "children" : [ {
+      "name" : "TodoMVC - React Routing should allow me to display active items",
+      "uid" : "a280d8c837383cee",
+      "parentUid" : "a0209e4629944b12908d35f193953532",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098075000,
+        "stop" : 1631098076303,
+        "duration" : 1303
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a0209e4629944b12908d35f193953532"
+  }, {
+    "name" : "should allow me to display completed items",
+    "children" : [ {
+      "name" : "TodoMVC - React Routing should allow me to display completed items",
+      "uid" : "b62718702458450e",
+      "parentUid" : "9b4c1b8228ffbbe9ef62d2f306bd6651",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098075000,
+        "stop" : 1631098076309,
+        "duration" : 1309
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9b4c1b8228ffbbe9ef62d2f306bd6651"
+  }, {
+    "name" : "should highlight the currently applied filter",
+    "children" : [ {
+      "name" : "TodoMVC - React Routing should highlight the currently applied filter",
+      "uid" : "e18e1baa267c6ae5",
+      "parentUid" : "69c1e6834f932ec9d8c775e0c270c21b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098075000,
+        "stop" : 1631098076336,
+        "duration" : 1336
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "69c1e6834f932ec9d8c775e0c270c21b"
+  }, {
+    "name" : "should allow me to display all items",
+    "children" : [ {
+      "name" : "TodoMVC - React Routing should allow me to display all items",
+      "uid" : "2bccc7e226a46aae",
+      "parentUid" : "ad9a81e146f02a19b7035405c8284f41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098075000,
+        "stop" : 1631098076512,
+        "duration" : 1512
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ad9a81e146f02a19b7035405c8284f41"
+  }, {
+    "name" : "has good contrast with several todos",
+    "children" : [ {
+      "name" : "TodoMVC - React Contrast has good contrast with several todos",
+      "uid" : "e78f2e31ecee2090",
+      "parentUid" : "3d9855b5b103227cf04827e6180c6991",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098082000,
+        "stop" : 1631098082933,
+        "duration" : 933
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3d9855b5b103227cf04827e6180c6991"
+  }, {
+    "name" : "has good contrast when empty",
+    "children" : [ {
+      "name" : "TodoMVC - React Contrast has good contrast when empty",
+      "uid" : "112aa5dbc140af6d",
+      "parentUid" : "7b0a6fa4dbde1f3a7c8fbd705438b21d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098082000,
+        "stop" : 1631098082360,
+        "duration" : 360
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7b0a6fa4dbde1f3a7c8fbd705438b21d"
+  }, {
+    "name" : "should have the placeholder text \"What needs to be done?\"",
+    "children" : [ {
+      "name" : "todo creation field should have the placeholder text \"What needs to be done?\"",
+      "uid" : "65652db72d187f9b",
+      "parentUid" : "2e75dca1808ea2f7cdeb5ec1b7cff40d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098096000,
+        "stop" : 1631098096547,
+        "duration" : 547
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2e75dca1808ea2f7cdeb5ec1b7cff40d"
+  }, {
+    "name" : "should display the help text \"Double-click to edit a todo\", \"Created by petehunt\", \"Part of TodoMVC\"",
+    "children" : [ {
+      "name" : "todo page When page is initially opened should display the help text \"Double-click to edit a todo\", \"Created by petehunt\", \"Part of TodoMVC\"",
+      "uid" : "51c134d6ef28924",
+      "parentUid" : "72e3b649afece76e11cdd7959bdb4964",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098101000,
+        "stop" : 1631098101394,
+        "duration" : 394
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "72e3b649afece76e11cdd7959bdb4964"
+  }, {
+    "name" : "the cursor should have focus on the todo input field",
+    "children" : [ {
+      "name" : "todo page When page is initially opened the cursor should have focus on the todo input field",
+      "uid" : "74ea32dd81448ded",
+      "parentUid" : "ed9ccc41f715c11411523dc45afd63db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098101000,
+        "stop" : 1631098101533,
+        "duration" : 533
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ed9ccc41f715c11411523dc45afd63db"
+  }, {
+    "name" : "should have the heading \"todos\"",
+    "children" : [ {
+      "name" : "todo page When page is initially opened should have the heading \"todos\"",
+      "uid" : "ef40be7aab004edb",
+      "parentUid" : "3f79e11e00674bbcbcbe813850e75155",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098101000,
+        "stop" : 1631098101429,
+        "duration" : 429
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3f79e11e00674bbcbcbe813850e75155"
+  }, {
+    "name" : "should contain the todos creation field",
+    "children" : [ {
+      "name" : "todo page When page is initially opened should contain the todos creation field",
+      "uid" : "8a976fad2e49de10",
+      "parentUid" : "84116f6dc8e5e0d14b099c0e3d15289f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098101000,
+        "stop" : 1631098101398,
+        "duration" : 398
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "84116f6dc8e5e0d14b099c0e3d15289f"
+  } ],
+  "name" : "packages"
+}
