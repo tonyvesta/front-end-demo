@@ -3,6 +3,13 @@
   "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 63545
+  }
+}, {
+  "buildOrder" : 92,
+  "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 60393
   }
 }, {
@@ -130,12 +137,5 @@
   "reportName" : "Allure Report with history",
   "data" : {
     "duration" : 62513
-  }
-}, {
-  "buildOrder" : 74,
-  "reportUrl" : "https://tonyvesta.github.io/front-end-demo/74/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 71578
   }
 } ]
