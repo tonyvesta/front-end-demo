@@ -1,0 +1,499 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "TodoMVC - React Item should allow me to edit an item",
+    "uid" : "ef8b87681b33a8ab",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097816000,
+      "stop" : 1631097817781,
+      "duration" : 1781
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React Routing should respect the back button",
+    "uid" : "df3a53a213695ba8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097834000,
+      "stop" : 1631097835681,
+      "duration" : 1681
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React Routing should highlight the currently applied filter",
+    "uid" : "73ab8d8f49d53cc7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097834000,
+      "stop" : 1631097835357,
+      "duration" : 1357
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React Clear completed button should display the correct text",
+    "uid" : "c7a1e6de1eeb0ba8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097828000,
+      "stop" : 1631097829287,
+      "duration" : 1287
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React New Todo should clear text input field when an item is added",
+    "uid" : "a83e8aca4370e1e5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097804000,
+      "stop" : 1631097804847,
+      "duration" : 847
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React Mark all as completed should allow me to mark all items as completed",
+    "uid" : "db6b7e8a27b30ec4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097810000,
+      "stop" : 1631097811515,
+      "duration" : 1515
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React Contrast has good contrast with several todos",
+    "uid" : "4b323b62de135906",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097841000,
+      "stop" : 1631097842020,
+      "duration" : 1020
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React Mark all as completed complete all checkbox should update state when items are completed / cleared",
+    "uid" : "79f9ccd7f8faf39d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097810000,
+      "stop" : 1631097811881,
+      "duration" : 1881
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React Routing should allow me to display active items",
+    "uid" : "2aa89fe203dbc11b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097834000,
+      "stop" : 1631097835466,
+      "duration" : 1466
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React Editing should save edits on blur",
+    "uid" : "904c14d6dadf63f5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097820000,
+      "stop" : 1631097821647,
+      "duration" : 1647
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React Routing should allow me to display completed items",
+    "uid" : "b84d6494bad970b8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097834000,
+      "stop" : 1631097835344,
+      "duration" : 1344
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React New Todo should append new items to the bottom of the list",
+    "uid" : "add924e3a1e9d7eb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097804000,
+      "stop" : 1631097805447,
+      "duration" : 1447
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React New Todo should show #main and #footer when items added",
+    "uid" : "c7133cda83e7e058",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097804000,
+      "stop" : 1631097804751,
+      "duration" : 751
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React Clear completed button should be hidden when there are no items that are completed",
+    "uid" : "fd6aa3146f72d7a0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097828000,
+      "stop" : 1631097829363,
+      "duration" : 1363
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "todo page When page is initially opened should contain the todos creation field",
+    "uid" : "11f6920ed0d80c25",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097864000,
+      "stop" : 1631097864377,
+      "duration" : 377
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React New Todo adds items",
+    "uid" : "b983e3e4104a3916",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097804000,
+      "stop" : 1631097805375,
+      "duration" : 1375
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Adding a todo item displays the item as as a todo",
+    "uid" : "b5551f794fd97c27",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097793000,
+      "stop" : 1631097793996,
+      "duration" : 996
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React Clear completed button should remove completed items when clicked",
+    "uid" : "52368eda0cd75e26",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097828000,
+      "stop" : 1631097829358,
+      "duration" : 1358
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React When page is initially opened should focus on the todo input field",
+    "uid" : "656cfc4ed69dbc0d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097803000,
+      "stop" : 1631097803493,
+      "duration" : 493
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React Persistence should persist its data",
+    "uid" : "7fdc1654a0e6daae",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097833000,
+      "stop" : 1631097834276,
+      "duration" : 1276
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React Routing should allow me to display all items",
+    "uid" : "3d313a10ce0c7e06",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097834000,
+      "stop" : 1631097835508,
+      "duration" : 1508
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "todo page When page is initially opened should display the help text \"Double-click to edit a todo\", \"Created by petehunt\", \"Part of TodoMVC\"",
+    "uid" : "a8e1c809a57047f8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097864000,
+      "stop" : 1631097864259,
+      "duration" : 259
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React adds 2 todos",
+    "uid" : "9311df9b46988b67",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097802000,
+      "stop" : 1631097803211,
+      "duration" : 1211
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React Editing should cancel edits on escape",
+    "uid" : "cfcb8138e843dee0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097820000,
+      "stop" : 1631097821498,
+      "duration" : 1498
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React New Todo should trim text input",
+    "uid" : "b20cb732f9943d85",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097804000,
+      "stop" : 1631097804848,
+      "duration" : 848
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React Editing should trim entered text",
+    "uid" : "bc1992cc6a3f98a7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097820000,
+      "stop" : 1631097821839,
+      "duration" : 1839
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React Editing should remove the item if an empty text string was entered",
+    "uid" : "fcbf02ea910025e2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097820000,
+      "stop" : 1631097821440,
+      "duration" : 1440
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React Mark all as completed should allow me to clear the complete state of all items",
+    "uid" : "aebd62bc454f20b9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097810000,
+      "stop" : 1631097811640,
+      "duration" : 1640
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React Item should allow me to un-mark items as complete",
+    "uid" : "2945e47aa86967fa",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097816000,
+      "stop" : 1631097817176,
+      "duration" : 1176
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React Item should allow me to mark items as complete",
+    "uid" : "826a770eb820e0c4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097816000,
+      "stop" : 1631097817182,
+      "duration" : 1182
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React No Todos should hide #main and #footer",
+    "uid" : "f430c497a5081d5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097803000,
+      "stop" : 1631097803403,
+      "duration" : 403
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "todo creation field should have the placeholder text \"What needs to be done?\"",
+    "uid" : "efc84b61014b41a8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097859000,
+      "stop" : 1631097859570,
+      "duration" : 570
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "todo page When page is initially opened the cursor should have focus on the todo input field",
+    "uid" : "27d3011144910f2a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097864000,
+      "stop" : 1631097864420,
+      "duration" : 420
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React Counter should display the current number of todo items",
+    "uid" : "2f64f6d5fd2dcf91",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097828000,
+      "stop" : 1631097828802,
+      "duration" : 802
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React Contrast has good contrast when empty",
+    "uid" : "f93d5c8e1946c9dd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097841000,
+      "stop" : 1631097841478,
+      "duration" : 478
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "todo page When page is initially opened should have the heading \"todos\"",
+    "uid" : "5fff23de1c3c83ba",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097864000,
+      "stop" : 1631097864307,
+      "duration" : 307
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React Editing should hide other controls when editing",
+    "uid" : "628cab8f83d45219",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097820000,
+      "stop" : 1631097821397,
+      "duration" : 1397
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TodoMVC - React New Todo should allow me to add todo items",
+    "uid" : "27d3bd470aba927c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631097804000,
+      "stop" : 1631097805265,
+      "duration" : 1265
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "timeline"
+}
