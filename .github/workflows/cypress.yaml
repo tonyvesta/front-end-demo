@@ -119,6 +119,6 @@ jobs:
           email: ${{ secrets.JIRA_EMAIL }}
           apiToken: ${{ secrets.JIRA_API_TOKEN }}
           projectKey: TJ
-          issueRegex: (([A-Z]{1,10})-?)[A-Z]+-\d+
+          issueRegex: ((?<!([A-Z]))[A-Z]+-\d+)
           version: ${{ steps.tag_version.outputs.new_tag }}
           draft: false
