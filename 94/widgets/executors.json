@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://tonyvesta.github.io/front-end-demo",
+  "buildOrder" : 94,
+  "buildName" : "GitHub Actions Run #1213999648",
+  "buildUrl" : "https://github.com/tonyvesta/front-end-demo/actions/runs/1213999648",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://tonyvesta.github.io/front-end-demo/94/"
+} ]
