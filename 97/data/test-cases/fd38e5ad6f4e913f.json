@@ -1,0 +1,240 @@
+{
+  "uid" : "fd38e5ad6f4e913f",
+  "name" : "TodoMVC - React Contrast has good contrast with several todos",
+  "historyId" : "Contrast:has good contrast with several todos#TodoMVC - React Contrast has good contrast with several todos",
+  "time" : {
+    "start" : 1631702453000,
+    "stop" : 1631702453898,
+    "duration" : 898
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Contrast"
+  }, {
+    "name" : "testClass",
+    "value" : "has good contrast with several todos"
+  }, {
+    "name" : "package",
+    "value" : "has good contrast with several todos"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 47,
+        "unknown" : 0,
+        "total" : 47
+      },
+      "items" : [ {
+        "uid" : "861528cf9746619a",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/96//#testresult/861528cf9746619a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631702414000,
+          "stop" : 1631702415046,
+          "duration" : 1046
+        }
+      }, {
+        "uid" : "d8d827f4e7f91d8",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/95//#testresult/d8d827f4e7f91d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631702222000,
+          "stop" : 1631702222890,
+          "duration" : 890
+        }
+      }, {
+        "uid" : "c2e1e8cd270c59",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/94//#testresult/c2e1e8cd270c59",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631116150000,
+          "stop" : 1631116151000,
+          "duration" : 1000
+        }
+      }, {
+        "uid" : "123189d00445ccb6",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/93//#testresult/123189d00445ccb6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631115646000,
+          "stop" : 1631115646904,
+          "duration" : 904
+        }
+      }, {
+        "uid" : "d3f1dbe5f46eb0dd",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/d3f1dbe5f46eb0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631114445000,
+          "stop" : 1631114445957,
+          "duration" : 957
+        }
+      }, {
+        "uid" : "8a973abf1089c3d9",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/8a973abf1089c3d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631111627000,
+          "stop" : 1631111627881,
+          "duration" : 881
+        }
+      }, {
+        "uid" : "b023a5835adbfb79",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/92//#testresult/b023a5835adbfb79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631111087000,
+          "stop" : 1631111087874,
+          "duration" : 874
+        }
+      }, {
+        "uid" : "3cdf5ea2f49cadf9",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/91//#testresult/3cdf5ea2f49cadf9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631108313000,
+          "stop" : 1631108314002,
+          "duration" : 1002
+        }
+      }, {
+        "uid" : "be05a6e844fbc62a",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/90//#testresult/be05a6e844fbc62a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631099253000,
+          "stop" : 1631099253932,
+          "duration" : 932
+        }
+      }, {
+        "uid" : "9f1ad65fcbad675c",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/89//#testresult/9f1ad65fcbad675c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631098994000,
+          "stop" : 1631098994955,
+          "duration" : 955
+        }
+      }, {
+        "uid" : "e78f2e31ecee2090",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/88//#testresult/e78f2e31ecee2090",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631098082000,
+          "stop" : 1631098082933,
+          "duration" : 933
+        }
+      }, {
+        "uid" : "4b323b62de135906",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/87//#testresult/4b323b62de135906",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631097841000,
+          "stop" : 1631097842020,
+          "duration" : 1020
+        }
+      }, {
+        "uid" : "5c0c20c96ee70582",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/86//#testresult/5c0c20c96ee70582",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631096569000,
+          "stop" : 1631096569902,
+          "duration" : 902
+        }
+      }, {
+        "uid" : "fbae5be4d56326fd",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/85//#testresult/fbae5be4d56326fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631095651000,
+          "stop" : 1631095651866,
+          "duration" : 866
+        }
+      }, {
+        "uid" : "6907442c877cdcbc",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/84//#testresult/6907442c877cdcbc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631092505000,
+          "stop" : 1631092506016,
+          "duration" : 1016
+        }
+      }, {
+        "uid" : "5d0dabbe26998917",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/83//#testresult/5d0dabbe26998917",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631092461000,
+          "stop" : 1631092462155,
+          "duration" : 1155
+        }
+      }, {
+        "uid" : "4c5fa51f7585547e",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/82//#testresult/4c5fa51f7585547e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631091758000,
+          "stop" : 1631091759012,
+          "duration" : 1012
+        }
+      }, {
+        "uid" : "4359b489dd0c503c",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/82//#testresult/4359b489dd0c503c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631090478000,
+          "stop" : 1631090478917,
+          "duration" : 917
+        }
+      }, {
+        "uid" : "af867375e2ffc69f",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/81//#testresult/af867375e2ffc69f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631090457000,
+          "stop" : 1631090457940,
+          "duration" : 940
+        }
+      }, {
+        "uid" : "750a8fd0f1f804d9",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/80//#testresult/750a8fd0f1f804d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631089551000,
+          "stop" : 1631089551954,
+          "duration" : 954
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fd38e5ad6f4e913f.json",
+  "parameterValues" : [ ]
+}
