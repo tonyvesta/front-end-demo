@@ -2,3 +2,5 @@ node_modules
 cypress/videos/*
 .stryker-tmp
 reports
+/results
+/.vs
