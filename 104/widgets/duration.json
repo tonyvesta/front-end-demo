@@ -1,0 +1,381 @@
+[ {
+  "uid" : "8ed01d5de7127f42",
+  "name" : "TodoMVC - React adds 2 todos",
+  "time" : {
+    "start" : 1631709355000,
+    "stop" : 1631709356109,
+    "duration" : 1109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29c729b4b0e3599a",
+  "name" : "TodoMVC - React New Todo should allow me to add todo items",
+  "time" : {
+    "start" : 1631709357000,
+    "stop" : 1631709358123,
+    "duration" : 1123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a6bc2fad0105d17",
+  "name" : "TodoMVC - React Routing should respect the back button",
+  "time" : {
+    "start" : 1631709385000,
+    "stop" : 1631709386681,
+    "duration" : 1681
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cb194da7171d90b",
+  "name" : "TodoMVC - React Item should allow me to un-mark items as complete",
+  "time" : {
+    "start" : 1631709367000,
+    "stop" : 1631709367997,
+    "duration" : 997
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78960533945e3723",
+  "name" : "TodoMVC - React When page is initially opened should focus on the todo input field",
+  "time" : {
+    "start" : 1631709356000,
+    "stop" : 1631709356323,
+    "duration" : 323
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1535ff0cf424d9cf",
+  "name" : "TodoMVC - React Routing should allow me to display active items",
+  "time" : {
+    "start" : 1631709385000,
+    "stop" : 1631709386382,
+    "duration" : 1382
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d45dca42405bf47",
+  "name" : "TodoMVC - React New Todo should show #main and #footer when items added",
+  "time" : {
+    "start" : 1631709357000,
+    "stop" : 1631709357699,
+    "duration" : 699
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "870c5d3ef9c7cfb7",
+  "name" : "Adding a todo item displays the item as as a todo",
+  "time" : {
+    "start" : 1631709348000,
+    "stop" : 1631709348894,
+    "duration" : 894
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "453996f927950834",
+  "name" : "todo creation field should have the placeholder text \"What needs to be done?\"",
+  "time" : {
+    "start" : 1631709406000,
+    "stop" : 1631709406484,
+    "duration" : 484
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca80b09ace0b938c",
+  "name" : "TodoMVC - React Clear completed button should remove completed items when clicked",
+  "time" : {
+    "start" : 1631709379000,
+    "stop" : 1631709380383,
+    "duration" : 1383
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4885446cc3f2937",
+  "name" : "TodoMVC - React Persistence should persist its data",
+  "time" : {
+    "start" : 1631709383000,
+    "stop" : 1631709384246,
+    "duration" : 1246
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "438730ea28169194",
+  "name" : "TodoMVC - React Routing should allow me to display completed items",
+  "time" : {
+    "start" : 1631709385000,
+    "stop" : 1631709386365,
+    "duration" : 1365
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "873e1f7e66767ce4",
+  "name" : "TodoMVC - React Clear completed button should be hidden when there are no items that are completed",
+  "time" : {
+    "start" : 1631709379000,
+    "stop" : 1631709380348,
+    "duration" : 1348
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b354fd42f1f5929",
+  "name" : "todo page When page is initially opened the cursor should have focus on the todo input field",
+  "time" : {
+    "start" : 1631709411000,
+    "stop" : 1631709411427,
+    "duration" : 427
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fdab32210e6cada9",
+  "name" : "TodoMVC - React No Todos should hide #main and #footer",
+  "time" : {
+    "start" : 1631709356000,
+    "stop" : 1631709356264,
+    "duration" : 264
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "146021e23a036a04",
+  "name" : "TodoMVC - React Clear completed button should display the correct text",
+  "time" : {
+    "start" : 1631709379000,
+    "stop" : 1631709380345,
+    "duration" : 1345
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c66bc16dbfe51930",
+  "name" : "TodoMVC - React Editing should save edits on blur",
+  "time" : {
+    "start" : 1631709371000,
+    "stop" : 1631709372684,
+    "duration" : 1684
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c962e89cb45a10a",
+  "name" : "TodoMVC - React New Todo should append new items to the bottom of the list",
+  "time" : {
+    "start" : 1631709357000,
+    "stop" : 1631709358247,
+    "duration" : 1247
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "715702d4e21dc6ad",
+  "name" : "TodoMVC - React New Todo should clear text input field when an item is added",
+  "time" : {
+    "start" : 1631709357000,
+    "stop" : 1631709357659,
+    "duration" : 659
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b45e5aa1eeaacdff",
+  "name" : "todo page When page is initially opened should have the heading \"todos\"",
+  "time" : {
+    "start" : 1631709411000,
+    "stop" : 1631709411313,
+    "duration" : 313
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b04c819aaa85b81",
+  "name" : "todo page When page is initially opened should display the help text \"Double-click to edit a todo\", \"Created by petehunt\", \"Part of TodoMVC\"",
+  "time" : {
+    "start" : 1631709411000,
+    "stop" : 1631709411248,
+    "duration" : 248
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ac48a6637ce224a",
+  "name" : "TodoMVC - React Editing should remove the item if an empty text string was entered",
+  "time" : {
+    "start" : 1631709371000,
+    "stop" : 1631709372448,
+    "duration" : 1448
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7085bbac1be9da2e",
+  "name" : "TodoMVC - React Item should allow me to edit an item",
+  "time" : {
+    "start" : 1631709367000,
+    "stop" : 1631709368755,
+    "duration" : 1755
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4e327146a8a9a66",
+  "name" : "TodoMVC - React Mark all as completed should allow me to mark all items as completed",
+  "time" : {
+    "start" : 1631709362000,
+    "stop" : 1631709363409,
+    "duration" : 1409
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4436072a26a70098",
+  "name" : "TodoMVC - React Mark all as completed complete all checkbox should update state when items are completed / cleared",
+  "time" : {
+    "start" : 1631709362000,
+    "stop" : 1631709363460,
+    "duration" : 1460
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ddfc3667cd990ca",
+  "name" : "todo page When page is initially opened should contain the todos creation field",
+  "time" : {
+    "start" : 1631709411000,
+    "stop" : 1631709411384,
+    "duration" : 384
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e6ce7fe914cebe7",
+  "name" : "TodoMVC - React Routing should allow me to display all items",
+  "time" : {
+    "start" : 1631709385000,
+    "stop" : 1631709386519,
+    "duration" : 1519
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd6c8735f59dbf6d",
+  "name" : "TodoMVC - React Editing should cancel edits on escape",
+  "time" : {
+    "start" : 1631709371000,
+    "stop" : 1631709372519,
+    "duration" : 1519
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38790381159e070b",
+  "name" : "TodoMVC - React Item should allow me to mark items as complete",
+  "time" : {
+    "start" : 1631709367000,
+    "stop" : 1631709368004,
+    "duration" : 1004
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61f5ab8d7da561ee",
+  "name" : "TodoMVC - React Contrast has good contrast with several todos",
+  "time" : {
+    "start" : 1631709392000,
+    "stop" : 1631709392969,
+    "duration" : 969
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea77118c583676db",
+  "name" : "TodoMVC - React Mark all as completed should allow me to clear the complete state of all items",
+  "time" : {
+    "start" : 1631709362000,
+    "stop" : 1631709363394,
+    "duration" : 1394
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1bc5cd425995e055",
+  "name" : "TodoMVC - React New Todo adds items",
+  "time" : {
+    "start" : 1631709357000,
+    "stop" : 1631709357929,
+    "duration" : 929
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f33a94028b1101e",
+  "name" : "TodoMVC - React Routing should highlight the currently applied filter",
+  "time" : {
+    "start" : 1631709385000,
+    "stop" : 1631709386422,
+    "duration" : 1422
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "170bd50348148a5d",
+  "name" : "TodoMVC - React New Todo should trim text input",
+  "time" : {
+    "start" : 1631709357000,
+    "stop" : 1631709357883,
+    "duration" : 883
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55a024fc15a84ed9",
+  "name" : "TodoMVC - React Editing should trim entered text",
+  "time" : {
+    "start" : 1631709371000,
+    "stop" : 1631709372907,
+    "duration" : 1907
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "834713124161b5e4",
+  "name" : "TodoMVC - React Editing should hide other controls when editing",
+  "time" : {
+    "start" : 1631709371000,
+    "stop" : 1631709372299,
+    "duration" : 1299
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62eb93daaba7586c",
+  "name" : "TodoMVC - React Contrast has good contrast when empty",
+  "time" : {
+    "start" : 1631709392000,
+    "stop" : 1631709392528,
+    "duration" : 528
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "133b745f18d9f06a",
+  "name" : "TodoMVC - React Counter should display the current number of todo items",
+  "time" : {
+    "start" : 1631709378000,
+    "stop" : 1631709378813,
+    "duration" : 813
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
