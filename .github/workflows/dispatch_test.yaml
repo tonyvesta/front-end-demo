@@ -43,4 +43,5 @@ jobs:
 
       - name: output version
         run: |
+          git update-index --chmod=+x ./version.sh
           ./version.sh
