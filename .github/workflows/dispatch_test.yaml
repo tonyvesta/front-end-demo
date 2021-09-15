@@ -36,7 +36,7 @@ jobs:
       - name: vars for version build
         if: ${{ github.event.inputs.version != '' }}
         run: |  
-            echo "CONTRACT_VERSION=${{ github.event.inputs.version }}
+            echo "CONTRACT_VERSION=${{ github.event.inputs.version }}"
             echo "GITHUB_BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
             git checkout ${{ github.event.inputs.version }}
 
