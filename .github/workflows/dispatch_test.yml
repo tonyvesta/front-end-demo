@@ -1,1 +1,46 @@
+name: Pact Provider Build
+# Branch build - on PR creation, will pull consumner contracts tagged 'main' only and push verifications to pactflow
+# Main build - on merge to main, will pull WIP and pending(over the last month)  and main tags. publish verifications to Pactflow which will up date open dependent PRs 
+# Webhook build - will build from main branch and test only the pact contained in the webhook. pushes the verification to pactflow and will update the relevant dependent PR
+# Manual run - to be used if we somehow there is a missing verification between consumer version and this main. supply the pact url to the version you want to verify against main
 
+on:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      consumer_side_test_URI:
+        description: "URI to the consumer contract"
+        default: ''        
+        required: true
+      version:
+        description: "only add version if you want to verify an older version to main"
+        default: ''        
+        required: false
+jobs:
+  pact-run:
+    runs-on: ubuntu-latest
+    env:
+      PACT_URL: ${{ github.event.client_payload.pact_url }} ${{ github.event.inputs.consumer_side_test_URI }}
+    steps:
+      - uses: actions/checkout@v2
+      - run: git fetch --prune --unshallow
+
+      # For main, get last published tag and use it for the version for pact
+      - name: vars for main
+        if: ${{ github.ref == 'refs/heads/main' }}
+        run: |  
+            echo "CONTRACT_VERSION=$(git tag --sort=taggerdate | grep -E '[0-9]' | tail -1 | cut -b 2-7)" >> $GITHUB_ENV
+            echo "GITHUB_BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV     
+            
+      # For version, checkout the git tag 
+      - name: vars for version build
+        if: ${{ github.event.inputs.version != '' }}
+        run: |  
+            echo "CONTRACT_VERSION=${{ github.event.inputs.version }}
+            echo "GITHUB_BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
+            git checkout ${{ github.event.inputs.version }}
+
+
+      - name: output version
+        run: |
+          ./version.sh
