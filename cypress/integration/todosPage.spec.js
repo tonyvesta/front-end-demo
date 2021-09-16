@@ -4,7 +4,7 @@
 // type definitions for custom commands like "createDefaultTodos"
 /// <reference types="../support" />
 
-describe('todo page', function () {
+describe('<a href="https://to-jo.atlassian.net/browse/TJ-14">TJ-14-update readme</a> todo page:', function () {
 
     beforeEach(function () {
       cy.visit('/')
