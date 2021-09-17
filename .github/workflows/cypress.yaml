@@ -24,7 +24,7 @@ jobs:
           start: npm run start:ci
           # quote the url to be safe against YML parsing surprises
           wait-on: 'http://localhost:8888'
-          command: npx cypress run --env allure=true
+          command: npx cypress run
         env:
           # pass the Dashboard record key as an environment variable
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
