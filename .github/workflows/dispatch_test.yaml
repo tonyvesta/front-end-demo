@@ -27,7 +27,7 @@ jobs:
 
       # For main, get last published tag and use it for the version for pact
       - name: vars for main
-        if: ${{ github.ref == 'refs/heads/main' }}
+        if: ${{ github.ref == 'refs/heads/main' && github.event.inputs.version == '' }}
         run: |  
             echo "CONTRACT_VERSION=$(git tag --sort=taggerdate | grep -E '[0-9]' | tail -1 | cut -b 2-7)" >> $GITHUB_ENV
             echo "GITHUB_BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV     

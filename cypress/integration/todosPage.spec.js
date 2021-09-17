@@ -4,10 +4,7 @@
 // type definitions for custom commands like "createDefaultTodos"
 /// <reference types="../support" />
 
-
-
 describe('todo page', function () {
-
 
     beforeEach(function () {
       cy.allure().tms('TJ-14', 'TJ-14')
