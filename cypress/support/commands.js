@@ -10,6 +10,7 @@
 // You can read more about custom commands here:
 // https://on.cypress.io/commands
 // ***********************************************
+import '@shelex/cypress-allure-plugin';
 
 Cypress.Commands.add('createDefaultTodos', function () {
 
