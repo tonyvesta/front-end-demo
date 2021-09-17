@@ -4,15 +4,26 @@
 // type definitions for custom commands like "createDefaultTodos"
 /// <reference types="../support" />
 
-describe('<a href="https://to-jo.atlassian.net/browse/TJ-14">TJ-14-update readme</a> todo page:', function () {
+describe('todo page', function () {
 
     beforeEach(function () {
+      cy.allure().tms('TJ-14', 'TJ-14')
+        .severity('critical')
+        .epic('A user will be able to add TODOs')
+        .feature('TODO Page')
+        .story('A user can add new TODOs via a TODO page')
+        .owner('Tony Jones')
+        .description('some description')
+        .tag('TODO page')
+        .tag('smoke');
+        
       cy.visit('/')
     })
   
     context('When page is initially opened', function () {
 
       it('the cursor should have focus on the todo input field', function () {
+
         cy.focused().should('have.class', 'new-todo');
       });
 

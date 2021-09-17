@@ -1,12 +1,13 @@
 {
-  "allureResultsPath": "allure/results",
+  "env": {
+    "allure": true,
+    "tmsPrefix": "https://to-jo.atlassian.net/browse/",
+    "issuePrefix": "https://to-jo.atlassian.net/browse/",
+    "allureAddVideoOnPass": true,
+    "allureAttachRequests": true
+},
+
   "baseUrl": "http://localhost:8888",
-  "fixturesFolder": false,
-  "pluginsFile": false,
   "retries": 1,
-  "projectId": "y1o3na",
-  "reporter": "junit",
-  "reporterOptions": {
-    "mochaFile": "results/my-test-output-[hash].xml"
-  }
+  "projectId": "y1o3na"
 }
