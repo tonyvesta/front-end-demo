@@ -47,10 +47,7 @@ jobs:
           minPerformanceScore: "40"
           minProgressiveWebAppScore: "0"
           minSeoScore: "50"
-          
-      - name: Check reports are in folder
-        run: cd results && ls
-        
+                
       - name: Get Allure history
         uses: actions/checkout@v2
         if: always()
