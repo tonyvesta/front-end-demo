@@ -230,7 +230,7 @@ describe('TodoMVC - React', function () {
     // - cy.blur    https://on.cypress.io/api/blur
 
     beforeEach(function () {
-      cy.allure()story('A user can Edit TODOs');
+      cy.allure().story('A user can Edit TODOs');
       cy.createDefaultTodos().as('todos')
     })
 
