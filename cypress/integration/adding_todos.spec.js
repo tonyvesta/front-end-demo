@@ -7,6 +7,15 @@
 describe('Adding a todo item', function () {
 
     beforeEach(function () {
+     cy.allure().tms('TJ-14', 'TJ-14')
+        .severity('critical')
+        .epic('A user will be able to add TODOs')
+        .feature('Create a TODO Page')
+        .story('A users added todos are visible in the page')
+        .owner('Tony Jones')
+        .description('some description')
+        .tag('TODO page')
+        .tag('smoke');
       cy.visit('/')
     })
   
