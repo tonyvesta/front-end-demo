@@ -1,0 +1,300 @@
+{
+  "uid" : "debd7131318aede7",
+  "name" : "should show #main and #footer when items added",
+  "fullName" : "should show #main and #footer when items added",
+  "historyId" : "080a0ea97d8ca744080e29a892b07b8f",
+  "time" : {
+    "start" : 1632318922565,
+    "stop" : 1632318923331,
+    "duration" : 766
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1632318922565,
+        "stop" : 1632318922903,
+        "duration" : 338
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit (\"/\")",
+        "time" : {
+          "start" : 1632318922590,
+          "stop" : 1632318922903,
+          "duration" : 313
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "createTodo (\"buy some cheese\")",
+      "time" : {
+        "start" : 1632318922919,
+        "stop" : 1632318923319,
+        "duration" : 400
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\".main\")",
+      "time" : {
+        "start" : 1632318923319,
+        "stop" : 1632318923325,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **<section.main>** to be **visible** assert",
+      "time" : {
+        "start" : 1632318923325,
+        "stop" : 1632318923325,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\".footer\")",
+      "time" : {
+        "start" : 1632318923325,
+        "stop" : 1632318923330,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **<footer.footer>** to be **visible** assert",
+      "time" : {
+        "start" : 1632318923330,
+        "stop" : 1632318923330,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d97eacfc05995e68",
+      "name" : "todosPage.spec.js.mp4",
+      "source" : "d97eacfc05995e68.mp4",
+      "type" : "video/mp4",
+      "size" : 100682
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "todo page"
+  }, {
+    "name" : "suite",
+    "value" : "New Todo"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "epic",
+    "value" : "A user will be able to add TODOs"
+  }, {
+    "name" : "feature",
+    "value" : "Create a TODO Page"
+  }, {
+    "name" : "story",
+    "value" : "A user can add new TODOs via a TODO page"
+  }, {
+    "name" : "owner",
+    "value" : "Tony Jones"
+  }, {
+    "name" : "tag",
+    "value" : "TODO page"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TJ-14",
+    "url" : "https://to-jo.atlassian.net/browse/TJ-14",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "owner" : "Tony Jones",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "7988732d16b6ce2e",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/129//#testresult/7988732d16b6ce2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632318729183,
+          "stop" : 1632318729862,
+          "duration" : 679
+        }
+      }, {
+        "uid" : "1d10903fa7e4678a",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/128//#testresult/1d10903fa7e4678a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632317109684,
+          "stop" : 1632317110407,
+          "duration" : 723
+        }
+      }, {
+        "uid" : "e349daad51dcb21",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/127//#testresult/e349daad51dcb21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632316755317,
+          "stop" : 1632316756161,
+          "duration" : 844
+        }
+      }, {
+        "uid" : "5ddcb5ccddf2582b",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/126//#testresult/5ddcb5ccddf2582b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632316693252,
+          "stop" : 1632316693985,
+          "duration" : 733
+        }
+      }, {
+        "uid" : "5e6bdcae763b25b6",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/125//#testresult/5e6bdcae763b25b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632316280083,
+          "stop" : 1632316280839,
+          "duration" : 756
+        }
+      }, {
+        "uid" : "d8039fcaeca27914",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/124//#testresult/d8039fcaeca27914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632316232638,
+          "stop" : 1632316233372,
+          "duration" : 734
+        }
+      }, {
+        "uid" : "82093ef46cbea21a",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/123//#testresult/82093ef46cbea21a",
+        "status" : "failed",
+        "statusDetails" : "TODO_ITEM_ONE is not defined",
+        "time" : {
+          "start" : 1632311607846,
+          "stop" : 1632311608536,
+          "duration" : 690
+        }
+      }, {
+        "uid" : "f1063de24abd2567",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/122//#testresult/f1063de24abd2567",
+        "status" : "failed",
+        "statusDetails" : "TODO_ITEM_ONE is not defined",
+        "time" : {
+          "start" : 1632309464115,
+          "stop" : 1632309464801,
+          "duration" : 686
+        }
+      }, {
+        "uid" : "98c9ae5000aec136",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/121//#testresult/98c9ae5000aec136",
+        "status" : "failed",
+        "statusDetails" : "TODO_ITEM_ONE is not defined",
+        "time" : {
+          "start" : 1632309441677,
+          "stop" : 1632309442474,
+          "duration" : 797
+        }
+      }, {
+        "uid" : "18e2386592aab288",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/120//#testresult/18e2386592aab288",
+        "status" : "failed",
+        "statusDetails" : "TODO_ITEM_ONE is not defined",
+        "time" : {
+          "start" : 1632308985406,
+          "stop" : 1632308986354,
+          "duration" : 948
+        }
+      } ]
+    },
+    "tags" : [ "TODO page", "smoke" ]
+  },
+  "source" : "debd7131318aede7.json",
+  "parameterValues" : [ ]
+}
