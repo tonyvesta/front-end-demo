@@ -40,6 +40,14 @@ describe('TodoMVC - React', function () {
     // which is automatically prepended to cy.visit
     //
     // https://on.cypress.io/api/visit
+    cy.allure().tms('TJ-14', 'TJ-14')
+      .severity('critical')
+      .epic('A user will be able to edit their TODOs')
+      .feature('Editing Todos')
+      .owner('Tony Jones')
+      .description('some description')
+      .tag('TODO page')
+      .tag('smoke');
     cy.visit('/')
   })
 
@@ -53,141 +61,10 @@ describe('TodoMVC - React', function () {
     })
   })
 
-  // a very simple example helpful during presentations
-  it('adds 2 todos', function () {
-    cy.get('.new-todo')
-    .type('learn testing{enter}')
-    .type('be cool{enter}')
-
-    cy.get('.todo-list li').should('have.length', 2)
-  })
-
-  context('When page is initially opened', function () {
-    it('should focus on the todo input field', function () {
-      // get the currently focused element and assert
-      // that it has class='new-todo'
-      //
-      // http://on.cypress.io/focused
-      cy.focused().should('have.class', 'new-todo')
-    })
-  })
-
-  context('No Todos', function () {
-    it('should hide #main and #footer', function () {
-      // Unlike the TodoMVC tests, we don't need to create
-      // a gazillion helper functions which are difficult to
-      // parse through. Instead we'll opt to use real selectors
-      // so as to make our testing intentions as clear as possible.
-      //
-      // http://on.cypress.io/get
-      cy.get('.todo-list li').should('not.exist')
-      cy.get('.main').should('not.exist')
-      cy.get('.footer').should('not.exist')
-    })
-  })
-
-  context('New Todo', function () {
-    // New commands used here:
-    // https://on.cypress.io/type
-    // https://on.cypress.io/eq
-    // https://on.cypress.io/find
-    // https://on.cypress.io/contains
-    // https://on.cypress.io/should
-    // https://on.cypress.io/as
-
-    it('should allow me to add todo items', function () {
-      // create 1st todo
-      cy.get('.new-todo')
-      .type(TODO_ITEM_ONE)
-      .type('{enter}')
-
-      // make sure the 1st label contains the 1st todo text
-      cy.get('.todo-list li')
-      .eq(0)
-      .find('label')
-      .should('contain', TODO_ITEM_ONE)
-
-      // create 2nd todo
-      cy.get('.new-todo')
-      .type(TODO_ITEM_TWO)
-      .type('{enter}')
-
-      // make sure the 2nd label contains the 2nd todo text
-      cy.get('.todo-list li')
-      .eq(1)
-      .find('label')
-      .should('contain', TODO_ITEM_TWO)
-    })
-
-    it('adds items', function () {
-      // create several todos then check the number of items in the list
-      cy.get('.new-todo')
-      .type('todo A{enter}')
-      .type('todo B{enter}') // we can continue working with same element
-      .type('todo C{enter}') // and keep adding new items
-      .type('todo D{enter}')
-
-      cy.get('.todo-list li').should('have.length', 4)
-    })
-
-    it('should clear text input field when an item is added', function () {
-      cy.get('.new-todo')
-      .type(TODO_ITEM_ONE)
-      .type('{enter}')
-
-      cy.get('.new-todo').should('have.text', '')
-    })
-
-    it('should append new items to the bottom of the list', function () {
-      // this is an example of a custom command
-      // defined in cypress/support/commands.js
-      cy.createDefaultTodos().as('todos')
-
-      // even though the text content is split across
-      // multiple <span> and <strong> elements
-      // `cy.contains` can verify this correctly
-      cy.get('.todo-count').contains('3 items left')
-
-      cy.get('@todos')
-      .eq(0)
-      .find('label')
-      .should('contain', TODO_ITEM_ONE)
-
-      cy.get('@todos')
-      .eq(1)
-      .find('label')
-      .should('contain', TODO_ITEM_TWO)
-
-      cy.get('@todos')
-      .eq(2)
-      .find('label')
-      .should('contain', TODO_ITEM_THREE)
-    })
-
-    it('should trim text input', function () {
-      // this is an example of another custom command
-      // since we repeat the todo creation over and over
-      // again. It's up to you to decide when to abstract
-      // repetitive behavior and roll that up into a custom
-      // command vs explicitly writing the code.
-      cy.createTodo(`    ${TODO_ITEM_ONE}    `)
-
-      // we use as explicit assertion here about the text instead of
-      // using 'contain' so we can specify the exact text of the element
-      // does not have any whitespace around it
-      cy.get('.todo-list li')
-      .eq(0)
-      .should('have.text', TODO_ITEM_ONE)
-    })
-
-    it('should show #main and #footer when items added', function () {
-      cy.createTodo(TODO_ITEM_ONE)
-      cy.get('.main').should('be.visible')
-      cy.get('.footer').should('be.visible')
-    })
-  })
+ 
 
   context('Mark all as completed', function () {
+
     // New commands used here:
     // - cy.check    https://on.cypress.io/api/check
     // - cy.uncheck  https://on.cypress.io/api/uncheck
@@ -198,6 +75,7 @@ describe('TodoMVC - React', function () {
       // Aliases will automatically persist
       // between hooks and are available
       // in your tests below
+      cy.story('A user can mark TODOs as complete');
       cy.createDefaultTodos().as('todos')
     })
 
@@ -352,6 +230,7 @@ describe('TodoMVC - React', function () {
     // - cy.blur    https://on.cypress.io/api/blur
 
     beforeEach(function () {
+      cy.story('A user can Edit TODOs');
       cy.createDefaultTodos().as('todos')
     })
 
@@ -473,6 +352,7 @@ describe('TodoMVC - React', function () {
 
   context('Clear completed button', function () {
     beforeEach(function () {
+      cy.story('A user can clear all completed TODOs');
       cy.createDefaultTodos().as('todos')
     })
 
@@ -517,6 +397,7 @@ describe('TodoMVC - React', function () {
   })
 
   context('Persistence', function () {
+    cy.story('A users TODOs are not lost if the page is refreshed');
     it('should persist its data', function () {
       // mimicking TodoMVC tests
       // by writing out this function
@@ -550,6 +431,7 @@ describe('TodoMVC - React', function () {
     // https://on.cypress.io/within
 
     beforeEach(function () {
+      cy.story('A user can filter to see complete or active items only');
       cy.createDefaultTodos().as('todos')
     })
 
@@ -644,6 +526,7 @@ describe('TodoMVC - React', function () {
   })
 
   context('Contrast', () => {
+    cy.epic('should have good accessability');
     it('has good contrast when empty', () => {
       cy.addAxeCode()
       cy.checkA11y(null, {
