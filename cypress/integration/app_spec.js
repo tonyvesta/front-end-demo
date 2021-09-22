@@ -230,7 +230,7 @@ describe('TodoMVC - React', function () {
     // - cy.blur    https://on.cypress.io/api/blur
 
     beforeEach(function () {
-      cy.allure()story('A user can Edit TODOs');
+      cy.allure().story('A user can Edit TODOs');
       cy.createDefaultTodos().as('todos')
     })
 
@@ -397,8 +397,9 @@ describe('TodoMVC - React', function () {
   })
 
   context('Persistence', function () {
-    cy.allure().story('A users TODOs are not lost if the page is refreshed');
+
     it('should persist its data', function () {
+        cy.allure().story('A users TODOs are not lost if the page is refreshed');
       // mimicking TodoMVC tests
       // by writing out this function
       function testState () {
@@ -526,8 +527,9 @@ describe('TodoMVC - React', function () {
   })
 
   context('Contrast', () => {
-    cy.allure().epic('should have good accessability');
+
     it('has good contrast when empty', () => {
+      cy.allure().epic('should have good accessability');
       cy.addAxeCode()
       cy.checkA11y(null, {
         runOnly: ['cat.color'],

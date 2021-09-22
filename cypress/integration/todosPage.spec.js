@@ -5,12 +5,16 @@
 /// <reference types="../support" />
 
 describe('todo page', function () {
+    
+      let TODO_ITEM_ONE = 'buy some cheese'
+      let TODO_ITEM_TWO = 'feed the cat'
+      let TODO_ITEM_THREE = 'book a doctors appointment'
 
     beforeEach(function () {
       cy.allure().tms('TJ-14', 'TJ-14')
         .severity('critical')
         .epic('A user will be able to add TODOs')
-        .feature('TODO Page')
+        .feature('Create a TODO Page')
         .story('A user can add new TODOs via a TODO page')
         .owner('Tony Jones')
         .description('some description')
