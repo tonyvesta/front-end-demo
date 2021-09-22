@@ -1,0 +1,198 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Adding a todo item",
+    "children" : [ {
+      "name" : "displays the item as as a todo",
+      "uid" : "d37c686ea5e6c69a",
+      "parentUid" : "f1ab9bb7848274bef62a6ef8037a743e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632316261258,
+        "stop" : 1632316261988,
+        "duration" : 730
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f1ab9bb7848274bef62a6ef8037a743e"
+  }, {
+    "name" : "todo creation field",
+    "children" : [ {
+      "name" : "should have the placeholder text \"What needs to be done?\"",
+      "uid" : "f60bfaefc67617ee",
+      "parentUid" : "7e2bf9a6622754ebad2f2ffb478b7cbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632316269173,
+        "stop" : 1632316269667,
+        "duration" : 494
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7e2bf9a6622754ebad2f2ffb478b7cbe"
+  }, {
+    "name" : "todo page",
+    "children" : [ {
+      "name" : "When page is initially opened",
+      "children" : [ {
+        "name" : "the cursor should have focus on the todo input field",
+        "uid" : "e0c1870d15e846cf",
+        "parentUid" : "7ce9e65a9be5e15e062687636cbf52e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632316273530,
+          "stop" : 1632316274002,
+          "duration" : 472
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should have the heading \"todos\"",
+        "uid" : "f9921c5d97be4f8c",
+        "parentUid" : "7ce9e65a9be5e15e062687636cbf52e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632316274017,
+          "stop" : 1632316274348,
+          "duration" : 331
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should contain the todos creation field",
+        "uid" : "39a688d02a308cf1",
+        "parentUid" : "7ce9e65a9be5e15e062687636cbf52e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632316274359,
+          "stop" : 1632316274764,
+          "duration" : 405
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should display the help text \"Double-click to edit a todo\", \"Created by petehunt\", \"Part of TodoMVC\"",
+        "uid" : "b792aa256154977b",
+        "parentUid" : "7ce9e65a9be5e15e062687636cbf52e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632316274770,
+          "stop" : 1632316275051,
+          "duration" : 281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7ce9e65a9be5e15e062687636cbf52e1"
+    }, {
+      "name" : "No Todos",
+      "children" : [ {
+        "name" : "should hide #main and #footer",
+        "uid" : "8c904f38d27d9dea",
+        "parentUid" : "46eef0b51f9c2ab607033a14f3d9c928",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632316275064,
+          "stop" : 1632316275428,
+          "duration" : 364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "46eef0b51f9c2ab607033a14f3d9c928"
+    }, {
+      "name" : "New Todo",
+      "children" : [ {
+        "name" : "should allow me to add todo items",
+        "uid" : "7276e2963100ce2d",
+        "parentUid" : "d531185be4d6c69fe237ff11dde6bbe1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632316275468,
+          "stop" : 1632316276497,
+          "duration" : 1029
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "adds items",
+        "uid" : "378be1b7b5fb4184",
+        "parentUid" : "d531185be4d6c69fe237ff11dde6bbe1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632316276502,
+          "stop" : 1632316277428,
+          "duration" : 926
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should clear text input field when an item is added",
+        "uid" : "e5d8c46a166f67ba",
+        "parentUid" : "d531185be4d6c69fe237ff11dde6bbe1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632316277435,
+          "stop" : 1632316278117,
+          "duration" : 682
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should append new items to the bottom of the list",
+        "uid" : "334a9d1c512e5a79",
+        "parentUid" : "d531185be4d6c69fe237ff11dde6bbe1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632316278125,
+          "stop" : 1632316279325,
+          "duration" : 1200
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should trim text input",
+        "uid" : "9f63742dc7abf596",
+        "parentUid" : "d531185be4d6c69fe237ff11dde6bbe1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632316279339,
+          "stop" : 1632316280078,
+          "duration" : 739
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should show #main and #footer when items added",
+        "uid" : "5e6bdcae763b25b6",
+        "parentUid" : "d531185be4d6c69fe237ff11dde6bbe1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632316280083,
+          "stop" : 1632316280839,
+          "duration" : 756
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d531185be4d6c69fe237ff11dde6bbe1"
+    } ],
+    "uid" : "e135c66055b35d6bd4e6b3a16aa42ae3"
+  } ],
+  "name" : "suites"
+}
