@@ -1,0 +1,194 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "A user will be able to add TODOs",
+    "children" : [ {
+      "name" : "Create a TODO Page",
+      "children" : [ {
+        "name" : "A users added todos are visible in the page",
+        "children" : [ {
+          "name" : "displays the item as as a todo",
+          "uid" : "7ddd57bf784eb67a",
+          "parentUid" : "e857d905662e5bf6c5364cfa4fd257c7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1632308957242,
+            "stop" : 1632308958152,
+            "duration" : 910
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e857d905662e5bf6c5364cfa4fd257c7"
+      } ],
+      "uid" : "6f0188c0b4a5a8a106e337424589006e"
+    }, {
+      "name" : "TODO Page",
+      "children" : [ {
+        "name" : "A user can add new TODOs via a TODO page",
+        "children" : [ {
+          "name" : "the cursor should have focus on the todo input field",
+          "uid" : "bf01dfe19ab34282",
+          "parentUid" : "d8d1a65804b46316e15a99f94cb152aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1632308974708,
+            "stop" : 1632308975251,
+            "duration" : 543
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should have the heading \"todos\"",
+          "uid" : "9381292945fe6f73",
+          "parentUid" : "d8d1a65804b46316e15a99f94cb152aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1632308975277,
+            "stop" : 1632308975849,
+            "duration" : 572
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should contain the todos creation field",
+          "uid" : "f13dc0e82e2dbbce",
+          "parentUid" : "d8d1a65804b46316e15a99f94cb152aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1632308975855,
+            "stop" : 1632308976445,
+            "duration" : 590
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should display the help text \"Double-click to edit a todo\", \"Created by petehunt\", \"Part of TodoMVC\"",
+          "uid" : "2b4d0306f8df7dfa",
+          "parentUid" : "d8d1a65804b46316e15a99f94cb152aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1632308976454,
+            "stop" : 1632308976850,
+            "duration" : 396
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should hide #main and #footer",
+          "uid" : "510abc4e1a1c9a2f",
+          "parentUid" : "d8d1a65804b46316e15a99f94cb152aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1632308976857,
+            "stop" : 1632308977338,
+            "duration" : 481
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should allow me to add todo items",
+          "uid" : "86e626afece84856",
+          "parentUid" : "d8d1a65804b46316e15a99f94cb152aa",
+          "status" : "failed",
+          "time" : {
+            "start" : 1632308978118,
+            "stop" : 1632308978716,
+            "duration" : 598
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "adds items",
+          "uid" : "134a81ba219428f7",
+          "parentUid" : "d8d1a65804b46316e15a99f94cb152aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1632308978735,
+            "stop" : 1632308979777,
+            "duration" : 1042
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should clear text input field when an item is added",
+          "uid" : "698187f8b1d0347e",
+          "parentUid" : "d8d1a65804b46316e15a99f94cb152aa",
+          "status" : "failed",
+          "time" : {
+            "start" : 1632308980436,
+            "stop" : 1632308981304,
+            "duration" : 868
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should append new items to the bottom of the list",
+          "uid" : "8167777f04fa319",
+          "parentUid" : "d8d1a65804b46316e15a99f94cb152aa",
+          "status" : "failed",
+          "time" : {
+            "start" : 1632308981971,
+            "stop" : 1632308982759,
+            "duration" : 788
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should trim text input",
+          "uid" : "3b2516163355567d",
+          "parentUid" : "d8d1a65804b46316e15a99f94cb152aa",
+          "status" : "failed",
+          "time" : {
+            "start" : 1632308983636,
+            "stop" : 1632308984451,
+            "duration" : 815
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should show #main and #footer when items added",
+          "uid" : "18e2386592aab288",
+          "parentUid" : "d8d1a65804b46316e15a99f94cb152aa",
+          "status" : "failed",
+          "time" : {
+            "start" : 1632308985406,
+            "stop" : 1632308986354,
+            "duration" : 948
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d8d1a65804b46316e15a99f94cb152aa"
+      } ],
+      "uid" : "fe1fb82fd7aa32b5bbda682aa728d63f"
+    } ],
+    "uid" : "b256aba3ae3168fe871b4c04cac18aca"
+  }, {
+    "name" : "An uncaught error was detected outside of a test",
+    "uid" : "dd34713d4f96dcf8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1632308965143,
+      "stop" : 1632308965333,
+      "duration" : 190
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}

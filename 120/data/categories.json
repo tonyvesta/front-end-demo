@@ -1,0 +1,95 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "The following error originated from your test code, not from Cypress.\n\n  > Cannot call `cy.story()` outside a running test.\n\nThis usually happens when you accidentally write commands outside an `it(...)` test.\n\nIf that is the case, just move these commands inside an `it(...)` test.\n\nCheck your test file for errors.\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.\n\nhttps://on.cypress.io/cannot-execute-commands-outside-test",
+      "children" : [ {
+        "name" : "An uncaught error was detected outside of a test",
+        "uid" : "dd34713d4f96dcf8",
+        "parentUid" : "8934bbfbddee7c364c20a01d5580e645",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632308965143,
+          "stop" : 1632308965333,
+          "duration" : 190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8934bbfbddee7c364c20a01d5580e645"
+    }, {
+      "name" : "TODO_ITEM_ONE is not defined",
+      "children" : [ {
+        "name" : "should allow me to add todo items",
+        "uid" : "86e626afece84856",
+        "parentUid" : "05758971f5c8eb153464952895e758db",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632308978118,
+          "stop" : 1632308978716,
+          "duration" : 598
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should clear text input field when an item is added",
+        "uid" : "698187f8b1d0347e",
+        "parentUid" : "05758971f5c8eb153464952895e758db",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632308980436,
+          "stop" : 1632308981304,
+          "duration" : 868
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should append new items to the bottom of the list",
+        "uid" : "8167777f04fa319",
+        "parentUid" : "05758971f5c8eb153464952895e758db",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632308981971,
+          "stop" : 1632308982759,
+          "duration" : 788
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should trim text input",
+        "uid" : "3b2516163355567d",
+        "parentUid" : "05758971f5c8eb153464952895e758db",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632308983636,
+          "stop" : 1632308984451,
+          "duration" : 815
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should show #main and #footer when items added",
+        "uid" : "18e2386592aab288",
+        "parentUid" : "05758971f5c8eb153464952895e758db",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632308985406,
+          "stop" : 1632308986354,
+          "duration" : 948
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "05758971f5c8eb153464952895e758db"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

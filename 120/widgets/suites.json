@@ -1,0 +1,26 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "e135c66055b35d6bd4e6b3a16aa42ae3",
+    "name" : "todo page",
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 11
+    }
+  }, {
+    "uid" : "f1ab9bb7848274bef62a6ef8037a743e",
+    "name" : "Adding a todo item",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}
