@@ -397,8 +397,9 @@ describe('TodoMVC - React', function () {
   })
 
   context('Persistence', function () {
-    cy.allure().story('A users TODOs are not lost if the page is refreshed');
+
     it('should persist its data', function () {
+        cy.allure().story('A users TODOs are not lost if the page is refreshed');
       // mimicking TodoMVC tests
       // by writing out this function
       function testState () {
