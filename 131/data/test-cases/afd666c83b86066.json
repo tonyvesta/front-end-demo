@@ -1,0 +1,317 @@
+{
+  "uid" : "afd666c83b86066",
+  "name" : "has good contrast when empty",
+  "fullName" : "has good contrast when empty",
+  "historyId" : "68813ca64911b275d17614995078f1be",
+  "time" : {
+    "start" : 1632319158700,
+    "stop" : 1632319159216,
+    "duration" : 516
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1632319158700,
+        "stop" : 1632319158991,
+        "duration" : 291
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit (\"/\")",
+        "time" : {
+          "start" : 1632319158726,
+          "stop" : 1632319158991,
+          "duration" : 265
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "addAxeCode",
+      "time" : {
+        "start" : 1632319159001,
+        "stop" : 1632319159177,
+        "duration" : 176
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET 200 /js/footer.jsx",
+        "time" : {
+          "start" : 1632319159177,
+          "stop" : 1632319159177,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 /js/app.jsx",
+        "time" : {
+          "start" : 1632319159177,
+          "stop" : 1632319159177,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "http://localhost:8888/#/ new url",
+        "time" : {
+          "start" : 1632319159177,
+          "stop" : 1632319159177,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 /js/todoItem.jsx",
+        "time" : {
+          "start" : 1632319159177,
+          "stop" : 1632319159177,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "checkA11y (\"null\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1632319159177,
+        "stop" : 1632319159216,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "0 accessibility violations were detected: expected **0** to equal **0** assert",
+        "time" : {
+          "start" : 1632319159216,
+          "stop" : 1632319159216,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1632319159218,
+        "stop" : 1632319159220,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "window",
+        "time" : {
+          "start" : 1632319159218,
+          "stop" : 1632319159219,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e2c0e7873e3f3d7d",
+      "name" : "app_spec.js.mp4",
+      "source" : "e2c0e7873e3f3d7d.mp4",
+      "type" : "video/mp4",
+      "size" : 565711
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TodoMVC - React"
+  }, {
+    "name" : "suite",
+    "value" : "Contrast"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "epic",
+    "value" : "should have good accessability"
+  }, {
+    "name" : "feature",
+    "value" : "Editing Todos"
+  }, {
+    "name" : "owner",
+    "value" : "Tony Jones"
+  }, {
+    "name" : "tag",
+    "value" : "TODO page"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TJ-14",
+    "url" : "https://to-jo.atlassian.net/browse/TJ-14",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "owner" : "Tony Jones",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "ddb8befe8f0d9273",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/130//#testresult/ddb8befe8f0d9273",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632318899502,
+          "stop" : 1632318899947,
+          "duration" : 445
+        }
+      }, {
+        "uid" : "b31a438de8309305",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/119//#testresult/b31a438de8309305",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632306455498,
+          "stop" : 1632306455965,
+          "duration" : 467
+        }
+      }, {
+        "uid" : "f2f87abbdd5faab6",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/118//#testresult/f2f87abbdd5faab6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632306062490,
+          "stop" : 1632306063126,
+          "duration" : 636
+        }
+      }, {
+        "uid" : "97f728b38cf8bc30",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/117//#testresult/97f728b38cf8bc30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632226312849,
+          "stop" : 1632226313387,
+          "duration" : 538
+        }
+      }, {
+        "uid" : "ab0a41c3e5ef7ee5",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/116//#testresult/ab0a41c3e5ef7ee5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632226304864,
+          "stop" : 1632226305308,
+          "duration" : 444
+        }
+      }, {
+        "uid" : "3c26070677319060",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/115//#testresult/3c26070677319060",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631884389985,
+          "stop" : 1631884390491,
+          "duration" : 506
+        }
+      } ]
+    },
+    "tags" : [ "TODO page", "smoke" ]
+  },
+  "source" : "afd666c83b86066.json",
+  "parameterValues" : [ ]
+}

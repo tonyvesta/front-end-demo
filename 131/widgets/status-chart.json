@@ -1,0 +1,361 @@
+[ {
+  "uid" : "9d9fe37b561f532a",
+  "name" : "has good contrast with several todos",
+  "time" : {
+    "start" : 1632319159222,
+    "stop" : 1632319160361,
+    "duration" : 1139
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "681d12ac59a47b18",
+  "name" : "should display the correct text",
+  "time" : {
+    "start" : 1632319144584,
+    "stop" : 1632319146000,
+    "duration" : 1416
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "938d6fddaeebd0c2",
+  "name" : "should highlight the currently applied filter",
+  "time" : {
+    "start" : 1632319157138,
+    "stop" : 1632319158683,
+    "duration" : 1545
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c0d2fa0fbbd1ac0",
+  "name" : "should allow me to un-mark items as complete",
+  "time" : {
+    "start" : 1632319131902,
+    "stop" : 1632319133149,
+    "duration" : 1247
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "52b42670bb293a7d",
+  "name" : "should persist its data",
+  "time" : {
+    "start" : 1632319149186,
+    "stop" : 1632319150592,
+    "duration" : 1406
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "598340f3515fbd3",
+  "name" : "should allow me to display all items",
+  "time" : {
+    "start" : 1632319155486,
+    "stop" : 1632319157124,
+    "duration" : 1638
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f4ea6dc587e63190",
+  "name" : "should allow me to mark all items as completed",
+  "time" : {
+    "start" : 1632319125786,
+    "stop" : 1632319127319,
+    "duration" : 1533
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c052667b5b4951d1",
+  "name" : "displays the item as as a todo",
+  "time" : {
+    "start" : 1632319119021,
+    "stop" : 1632319119930,
+    "duration" : 909
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "140310773efb3e85",
+  "name" : "the cursor should have focus on the todo input field",
+  "time" : {
+    "start" : 1632319177780,
+    "stop" : 1632319178262,
+    "duration" : 482
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f4e785624e099ce",
+  "name" : "should save edits on blur",
+  "time" : {
+    "start" : 1632319136485,
+    "stop" : 1632319138283,
+    "duration" : 1798
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7c4628f4e732360d",
+  "name" : "should trim entered text",
+  "time" : {
+    "start" : 1632319138295,
+    "stop" : 1632319140250,
+    "duration" : 1955
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ea2e533658a6386e",
+  "name" : "should be hidden when there are no items that are completed",
+  "time" : {
+    "start" : 1632319147653,
+    "stop" : 1632319149173,
+    "duration" : 1520
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ddf175bf3b932d1c",
+  "name" : "adds items",
+  "time" : {
+    "start" : 1632319181052,
+    "stop" : 1632319182058,
+    "duration" : 1006
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e3db8eeb3f158a9",
+  "name" : "should have the placeholder text \"What needs to be done?\"",
+  "time" : {
+    "start" : 1632319172651,
+    "stop" : 1632319173192,
+    "duration" : 541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e09951f30bab2f8e",
+  "name" : "should display the current number of todo items",
+  "time" : {
+    "start" : 1632319143612,
+    "stop" : 1632319144571,
+    "duration" : 959
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3a76338c4e19dad",
+  "name" : "should contain the todos creation field",
+  "time" : {
+    "start" : 1632319178686,
+    "stop" : 1632319179147,
+    "duration" : 461
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "94d980fa343accf8",
+  "name" : "should hide #main and #footer",
+  "time" : {
+    "start" : 1632319179478,
+    "stop" : 1632319179866,
+    "duration" : 388
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fd44fb5ecac26d5c",
+  "name" : "should append new items to the bottom of the list",
+  "time" : {
+    "start" : 1632319182813,
+    "stop" : 1632319184100,
+    "duration" : 1287
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "618ee57d3d7bccaf",
+  "name" : "should show #main and #footer when items added",
+  "time" : {
+    "start" : 1632319184993,
+    "stop" : 1632319185817,
+    "duration" : 824
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6ea586c4a7815828",
+  "name" : "should allow me to edit an item",
+  "time" : {
+    "start" : 1632319133163,
+    "stop" : 1632319135023,
+    "duration" : 1860
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2801916fe2d25877",
+  "name" : "should remove completed items when clicked",
+  "time" : {
+    "start" : 1632319146038,
+    "stop" : 1632319147638,
+    "duration" : 1600
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "afd666c83b86066",
+  "name" : "has good contrast when empty",
+  "time" : {
+    "start" : 1632319158700,
+    "stop" : 1632319159216,
+    "duration" : 516
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1975dac8d20d61a0",
+  "name" : "should cancel edits on escape",
+  "time" : {
+    "start" : 1632319141972,
+    "stop" : 1632319143600,
+    "duration" : 1628
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e0e580dbd12337bf",
+  "name" : "should allow me to add todo items",
+  "time" : {
+    "start" : 1632319179876,
+    "stop" : 1632319181046,
+    "duration" : 1170
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7c26b28e87c0e37c",
+  "name" : "should display the help text \"Double-click to edit a todo\", \"Created by petehunt\", \"Part of TodoMVC\"",
+  "time" : {
+    "start" : 1632319179164,
+    "stop" : 1632319179463,
+    "duration" : 299
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d3a30216e77cd93e",
+  "name" : "should remove the item if an empty text string was entered",
+  "time" : {
+    "start" : 1632319140263,
+    "stop" : 1632319141961,
+    "duration" : 1698
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5cda3cee1bfd8b08",
+  "name" : "should allow me to display active items",
+  "time" : {
+    "start" : 1632319150605,
+    "stop" : 1632319152190,
+    "duration" : 1585
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e30f8c4f58095db7",
+  "name" : "should allow me to clear the complete state of all items",
+  "time" : {
+    "start" : 1632319127337,
+    "stop" : 1632319128886,
+    "duration" : 1549
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2dcb05d857fd25d8",
+  "name" : "should respect the back button",
+  "time" : {
+    "start" : 1632319152203,
+    "stop" : 1632319153988,
+    "duration" : 1785
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "da6256a65d2129c4",
+  "name" : "should clear text input field when an item is added",
+  "time" : {
+    "start" : 1632319182064,
+    "stop" : 1632319182802,
+    "duration" : 738
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "108c7aec012e3d93",
+  "name" : "should have the heading \"todos\"",
+  "time" : {
+    "start" : 1632319178269,
+    "stop" : 1632319178668,
+    "duration" : 399
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f29dddb678eead3b",
+  "name" : "should trim text input",
+  "time" : {
+    "start" : 1632319184115,
+    "stop" : 1632319184987,
+    "duration" : 872
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a05937bc998ca883",
+  "name" : "should allow me to mark items as complete",
+  "time" : {
+    "start" : 1632319130519,
+    "stop" : 1632319131888,
+    "duration" : 1369
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "409dd6a20c7fe883",
+  "name" : "complete all checkbox should update state when items are completed / cleared",
+  "time" : {
+    "start" : 1632319128907,
+    "stop" : 1632319130498,
+    "duration" : 1591
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e0cd279dfc57ab4b",
+  "name" : "should hide other controls when editing",
+  "time" : {
+    "start" : 1632319135036,
+    "stop" : 1632319136470,
+    "duration" : 1434
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "26d01864f6017b0b",
+  "name" : "should allow me to display completed items",
+  "time" : {
+    "start" : 1632319154003,
+    "stop" : 1632319155470,
+    "duration" : 1467
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]
