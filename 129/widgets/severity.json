@@ -1,0 +1,141 @@
+[ {
+  "uid" : "a9ba76edfae36a0e",
+  "name" : "should display the help text \"Double-click to edit a todo\", \"Created by petehunt\", \"Part of TodoMVC\"",
+  "time" : {
+    "start" : 1632318723631,
+    "stop" : 1632318723902,
+    "duration" : 271
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "75ca5185a846b61f",
+  "name" : "should have the placeholder text \"What needs to be done?\"",
+  "time" : {
+    "start" : 1632318717745,
+    "stop" : 1632318718249,
+    "duration" : 504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7988732d16b6ce2e",
+  "name" : "should show #main and #footer when items added",
+  "time" : {
+    "start" : 1632318729183,
+    "stop" : 1632318729862,
+    "duration" : 679
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cda1d5853c6155ad",
+  "name" : "displays the item as as a todo",
+  "time" : {
+    "start" : 1632318707758,
+    "stop" : 1632318708584,
+    "duration" : 826
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ca427c4ef3f029c7",
+  "name" : "should trim text input",
+  "time" : {
+    "start" : 1632318728380,
+    "stop" : 1632318729177,
+    "duration" : 797
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "379d06a0c7e123b3",
+  "name" : "should allow me to add todo items",
+  "time" : {
+    "start" : 1632318724245,
+    "stop" : 1632318725400,
+    "duration" : 1155
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c72a6a44821c82ee",
+  "name" : "An uncaught error was detected outside of a test",
+  "time" : {
+    "start" : 1632318713528,
+    "stop" : 1632318713748,
+    "duration" : 220
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c97e0c8372592c36",
+  "name" : "should have the heading \"todos\"",
+  "time" : {
+    "start" : 1632318722728,
+    "stop" : 1632318723182,
+    "duration" : 454
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1191de87c642a871",
+  "name" : "adds items",
+  "time" : {
+    "start" : 1632318725407,
+    "stop" : 1632318726392,
+    "duration" : 985
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "335cb129cf924a0e",
+  "name" : "the cursor should have focus on the todo input field",
+  "time" : {
+    "start" : 1632318722301,
+    "stop" : 1632318722711,
+    "duration" : 410
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d30a58340e114e35",
+  "name" : "should hide #main and #footer",
+  "time" : {
+    "start" : 1632318723907,
+    "stop" : 1632318724241,
+    "duration" : 334
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "22a2f2ff1a93f6c2",
+  "name" : "should clear text input field when an item is added",
+  "time" : {
+    "start" : 1632318726397,
+    "stop" : 1632318727080,
+    "duration" : 683
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1e98570c7a6ce997",
+  "name" : "should contain the todos creation field",
+  "time" : {
+    "start" : 1632318723188,
+    "stop" : 1632318723623,
+    "duration" : 435
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cf32c4e9d4ee5a",
+  "name" : "should append new items to the bottom of the list",
+  "time" : {
+    "start" : 1632318727091,
+    "stop" : 1632318728368,
+    "duration" : 1277
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

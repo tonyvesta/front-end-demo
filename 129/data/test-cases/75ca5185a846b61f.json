@@ -1,0 +1,319 @@
+{
+  "uid" : "75ca5185a846b61f",
+  "name" : "should have the placeholder text \"What needs to be done?\"",
+  "fullName" : "should have the placeholder text \"What needs to be done?\"",
+  "historyId" : "1ec8c4b73fc07fa606660c24c62f31a6",
+  "time" : {
+    "start" : 1632318717745,
+    "stop" : 1632318718249,
+    "duration" : 504
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log (\"\n      ⚠️ Code coverage tasks were not registered by the plugins file.\n      See [support issue](https://github.com/cypress-io/code-coverage/issues/179)\n      for possible workarounds.\n     `[@cypress/code-coverage]`\")",
+      "time" : {
+        "start" : 1632318717700,
+        "stop" : 1632318717722,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1632318717746,
+        "stop" : 1632318718072,
+        "duration" : 326
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit (\"/\")",
+        "time" : {
+          "start" : 1632318717750,
+          "stop" : 1632318718071,
+          "duration" : 321
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get (\".new-todo\")",
+      "time" : {
+        "start" : 1632318718073,
+        "stop" : 1632318718248,
+        "duration" : 175
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **<input.new-todo>** to have attribute **placeholder** with the value **What needs to be done?** assert",
+      "time" : {
+        "start" : 1632318718247,
+        "stop" : 1632318718247,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /js/todoItem.jsx",
+      "time" : {
+        "start" : 1632318718247,
+        "stop" : 1632318718247,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET /js/footer.jsx",
+      "time" : {
+        "start" : 1632318718248,
+        "stop" : 1632318718248,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET /js/app.jsx",
+      "time" : {
+        "start" : 1632318718248,
+        "stop" : 1632318718248,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a29fc71fefc6d232",
+      "name" : "todo-creation-field.spec.js.mp4",
+      "source" : "a29fc71fefc6d232.mp4",
+      "type" : "video/mp4",
+      "size" : 37334
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "todo creation field"
+  }, {
+    "name" : "epic",
+    "value" : "A user will be able to add TODOs"
+  }, {
+    "name" : "feature",
+    "value" : "Create a TODO Page"
+  }, {
+    "name" : "story",
+    "value" : "Add a TODO text field"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "690dc11d3828088b",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/128//#testresult/690dc11d3828088b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632317095465,
+          "stop" : 1632317096010,
+          "duration" : 545
+        }
+      }, {
+        "uid" : "1a31d5f61a54a7a2",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/127//#testresult/1a31d5f61a54a7a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632316740812,
+          "stop" : 1632316741460,
+          "duration" : 648
+        }
+      }, {
+        "uid" : "57554e79e2befe40",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/126//#testresult/57554e79e2befe40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632316680284,
+          "stop" : 1632316680960,
+          "duration" : 676
+        }
+      }, {
+        "uid" : "f60bfaefc67617ee",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/125//#testresult/f60bfaefc67617ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632316269173,
+          "stop" : 1632316269667,
+          "duration" : 494
+        }
+      }, {
+        "uid" : "70680c3c4632b6cc",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/124//#testresult/70680c3c4632b6cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632316216798,
+          "stop" : 1632316217401,
+          "duration" : 603
+        }
+      }, {
+        "uid" : "286d54befe7caf02",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/123//#testresult/286d54befe7caf02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632311591955,
+          "stop" : 1632311592610,
+          "duration" : 655
+        }
+      }, {
+        "uid" : "7c021fa5d0b18df6",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/122//#testresult/7c021fa5d0b18df6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632309450984,
+          "stop" : 1632309451552,
+          "duration" : 568
+        }
+      }, {
+        "uid" : "3a94e12547880350",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/119//#testresult/3a94e12547880350",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632306468953,
+          "stop" : 1632306469391,
+          "duration" : 438
+        }
+      }, {
+        "uid" : "340846f322a5fd28",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/118//#testresult/340846f322a5fd28",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632306079576,
+          "stop" : 1632306080240,
+          "duration" : 664
+        }
+      }, {
+        "uid" : "7119c2efcd1f573e",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/117//#testresult/7119c2efcd1f573e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632226326339,
+          "stop" : 1632226326830,
+          "duration" : 491
+        }
+      }, {
+        "uid" : "82fbe551894df475",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/116//#testresult/82fbe551894df475",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632226317927,
+          "stop" : 1632226318364,
+          "duration" : 437
+        }
+      }, {
+        "uid" : "778ad130129bce3e",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/115//#testresult/778ad130129bce3e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631884406446,
+          "stop" : 1631884406988,
+          "duration" : 542
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "75ca5185a846b61f.json",
+  "parameterValues" : [ ]
+}

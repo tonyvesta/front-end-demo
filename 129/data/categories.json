@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "The following error originated from your test code, not from Cypress.\n\n  > Cannot call `cy.allure()` outside a running test.\n\nThis usually happens when you accidentally write commands outside an `it(...)` test.\n\nIf that is the case, just move these commands inside an `it(...)` test.\n\nCheck your test file for errors.\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.\n\nhttps://on.cypress.io/cannot-execute-commands-outside-test",
+      "children" : [ {
+        "name" : "An uncaught error was detected outside of a test",
+        "uid" : "c72a6a44821c82ee",
+        "parentUid" : "0995492b88973ec29becfeabb80f8a2d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632318713528,
+          "stop" : 1632318713748,
+          "duration" : 220
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0995492b88973ec29becfeabb80f8a2d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
