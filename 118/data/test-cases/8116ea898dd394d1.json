@@ -1,0 +1,212 @@
+{
+  "uid" : "8116ea898dd394d1",
+  "name" : "should focus on the todo input field",
+  "fullName" : "should focus on the todo input field",
+  "historyId" : "8911e2b7b0a3f107cef726c739ca059b",
+  "time" : {
+    "start" : 1632306020911,
+    "stop" : 1632306021351,
+    "duration" : 440
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1632306020911,
+        "stop" : 1632306021241,
+        "duration" : 330
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit (\"/\")",
+        "time" : {
+          "start" : 1632306020936,
+          "stop" : 1632306021241,
+          "duration" : 305
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "focused",
+      "time" : {
+        "start" : 1632306021255,
+        "stop" : 1632306021351,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **<input.new-todo>** to have class **new-todo** assert",
+      "time" : {
+        "start" : 1632306021350,
+        "stop" : 1632306021350,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET /js/footer.jsx",
+      "time" : {
+        "start" : 1632306021350,
+        "stop" : 1632306021350,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET /js/app.jsx",
+      "time" : {
+        "start" : 1632306021351,
+        "stop" : 1632306021351,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1632306021357,
+        "stop" : 1632306021362,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "window",
+        "time" : {
+          "start" : 1632306021358,
+          "stop" : 1632306021359,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "730ea70999370714",
+      "name" : "app_spec.js.mp4",
+      "source" : "730ea70999370714.mp4",
+      "type" : "video/mp4",
+      "size" : 780487
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TodoMVC - React"
+  }, {
+    "name" : "suite",
+    "value" : "When page is initially opened"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "fe522ed24264612c",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/117//#testresult/fe522ed24264612c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632226275008,
+          "stop" : 1632226275378,
+          "duration" : 370
+        }
+      }, {
+        "uid" : "6903d41173bfb28d",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/116//#testresult/6903d41173bfb28d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632226268202,
+          "stop" : 1632226268549,
+          "duration" : 347
+        }
+      }, {
+        "uid" : "236f49f35b3a1744",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/115//#testresult/236f49f35b3a1744",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631884349630,
+          "stop" : 1631884350106,
+          "duration" : 476
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8116ea898dd394d1.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,233 @@
+{
+  "uid" : "a8da4af636103724",
+  "name" : "should have the heading \"todos\"",
+  "fullName" : "should have the heading \"todos\"",
+  "historyId" : "2d3c623af849f12e2d557ee3d6b93e32",
+  "time" : {
+    "start" : 1632306085344,
+    "stop" : 1632306085790,
+    "duration" : 446
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1632306085345,
+        "stop" : 1632306085641,
+        "duration" : 296
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit (\"/\")",
+        "time" : {
+          "start" : 1632306085363,
+          "stop" : 1632306085641,
+          "duration" : 278
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get (\"h1\")",
+      "time" : {
+        "start" : 1632306085655,
+        "stop" : 1632306085781,
+        "duration" : 126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /js/footer.jsx",
+      "time" : {
+        "start" : 1632306085780,
+        "stop" : 1632306085780,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /js/app.jsx",
+      "time" : {
+        "start" : 1632306085780,
+        "stop" : 1632306085780,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "http://localhost:8888/#/ new url",
+      "time" : {
+        "start" : 1632306085781,
+        "stop" : 1632306085781,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "contains (\"todos\")",
+      "time" : {
+        "start" : 1632306085781,
+        "stop" : 1632306085789,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a7d27121b4bf4a71",
+      "name" : "todosPage.spec.js.mp4",
+      "source" : "a7d27121b4bf4a71.mp4",
+      "type" : "video/mp4",
+      "size" : 49715
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "todo page"
+  }, {
+    "name" : "suite",
+    "value" : "When page is initially opened"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "epic",
+    "value" : "A user will be able to add TODOs"
+  }, {
+    "name" : "feature",
+    "value" : "TODO Page"
+  }, {
+    "name" : "story",
+    "value" : "A user can add new TODOs via a TODO page"
+  }, {
+    "name" : "owner",
+    "value" : "Tony Jones"
+  }, {
+    "name" : "tag",
+    "value" : "TODO page"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TJ-14",
+    "url" : "https://to-jo.atlassian.net/browse/TJ-14",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "owner" : "Tony Jones",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "14c54b480fbe0640",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/117//#testresult/14c54b480fbe0640",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632226331635,
+          "stop" : 1632226332021,
+          "duration" : 386
+        }
+      }, {
+        "uid" : "8ee026c80280b71a",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/116//#testresult/8ee026c80280b71a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632226322822,
+          "stop" : 1632226323169,
+          "duration" : 347
+        }
+      }, {
+        "uid" : "98b4db64d936830e",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/115//#testresult/98b4db64d936830e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631884412005,
+          "stop" : 1631884412401,
+          "duration" : 396
+        }
+      } ]
+    },
+    "tags" : [ "TODO page", "smoke" ]
+  },
+  "source" : "a8da4af636103724.json",
+  "parameterValues" : [ ]
+}
