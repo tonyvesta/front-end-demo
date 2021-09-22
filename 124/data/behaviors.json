@@ -1,0 +1,202 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "A user will be able to add TODOs",
+    "children" : [ {
+      "name" : "Create a TODO Page",
+      "children" : [ {
+        "name" : "A users added todos are visible in the page",
+        "children" : [ {
+          "name" : "displays the item as as a todo",
+          "uid" : "cbd52db7cd9b23e9",
+          "parentUid" : "e857d905662e5bf6c5364cfa4fd257c7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1632316207179,
+            "stop" : 1632316208103,
+            "duration" : 924
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e857d905662e5bf6c5364cfa4fd257c7"
+      } ],
+      "uid" : "6f0188c0b4a5a8a106e337424589006e"
+    }, {
+      "name" : "create a TODO Page",
+      "children" : [ {
+        "name" : "Add a TODO text field",
+        "children" : [ {
+          "name" : "should have the placeholder text \"What needs to be done?\"",
+          "uid" : "70680c3c4632b6cc",
+          "parentUid" : "75f6a0e7c17491940fa4de091d3eb9af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1632316216798,
+            "stop" : 1632316217401,
+            "duration" : 603
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "75f6a0e7c17491940fa4de091d3eb9af"
+      } ],
+      "uid" : "54357a869d06b85e565a89b4bd7cb9b5"
+    }, {
+      "name" : "TODO Page",
+      "children" : [ {
+        "name" : "A user can add new TODOs via a TODO page",
+        "children" : [ {
+          "name" : "the cursor should have focus on the todo input field",
+          "uid" : "fd99a8d29e74007b",
+          "parentUid" : "d8d1a65804b46316e15a99f94cb152aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1632316222400,
+            "stop" : 1632316223320,
+            "duration" : 920
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should have the heading \"todos\"",
+          "uid" : "d6968d8f24bfbae3",
+          "parentUid" : "d8d1a65804b46316e15a99f94cb152aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1632316223369,
+            "stop" : 1632316224153,
+            "duration" : 784
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should contain the todos creation field",
+          "uid" : "13d998b195dab3bb",
+          "parentUid" : "d8d1a65804b46316e15a99f94cb152aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1632316224179,
+            "stop" : 1632316224990,
+            "duration" : 811
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should display the help text \"Double-click to edit a todo\", \"Created by petehunt\", \"Part of TodoMVC\"",
+          "uid" : "34b2c65e4d83fb35",
+          "parentUid" : "d8d1a65804b46316e15a99f94cb152aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1632316225012,
+            "stop" : 1632316225582,
+            "duration" : 570
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should hide #main and #footer",
+          "uid" : "477d168725c4ef36",
+          "parentUid" : "d8d1a65804b46316e15a99f94cb152aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1632316225695,
+            "stop" : 1632316226169,
+            "duration" : 474
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should allow me to add todo items",
+          "uid" : "9125dba3b20423f2",
+          "parentUid" : "d8d1a65804b46316e15a99f94cb152aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1632316226332,
+            "stop" : 1632316227982,
+            "duration" : 1650
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "adds items",
+          "uid" : "432cdbade4dbb28e",
+          "parentUid" : "d8d1a65804b46316e15a99f94cb152aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1632316228000,
+            "stop" : 1632316229260,
+            "duration" : 1260
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should clear text input field when an item is added",
+          "uid" : "78ffac907bddb1f6",
+          "parentUid" : "d8d1a65804b46316e15a99f94cb152aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1632316229266,
+            "stop" : 1632316230223,
+            "duration" : 957
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should append new items to the bottom of the list",
+          "uid" : "b63c15645b1f1703",
+          "parentUid" : "d8d1a65804b46316e15a99f94cb152aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1632316230230,
+            "stop" : 1632316231760,
+            "duration" : 1530
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should trim text input",
+          "uid" : "f482909b71114330",
+          "parentUid" : "d8d1a65804b46316e15a99f94cb152aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1632316231776,
+            "stop" : 1632316232631,
+            "duration" : 855
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should show #main and #footer when items added",
+          "uid" : "d8039fcaeca27914",
+          "parentUid" : "d8d1a65804b46316e15a99f94cb152aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1632316232638,
+            "stop" : 1632316233372,
+            "duration" : 734
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d8d1a65804b46316e15a99f94cb152aa"
+      } ],
+      "uid" : "fe1fb82fd7aa32b5bbda682aa728d63f"
+    } ],
+    "uid" : "b256aba3ae3168fe871b4c04cac18aca"
+  } ],
+  "name" : "behaviors"
+}
