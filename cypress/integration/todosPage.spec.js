@@ -14,7 +14,7 @@ describe('todo page', function () {
       cy.allure().tms('TJ-14', 'TJ-14')
         .severity('critical')
         .epic('A user will be able to add TODOs')
-        .feature('TODO Page')
+        .feature('Create a TODO Page')
         .story('A user can add new TODOs via a TODO page')
         .owner('Tony Jones')
         .description('some description')
