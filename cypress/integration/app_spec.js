@@ -527,8 +527,9 @@ describe('TodoMVC - React', function () {
   })
 
   context('Contrast', () => {
-    cy.allure().epic('should have good accessability');
+
     it('has good contrast when empty', () => {
+      cy.allure().epic('should have good accessability');
       cy.addAxeCode()
       cy.checkA11y(null, {
         runOnly: ['cat.color'],
