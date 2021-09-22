@@ -9,7 +9,7 @@
 describe('todo creation field', function () {
 
     beforeEach(function () {
-      cy.epic('A user will be able to add TODOs')
+      cy.allure().epic('A user will be able to add TODOs')
         .feature('create a TODO Page')
         .story('Add a TODO text field');
       cy.visit('/')
