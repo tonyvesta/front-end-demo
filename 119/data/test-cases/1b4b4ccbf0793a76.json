@@ -1,0 +1,386 @@
+{
+  "uid" : "1b4b4ccbf0793a76",
+  "name" : "should highlight the currently applied filter",
+  "fullName" : "should highlight the currently applied filter",
+  "historyId" : "ea06ec2fab3c1b7d056e1f1028f32d95",
+  "time" : {
+    "start" : 1632306454085,
+    "stop" : 1632306455486,
+    "duration" : 1401
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1632306454085,
+        "stop" : 1632306454322,
+        "duration" : 237
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit (\"/\")",
+        "time" : {
+          "start" : 1632306454092,
+          "stop" : 1632306454322,
+          "duration" : 230
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1632306454335,
+        "stop" : 1632306455266,
+        "duration" : 931
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "createDefaultTodos",
+        "time" : {
+          "start" : 1632306454335,
+          "stop" : 1632306455266,
+          "duration" : 931
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"todos\")",
+        "time" : {
+          "start" : 1632306455266,
+          "stop" : 1632306455266,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get (\".filters\")",
+      "time" : {
+        "start" : 1632306455267,
+        "stop" : 1632306455270,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "contains (\"All\")",
+      "time" : {
+        "start" : 1632306455272,
+        "stop" : 1632306455277,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **<a.selected>** to have class **selected** assert",
+      "time" : {
+        "start" : 1632306455277,
+        "stop" : 1632306455277,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "contains (\"Active\")",
+      "time" : {
+        "start" : 1632306455277,
+        "stop" : 1632306455281,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1632306455281,
+        "stop" : 1632306455403,
+        "duration" : 122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "http://localhost:8888/#/active new url",
+      "time" : {
+        "start" : 1632306455403,
+        "stop" : 1632306455403,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **<a.selected>** to have class **selected** assert",
+      "time" : {
+        "start" : 1632306455403,
+        "stop" : 1632306455403,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "contains (\"Completed\")",
+      "time" : {
+        "start" : 1632306455403,
+        "stop" : 1632306455405,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1632306455406,
+        "stop" : 1632306455486,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "http://localhost:8888/#/completed new url",
+      "time" : {
+        "start" : 1632306455486,
+        "stop" : 1632306455486,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **<a.selected>** to have class **selected** assert",
+      "time" : {
+        "start" : 1632306455486,
+        "stop" : 1632306455486,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "within",
+      "time" : {
+        "start" : 1632306455486,
+        "stop" : 1632306455486,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1632306455491,
+        "stop" : 1632306455493,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "window",
+        "time" : {
+          "start" : 1632306455491,
+          "stop" : 1632306455492,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7f31dd82d584f6fd",
+      "name" : "app_spec.js.mp4",
+      "source" : "7f31dd82d584f6fd.mp4",
+      "type" : "video/mp4",
+      "size" : 748481
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 19,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TodoMVC - React"
+  }, {
+    "name" : "suite",
+    "value" : "Routing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "9115055a5d51bbe2",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/118//#testresult/9115055a5d51bbe2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632306060969,
+          "stop" : 1632306062476,
+          "duration" : 1507
+        }
+      }, {
+        "uid" : "bd29522d0e13c1",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/117//#testresult/bd29522d0e13c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632226311422,
+          "stop" : 1632226312836,
+          "duration" : 1414
+        }
+      }, {
+        "uid" : "b0fddaf3256da0bc",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/116//#testresult/b0fddaf3256da0bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632226303470,
+          "stop" : 1632226304851,
+          "duration" : 1381
+        }
+      }, {
+        "uid" : "81485f915eb358f3",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/115//#testresult/81485f915eb358f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631884388546,
+          "stop" : 1631884389972,
+          "duration" : 1426
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1b4b4ccbf0793a76.json",
+  "parameterValues" : [ ]
+}
