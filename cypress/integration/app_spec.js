@@ -75,7 +75,7 @@ describe('TodoMVC - React', function () {
       // Aliases will automatically persist
       // between hooks and are available
       // in your tests below
-      cy.story('A user can mark TODOs as complete');
+      cy.allure().story('A user can mark TODOs as complete');
       cy.createDefaultTodos().as('todos')
     })
 
@@ -230,7 +230,7 @@ describe('TodoMVC - React', function () {
     // - cy.blur    https://on.cypress.io/api/blur
 
     beforeEach(function () {
-      cy.story('A user can Edit TODOs');
+      cy.allure()story('A user can Edit TODOs');
       cy.createDefaultTodos().as('todos')
     })
 
@@ -352,7 +352,7 @@ describe('TodoMVC - React', function () {
 
   context('Clear completed button', function () {
     beforeEach(function () {
-      cy.story('A user can clear all completed TODOs');
+      cy.allure().story('A user can clear all completed TODOs');
       cy.createDefaultTodos().as('todos')
     })
 
@@ -397,7 +397,7 @@ describe('TodoMVC - React', function () {
   })
 
   context('Persistence', function () {
-    cy.story('A users TODOs are not lost if the page is refreshed');
+    cy.allure().story('A users TODOs are not lost if the page is refreshed');
     it('should persist its data', function () {
       // mimicking TodoMVC tests
       // by writing out this function
@@ -431,7 +431,7 @@ describe('TodoMVC - React', function () {
     // https://on.cypress.io/within
 
     beforeEach(function () {
-      cy.story('A user can filter to see complete or active items only');
+      cy.allure().story('A user can filter to see complete or active items only');
       cy.createDefaultTodos().as('todos')
     })
 
@@ -526,7 +526,7 @@ describe('TodoMVC - React', function () {
   })
 
   context('Contrast', () => {
-    cy.epic('should have good accessability');
+    cy.allure().epic('should have good accessability');
     it('has good contrast when empty', () => {
       cy.addAxeCode()
       cy.checkA11y(null, {
