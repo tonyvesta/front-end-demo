@@ -1,0 +1,121 @@
+[ {
+  "uid" : "169f2cfe3626a51e",
+  "name" : "should allow me to add todo items",
+  "time" : {
+    "start" : 1632309435023,
+    "stop" : 1632309435553,
+    "duration" : 530
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "98c9ae5000aec136",
+  "name" : "should show #main and #footer when items added",
+  "time" : {
+    "start" : 1632309441677,
+    "stop" : 1632309442474,
+    "duration" : 797
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "3b81a070a5ff6bd0",
+  "name" : "should trim text input",
+  "time" : {
+    "start" : 1632309440177,
+    "stop" : 1632309440939,
+    "duration" : 762
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "3d96f5f80168094f",
+  "name" : "displays the item as as a todo",
+  "time" : {
+    "start" : 1632309419890,
+    "stop" : 1632309420666,
+    "duration" : 776
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "498af1c1729dc067",
+  "name" : "should clear text input field when an item is added",
+  "time" : {
+    "start" : 1632309437279,
+    "stop" : 1632309437942,
+    "duration" : 663
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "cc7bf454cbfd43",
+  "name" : "adds items",
+  "time" : {
+    "start" : 1632309435570,
+    "stop" : 1632309436546,
+    "duration" : 976
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4091da51bb311f0e",
+  "name" : "the cursor should have focus on the todo input field",
+  "time" : {
+    "start" : 1632309432403,
+    "stop" : 1632309432869,
+    "duration" : 466
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f87ec47a7715527c",
+  "name" : "should display the help text \"Double-click to edit a todo\", \"Created by petehunt\", \"Part of TodoMVC\"",
+  "time" : {
+    "start" : 1632309433658,
+    "stop" : 1632309433916,
+    "duration" : 258
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2fd5d819164aa669",
+  "name" : "should have the heading \"todos\"",
+  "time" : {
+    "start" : 1632309432893,
+    "stop" : 1632309433275,
+    "duration" : 382
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "633c30715ee4ad70",
+  "name" : "should append new items to the bottom of the list",
+  "time" : {
+    "start" : 1632309438715,
+    "stop" : 1632309439417,
+    "duration" : 702
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "4ee7132ea931df78",
+  "name" : "should hide #main and #footer",
+  "time" : {
+    "start" : 1632309433924,
+    "stop" : 1632309434336,
+    "duration" : 412
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3beb7975920b3016",
+  "name" : "should contain the todos creation field",
+  "time" : {
+    "start" : 1632309433290,
+    "stop" : 1632309433647,
+    "duration" : 357
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]
