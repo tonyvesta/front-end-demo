@@ -1,0 +1,508 @@
+{
+  "uid" : "a700e01d9882f845",
+  "name" : "should respect the back button",
+  "fullName" : "should respect the back button",
+  "historyId" : "4988cbd98b9adcadf5bf8c98a8381e52",
+  "time" : {
+    "start" : 1637142648503,
+    "stop" : 1637142651286,
+    "duration" : 2783
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1637142648503,
+        "stop" : 1637142649207,
+        "duration" : 704
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit /",
+        "time" : {
+          "start" : 1637142648527,
+          "stop" : 1637142649207,
+          "duration" : 680
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1637142649223,
+        "stop" : 1637142650615,
+        "duration" : 1392
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "createDefaultTodos",
+        "time" : {
+          "start" : 1637142649227,
+          "stop" : 1637142650614,
+          "duration" : 1387
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"todos\")",
+        "time" : {
+          "start" : 1637142650614,
+          "stop" : 1637142650614,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get @todos",
+      "time" : {
+        "start" : 1637142650618,
+        "stop" : 1637142650643,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "eq 1",
+      "time" : {
+        "start" : 1637142650643,
+        "stop" : 1637142650646,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "find .toggle",
+      "time" : {
+        "start" : 1637142650646,
+        "stop" : 1637142650652,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "check",
+      "time" : {
+        "start" : 1637142650652,
+        "stop" : 1637142650764,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get .filters",
+      "time" : {
+        "start" : 1637142650764,
+        "stop" : 1637142650769,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "contains Active",
+      "time" : {
+        "start" : 1637142650769,
+        "stop" : 1637142650779,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1637142650780,
+        "stop" : 1637142650878,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "new url http://localhost:8888/#/active",
+      "time" : {
+        "start" : 1637142650878,
+        "stop" : 1637142650878,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get .filters",
+      "time" : {
+        "start" : 1637142650878,
+        "stop" : 1637142650887,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "contains Completed",
+      "time" : {
+        "start" : 1637142650887,
+        "stop" : 1637142650891,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1637142650891,
+        "stop" : 1637142651011,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "new url http://localhost:8888/#/completed",
+      "time" : {
+        "start" : 1637142651011,
+        "stop" : 1637142651011,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"@todos\")",
+      "time" : {
+        "start" : 1637142651011
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "go back",
+      "time" : {
+        "start" : 1637142651026,
+        "stop" : 1637142651128,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"@todos\")",
+      "time" : {
+        "start" : 1637142651128
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "go back",
+      "time" : {
+        "start" : 1637142651142,
+        "stop" : 1637142651244,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"@todos\")",
+      "time" : {
+        "start" : 1637142651244
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1637142651290,
+        "stop" : 1637142651299,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "window",
+        "time" : {
+          "start" : 1637142651291,
+          "stop" : 1637142651292,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "6814982f36f573e1",
+      "name" : "app_spec.js.mp4",
+      "source" : "6814982f36f573e1.mp4",
+      "type" : "video/mp4",
+      "size" : 406298
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 24,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TodoMVC - React"
+  }, {
+    "name" : "suite",
+    "value" : "Routing"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "epic",
+    "value" : "A user will be able to edit their TODOs"
+  }, {
+    "name" : "feature",
+    "value" : "Editing Todos"
+  }, {
+    "name" : "owner",
+    "value" : "Tony Jones"
+  }, {
+    "name" : "tag",
+    "value" : "TODO page"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "story",
+    "value" : "A user can filter to see complete or active items only"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TJ-14",
+    "url" : "https://to-jo.atlassian.net/browse/TJ-14",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "owner" : "Tony Jones",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "2dcb05d857fd25d8",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/131//#testresult/2dcb05d857fd25d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632319152203,
+          "stop" : 1632319153988,
+          "duration" : 1785
+        }
+      }, {
+        "uid" : "e34bf0d9cec3cf65",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/130//#testresult/e34bf0d9cec3cf65",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632318893401,
+          "stop" : 1632318895120,
+          "duration" : 1719
+        }
+      }, {
+        "uid" : "5b722b1247413311",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/119//#testresult/5b722b1247413311",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632306449392,
+          "stop" : 1632306451144,
+          "duration" : 1752
+        }
+      }, {
+        "uid" : "c34aa03af402dcb5",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/118//#testresult/c34aa03af402dcb5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632306055691,
+          "stop" : 1632306057634,
+          "duration" : 1943
+        }
+      }, {
+        "uid" : "6926bc264edea06",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/117//#testresult/6926bc264edea06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632226306596,
+          "stop" : 1632226308298,
+          "duration" : 1702
+        }
+      }, {
+        "uid" : "f0834dc00aa4eb9a",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/116//#testresult/f0834dc00aa4eb9a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632226298710,
+          "stop" : 1632226300485,
+          "duration" : 1775
+        }
+      }, {
+        "uid" : "5d3364ac2836d340",
+        "reportUrl" : "https://tonyvesta.github.io/front-end-demo/115//#testresult/5d3364ac2836d340",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631884383426,
+          "stop" : 1631884385226,
+          "duration" : 1800
+        }
+      } ]
+    },
+    "tags" : [ "TODO page", "smoke" ]
+  },
+  "source" : "a700e01d9882f845.json",
+  "parameterValues" : [ ]
+}
