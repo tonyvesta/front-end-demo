@@ -7,7 +7,7 @@
     "cypress:version": "cypress version",
     "cypress:verify": "cypress verify",
     "cypress:open": "cypress open --env allure=true",
-    "cypress:run": "cypress run --env allure=true --record",
+    "cypress:run": "cypress run --env allure=true",
     "cypress:run:record": "cypress run --record",
     "cypress:run:chrome": "cypress run --browser chrome",
     "cypress:run:headed": "cypress run --headed",
