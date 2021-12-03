@@ -8,5 +8,6 @@
 },
 
   "retries": 1,
-  "projectId": "y1o3na"
+  "projectId": "y1o3na",
+  "integrationFolder": "cypress\\integration\\1-getting-started"
 }
