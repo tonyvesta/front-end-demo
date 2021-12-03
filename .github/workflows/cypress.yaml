@@ -35,7 +35,7 @@ jobs:
           # quote the url to be safe against YML parsing surprises
           #wait-on: 'http://localhost:8888'
           #command: npx cypress run
-          #command: npm run cypress:run
+          command: npm run cypress:run
           parallel: true
           group: 'Actions example'
         env:
