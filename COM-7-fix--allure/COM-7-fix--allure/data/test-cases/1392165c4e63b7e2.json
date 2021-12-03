@@ -1,12 +1,12 @@
 {
-  "uid" : "be3acd08764b0463",
+  "uid" : "1392165c4e63b7e2",
   "name" : "can check off an item as completed",
   "fullName" : "can check off an item as completed",
   "historyId" : "37188c05885f12164a3cd55379335d62",
   "time" : {
-    "start" : 1638560141466,
-    "stop" : 1638560142023,
-    "duration" : 557
+    "start" : 1638560734047,
+    "stop" : 1638560734626,
+    "duration" : 579
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,17 +17,17 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1638560141466,
-        "stop" : 1638560141753,
-        "duration" : 287
+        "start" : 1638560734048,
+        "stop" : 1638560734425,
+        "duration" : 377
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "visit https://example.cypress.io/todo",
         "time" : {
-          "start" : 1638560141491,
-          "stop" : 1638560141753,
-          "duration" : 262
+          "start" : 1638560734076,
+          "stop" : 1638560734425,
+          "duration" : 349
         },
         "status" : "passed",
         "steps" : [ ],
@@ -47,9 +47,9 @@
     }, {
       "name" : "contains Pay electric bill",
       "time" : {
-        "start" : 1638560141761,
-        "stop" : 1638560141786,
-        "duration" : 25
+        "start" : 1638560734440,
+        "stop" : 1638560734453,
+        "duration" : 13
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,9 +62,9 @@
     }, {
       "name" : "parent",
       "time" : {
-        "start" : 1638560141786,
-        "stop" : 1638560141790,
-        "duration" : 4
+        "start" : 1638560734453,
+        "stop" : 1638560734463,
+        "duration" : 10
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "find input[type=checkbox]",
       "time" : {
-        "start" : 1638560141790,
-        "stop" : 1638560141808,
-        "duration" : 18
+        "start" : 1638560734463,
+        "stop" : 1638560734465,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,9 +92,9 @@
     }, {
       "name" : "check",
       "time" : {
-        "start" : 1638560141808,
-        "stop" : 1638560141991,
-        "duration" : 183
+        "start" : 1638560734465,
+        "stop" : 1638560734607,
+        "duration" : 142
       },
       "status" : "passed",
       "steps" : [ ],
@@ -107,9 +107,9 @@
     }, {
       "name" : "contains Pay electric bill",
       "time" : {
-        "start" : 1638560141991,
-        "stop" : 1638560141995,
-        "duration" : 4
+        "start" : 1638560734607,
+        "stop" : 1638560734612,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ ],
@@ -122,9 +122,9 @@
     }, {
       "name" : "parents li",
       "time" : {
-        "start" : 1638560141996,
-        "stop" : 1638560142006,
-        "duration" : 10
+        "start" : 1638560734612,
+        "stop" : 1638560734626,
+        "duration" : 14
       },
       "status" : "passed",
       "steps" : [ ],
@@ -137,8 +137,8 @@
     }, {
       "name" : "assert expected **<li.completed>** to have class **completed**",
       "time" : {
-        "start" : 1638560142006,
-        "stop" : 1638560142006,
+        "start" : 1638560734625,
+        "stop" : 1638560734625,
         "duration" : 0
       },
       "status" : "passed",
@@ -151,11 +151,11 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "392a5405899344c9",
+      "uid" : "a5e4d37fbee7518f",
       "name" : "video recording",
-      "source" : "392a5405899344c9.mp4",
+      "source" : "a5e4d37fbee7518f.mp4",
       "type" : "video/mp4",
-      "size" : 608765
+      "size" : 694727
     } ],
     "parameters" : [ ],
     "stepsCount" : 9,
@@ -181,6 +181,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "be3acd08764b0463.json",
+  "source" : "1392165c4e63b7e2.json",
   "parameterValues" : [ ]
 }

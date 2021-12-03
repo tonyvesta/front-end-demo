@@ -1,12 +1,12 @@
 {
-  "uid" : "61686fbc6221a154",
+  "uid" : "2d71153d7234a44f",
   "name" : "displays two todo items by default",
   "fullName" : "displays two todo items by default",
   "historyId" : "d1d258d923e649c7e691d13953b42cb2",
   "time" : {
-    "start" : 1638560138859,
-    "stop" : 1638560140563,
-    "duration" : 1704
+    "start" : 1638560731534,
+    "stop" : 1638560733156,
+    "duration" : 1622
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,17 +17,17 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1638560138860,
-        "stop" : 1638560140317,
-        "duration" : 1457
+        "start" : 1638560731536,
+        "stop" : 1638560732943,
+        "duration" : 1407
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "visit https://example.cypress.io/todo",
         "time" : {
-          "start" : 1638560138908,
-          "stop" : 1638560140316,
-          "duration" : 1408
+          "start" : 1638560731614,
+          "stop" : 1638560732942,
+          "duration" : 1328
         },
         "status" : "passed",
         "steps" : [ ],
@@ -47,9 +47,9 @@
     }, {
       "name" : "get .todo-list li",
       "time" : {
-        "start" : 1638560140320,
-        "stop" : 1638560140387,
-        "duration" : 67
+        "start" : 1638560732951,
+        "stop" : 1638560733060,
+        "duration" : 109
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,8 +62,8 @@
     }, {
       "name" : "assert expected **[ <li>, 1 more... ]** to have a length of **2**",
       "time" : {
-        "start" : 1638560140387,
-        "stop" : 1638560140387,
+        "start" : 1638560733060,
+        "stop" : 1638560733060,
         "duration" : 0
       },
       "status" : "passed",
@@ -83,9 +83,9 @@
     }, {
       "name" : "get .todo-list li",
       "time" : {
-        "start" : 1638560140388,
-        "stop" : 1638560140413,
-        "duration" : 25
+        "start" : 1638560733060,
+        "stop" : 1638560733088,
+        "duration" : 28
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,9 +98,9 @@
     }, {
       "name" : "first",
       "time" : {
-        "start" : 1638560140413,
-        "stop" : 1638560140493,
-        "duration" : 80
+        "start" : 1638560733088,
+        "stop" : 1638560733111,
+        "duration" : 23
       },
       "status" : "passed",
       "steps" : [ ],
@@ -113,8 +113,8 @@
     }, {
       "name" : "assert expected **<li>** to have text **Pay electric bill**",
       "time" : {
-        "start" : 1638560140493,
-        "stop" : 1638560140493,
+        "start" : 1638560733110,
+        "stop" : 1638560733110,
         "duration" : 0
       },
       "status" : "passed",
@@ -134,9 +134,9 @@
     }, {
       "name" : "get .todo-list li",
       "time" : {
-        "start" : 1638560140493,
-        "stop" : 1638560140512,
-        "duration" : 19
+        "start" : 1638560733111,
+        "stop" : 1638560733121,
+        "duration" : 10
       },
       "status" : "passed",
       "steps" : [ ],
@@ -149,9 +149,9 @@
     }, {
       "name" : "last",
       "time" : {
-        "start" : 1638560140512,
-        "stop" : 1638560140557,
-        "duration" : 45
+        "start" : 1638560733121,
+        "stop" : 1638560733155,
+        "duration" : 34
       },
       "status" : "passed",
       "steps" : [ ],
@@ -164,8 +164,8 @@
     }, {
       "name" : "assert expected **<li>** to have text **Walk the dog**",
       "time" : {
-        "start" : 1638560140557,
-        "stop" : 1638560140557,
+        "start" : 1638560733155,
+        "stop" : 1638560733155,
         "duration" : 0
       },
       "status" : "passed",
@@ -184,11 +184,11 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "392a5405899344c9",
+      "uid" : "a5e4d37fbee7518f",
       "name" : "video recording",
-      "source" : "392a5405899344c9.mp4",
+      "source" : "a5e4d37fbee7518f.mp4",
       "type" : "video/mp4",
-      "size" : 608765
+      "size" : 694727
     } ],
     "parameters" : [ ],
     "stepsCount" : 10,
@@ -214,6 +214,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "61686fbc6221a154.json",
+  "source" : "2d71153d7234a44f.json",
   "parameterValues" : [ ]
 }

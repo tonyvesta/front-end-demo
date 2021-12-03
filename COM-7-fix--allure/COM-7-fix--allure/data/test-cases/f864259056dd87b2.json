@@ -1,12 +1,12 @@
 {
-  "uid" : "6887022f5099698a",
+  "uid" : "f864259056dd87b2",
   "name" : "can add new todo items",
   "fullName" : "can add new todo items",
   "historyId" : "11e27f90a890d381c425d8178efb0505",
   "time" : {
-    "start" : 1638560140636,
-    "stop" : 1638560141447,
-    "duration" : 811
+    "start" : 1638560733242,
+    "stop" : 1638560734025,
+    "duration" : 783
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,17 +17,17 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1638560140636,
-        "stop" : 1638560140991,
-        "duration" : 355
+        "start" : 1638560733243,
+        "stop" : 1638560733544,
+        "duration" : 301
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "visit https://example.cypress.io/todo",
         "time" : {
-          "start" : 1638560140684,
-          "stop" : 1638560140991,
-          "duration" : 307
+          "start" : 1638560733266,
+          "stop" : 1638560733543,
+          "duration" : 277
         },
         "status" : "passed",
         "steps" : [ ],
@@ -47,9 +47,9 @@
     }, {
       "name" : "get [data-test=new-todo]",
       "time" : {
-        "start" : 1638560141001,
-        "stop" : 1638560141006,
-        "duration" : 5
+        "start" : 1638560733547,
+        "stop" : 1638560733558,
+        "duration" : 11
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,9 +62,9 @@
     }, {
       "name" : "type Feed the cat{enter}",
       "time" : {
-        "start" : 1638560141006,
-        "stop" : 1638560141416,
-        "duration" : 410
+        "start" : 1638560733558,
+        "stop" : 1638560733984,
+        "duration" : 426
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "get .todo-list li",
       "time" : {
-        "start" : 1638560141416,
-        "stop" : 1638560141430,
-        "duration" : 14
+        "start" : 1638560733984,
+        "stop" : 1638560734000,
+        "duration" : 16
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,8 +92,8 @@
     }, {
       "name" : "assert expected **[ <li>, 2 more... ]** to have a length of **3**",
       "time" : {
-        "start" : 1638560141430,
-        "stop" : 1638560141430,
+        "start" : 1638560734000,
+        "stop" : 1638560734000,
         "duration" : 0
       },
       "status" : "passed",
@@ -113,9 +113,9 @@
     }, {
       "name" : "last",
       "time" : {
-        "start" : 1638560141430,
-        "stop" : 1638560141446,
-        "duration" : 16
+        "start" : 1638560734001,
+        "stop" : 1638560734024,
+        "duration" : 23
       },
       "status" : "passed",
       "steps" : [ ],
@@ -128,8 +128,8 @@
     }, {
       "name" : "assert expected **<li>** to have text **Feed the cat**",
       "time" : {
-        "start" : 1638560141446,
-        "stop" : 1638560141446,
+        "start" : 1638560734024,
+        "stop" : 1638560734024,
         "duration" : 0
       },
       "status" : "passed",
@@ -148,11 +148,11 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "392a5405899344c9",
+      "uid" : "a5e4d37fbee7518f",
       "name" : "video recording",
-      "source" : "392a5405899344c9.mp4",
+      "source" : "a5e4d37fbee7518f.mp4",
       "type" : "video/mp4",
-      "size" : 608765
+      "size" : 694727
     } ],
     "parameters" : [ ],
     "stepsCount" : 8,
@@ -178,6 +178,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6887022f5099698a.json",
+  "source" : "f864259056dd87b2.json",
   "parameterValues" : [ ]
 }
