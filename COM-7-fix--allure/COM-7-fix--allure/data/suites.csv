@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Dec 03 19:35:42 GMT 2021","Fri Dec 03 19:35:43 GMT 2021","616","example to-do app","with a checked task","","","","can filter for completed tasks",""
+"passed","Fri Dec 03 19:35:38 GMT 2021","Fri Dec 03 19:35:40 GMT 2021","1704","","example to-do app","","","","displays two todo items by default",""
+"passed","Fri Dec 03 19:35:41 GMT 2021","Fri Dec 03 19:35:42 GMT 2021","557","","example to-do app","","","","can check off an item as completed",""
+"passed","Fri Dec 03 19:35:42 GMT 2021","Fri Dec 03 19:35:42 GMT 2021","819","example to-do app","with a checked task","","","","can filter for uncompleted tasks",""
+"passed","Fri Dec 03 19:35:40 GMT 2021","Fri Dec 03 19:35:41 GMT 2021","811","","example to-do app","","","","can add new todo items",""
+"passed","Fri Dec 03 19:35:43 GMT 2021","Fri Dec 03 19:35:44 GMT 2021","836","example to-do app","with a checked task","","","","can delete all completed tasks",""
