@@ -7,8 +7,18 @@ on:
 
 jobs:
   cypress-run:
-    name: Cypress run
+    name: cypress
     runs-on: ubuntu-latest
+    strategy:
+        # when one test fails, DO NOT cancel the other
+        # containers, because this will kill Cypress processes
+        # leaving the Dashboard hanging ...
+        # https://github.com/cypress-io/github-action/issues/48
+        fail-fast: false
+        matrix:
+          # run 3 copies of the current job in parallel
+          containers: [1, 2, 3]
+    
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -21,41 +31,44 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           record: true
-          start: npm run start:ci
+          #start: npm run start:ci
           # quote the url to be safe against YML parsing surprises
-          wait-on: 'http://localhost:8888'
-          command: npx cypress run
+          #wait-on: 'http://localhost:8888'
+          #command: npx cypress run
+          command: npm run cypress:run
+          parallel: true
+          group: 'Actions example'
         env:
           # pass the Dashboard record key as an environment variable
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           # pass GitHub token to allow accurately detecting a build vs a re-run build
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           #COMMIT_INFO_MESSAGE: ${{ github.event.pull_request.title }}
-          
+
       - name: Run Lighthouse
         uses: foo-software/lighthouse-check-action@master
         id: lighthouseCheck
         with:
-          urls: 'http://localhost:8888'
+          urls: 'https://example.cypress.io/todo'
           # ... all your other inputs
       - name: Handle Lighthouse Check results
         uses: foo-software/lighthouse-check-status-action@master
         with:
           lighthouseCheckResults: ${{ steps.lighthouseCheck.outputs.lighthouseCheckResults }}
-          minAccessibilityScore: "90"
+          minAccessibilityScore: "70"
           minBestPracticesScore: "0"
           minPerformanceScore: "40"
           minProgressiveWebAppScore: "0"
           minSeoScore: "50"
-          
+
       #debug output          
       - name: check report
         run: ls
-        
+
       - name: check behaviours
         run: |
           ls
-          
+
       - name: check allure-report
         run: |
           ls
@@ -79,7 +92,7 @@ jobs:
           allure_report: allure-report
           allure_history: allure-history
           keep_reports: 20
-          
+
       - name: Deploy report to Github Pages
         if: ${{ github.ref == 'refs/heads/main' }}
         uses: peaceiris/actions-gh-pages@v3
@@ -87,7 +100,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: allure-history
-          
+
 #branch
       - name: Allure Generate Report
         uses: simple-elf/allure-report-action@master
@@ -97,11 +110,11 @@ jobs:
           allure_results:  allure-results
           gh_pages: gh-pages
           allure_report: allure-report 
-               
+
       - name: vars for branch
         if:  ${{ github.ref != 'refs/heads/main' }}  
         run:  echo "GITHUB_BRANCH=${GITHUB_HEAD_REF}" >> $GITHUB_ENV    
-        
+
       - name: branch ${{ env.GITHUB_BRANCH }}
         run: echo "the branch is ${{ env.GITHUB_BRANCH }}"
 
@@ -113,7 +126,7 @@ jobs:
           publish_branch: gh-pages
           publish_dir: ./allure-report
           destination_dir: ${{ env.GITHUB_BRANCH }}/allure-report
-    
+
       - name: Post the link to the report
         if: github.ref != 'refs/heads/main'
         uses: Sibz/github-status-action@v1
@@ -124,8 +137,8 @@ jobs:
             sha: ${{ github.event.pull_request.head.sha }}
             target_url: https://tonyvesta.github.io/front-end-demo/${{ env.GITHUB_BRANCH }}
             #target_url: https://waterscorporation.github.io/wcc-auditlog/${{ env.GITHUB_BRANCH }}/${{ github.run_number }}
-            
-            
+
+
       - name: Bump version and push tag
         id: tag_version
         uses: mathieudutour/github-tag-action@v5.6
@@ -139,7 +152,7 @@ jobs:
           tag_name: ${{ steps.tag_version.outputs.new_tag }}
           release_name: Release ${{ steps.tag_version.outputs.new_tag }}
           body: ${{ steps.tag_version.outputs.changelog }}
-          
+
      # - name: Bump version and push tag
       #  if: github.ref == 'refs/heads/main'
        # uses: darioblanco/bump-semver@v1.0.0
@@ -147,7 +160,7 @@ jobs:
         #with:
          # token: ${{ secrets.GITHUB_TOKEN }}
           #outputs: tag
-            
+
       - name: Create unpublished JIRA release
         if: github.ref == 'refs/heads/main'
         uses: darioblanco/jira-wizard@main

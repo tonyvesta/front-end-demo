@@ -7,7 +7,6 @@
     "allureAttachRequests": true
 },
 
-  "baseUrl": "http://localhost:8888",
   "retries": 1,
   "projectId": "y1o3na"
 }
