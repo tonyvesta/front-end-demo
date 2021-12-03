@@ -20,7 +20,7 @@ jobs:
   pact-run:
     runs-on: ubuntu-latest
     env:
-      PACT_URL: ${{ github.event.client_payload.pact_url }} ${{ github.event.inputs.consumer_side_test_URI }}
+      PACT_URL: ${{ github.event.client_payload.pact_url }}${{ github.event.inputs.consumer_side_test_URI }}
     steps:
       - uses: actions/checkout@v2
       - run: git fetch --prune --unshallow
