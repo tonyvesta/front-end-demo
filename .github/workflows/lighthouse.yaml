@@ -13,7 +13,7 @@ jobs:
       - name: wait for app  
         uses: nev7n/wait_for_response@v1
         with:
-          url: 'http://localhost:8888/'
+          url: 'https://example.cypress.io/todo'
           responseCode: 200
           timeout: 2000
           interval: 500
@@ -21,7 +21,7 @@ jobs:
         uses: foo-software/lighthouse-check-action@master
         id: lighthouseCheck
         with:
-          urls: 'http://localhost:8888/'
+          urls: 'https://example.cypress.io/todo'
           # ... all your other inputs
       - name: Handle Lighthouse Check results
         uses: foo-software/lighthouse-check-status-action@master
