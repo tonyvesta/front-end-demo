@@ -23,7 +23,7 @@ jobs:
           record: true
           start: npm run start:ci
           # quote the url to be safe against YML parsing surprises
-          wait-on: 'http://localhost:8888'
+          #wait-on: 'http://localhost:8888'
           command: npx cypress run
         env:
           # pass the Dashboard record key as an environment variable
@@ -36,7 +36,7 @@ jobs:
         uses: foo-software/lighthouse-check-action@master
         id: lighthouseCheck
         with:
-          urls: 'http://localhost:8888'
+          urls: 'https://example.cypress.io/todo'
           # ... all your other inputs
       - name: Handle Lighthouse Check results
         uses: foo-software/lighthouse-check-status-action@master
