@@ -1,8 +1,5 @@
 name: Cypress tests
 on:
-  push:
-    branches:
-      - main
   pull_request:    
 
 jobs:
@@ -23,10 +20,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        
-      - id: get_version
-        uses: battila7/get-version-action@v2
-      - run: echo ${{ steps.get_version.outputs.version }}
       
       - name: npm install
         run: npm install 
@@ -67,34 +60,6 @@ jobs:
           minProgressiveWebAppScore: "0"
           minSeoScore: "50"
 
-#main                
-     # - name: Get Allure history
-     #   uses: actions/checkout@v2
-     #   if:  ${{ github.ref == 'refs/heads/main' }}
-     #   continue-on-error: true
-     #   with:
-     #     ref: gh-pages
-     #     path: gh-pages
-
-     # - name: Allure Generate Report
-     #   uses: simple-elf/allure-report-action@master
-     #   continue-on-error: true
-     #   #id: allure-report
-     #   with:
-     #     allure_results:  allure-results
-     #     gh_pages: gh-pages
-     #     allure_report: allure-report
-     #     allure_history: allure-history
-     #     keep_reports: 20
-
-     # - name: Deploy report to Github Pages
-     #   if: ${{ github.ref == 'refs/heads/main' }}
-     #   uses: peaceiris/actions-gh-pages@v3
-     #   with:
-     #     github_token: ${{ secrets.GITHUB_TOKEN }}
-     #     publish_branch: gh-pages
-     #     publish_dir: allure-history
-
 #branch
       - name: Allure Generate Report
         uses: simple-elf/allure-report-action@master
@@ -131,40 +96,4 @@ jobs:
             sha: ${{ github.event.pull_request.head.sha }}
             target_url: https://tonyvesta.github.io/front-end-demo/${{ env.GITHUB_BRANCH }}/allure-report
             #target_url: https://waterscorporation.github.io/wcc-auditlog/${{ env.GITHUB_BRANCH }}/${{ github.run_number }}
-
-
-      - name: Bump version and push tag
-        id: tag_version
-        uses: mathieudutour/github-tag-action@v5.6
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          
-      - name: Create a GitHub release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ steps.tag_version.outputs.new_tag }}
-          release_name: Release ${{ steps.tag_version.outputs.new_tag }}
-          body: ${{ steps.tag_version.outputs.changelog }}
-
-     # - name: Bump version and push tag
-      #  if: github.ref == 'refs/heads/main'
-       # uses: darioblanco/bump-semver@v1.0.0
-        #id: version
-        #with:
-         # token: ${{ secrets.GITHUB_TOKEN }}
-          #outputs: tag
-
-      - name: Create unpublished JIRA release
-        if: github.ref == 'refs/heads/main'
-        uses: darioblanco/jira-wizard@main
-        with:
-          app: ToDo
-          host: ${{ secrets.JIRA_HOST }}
-          email: ${{ secrets.JIRA_EMAIL }}
-          apiToken: ${{ secrets.JIRA_API_TOKEN }}
-          projectKey: COM
-          issueRegex: ((?<!([A-Z]))[A-Z]+-\d+)
-          version: ${{ steps.tag_version.outputs.new_tag }}
-          draft: false
+            
