@@ -32,6 +32,7 @@ jobs:
         run: npm install 
         
       - name: Cypress run
+        if:  ${{ github.ref != 'refs/heads/main' }}
         uses: cypress-io/github-action@v2
         with:
           record: true
@@ -50,6 +51,7 @@ jobs:
           #COMMIT_INFO_MESSAGE: ${{ github.event.pull_request.title }}
 
       - name: Run Lighthouse
+        if:  ${{ github.ref != 'refs/heads/main' }}
         uses: foo-software/lighthouse-check-action@master
         id: lighthouseCheck
         with:
@@ -66,32 +68,32 @@ jobs:
           minSeoScore: "50"
 
 #main                
-      - name: Get Allure history
-        uses: actions/checkout@v2
-        if:  ${{ github.ref == 'refs/heads/main' }}
-        continue-on-error: true
-        with:
-          ref: gh-pages
-          path: gh-pages
+     # - name: Get Allure history
+     #   uses: actions/checkout@v2
+     #   if:  ${{ github.ref == 'refs/heads/main' }}
+     #   continue-on-error: true
+     #   with:
+     #     ref: gh-pages
+     #     path: gh-pages
 
-      - name: Allure Generate Report
-        uses: simple-elf/allure-report-action@master
-        continue-on-error: true
-        #id: allure-report
-        with:
-          allure_results:  allure-results
-          gh_pages: gh-pages
-          allure_report: allure-report
-          allure_history: allure-history
-          keep_reports: 20
+     # - name: Allure Generate Report
+     #   uses: simple-elf/allure-report-action@master
+     #   continue-on-error: true
+     #   #id: allure-report
+     #   with:
+     #     allure_results:  allure-results
+     #     gh_pages: gh-pages
+     #     allure_report: allure-report
+     #     allure_history: allure-history
+     #     keep_reports: 20
 
-      - name: Deploy report to Github Pages
-        if: ${{ github.ref == 'refs/heads/main' }}
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: allure-history
+     # - name: Deploy report to Github Pages
+     #   if: ${{ github.ref == 'refs/heads/main' }}
+     #   uses: peaceiris/actions-gh-pages@v3
+     #   with:
+     #     github_token: ${{ secrets.GITHUB_TOKEN }}
+     #     publish_branch: gh-pages
+     #     publish_dir: allure-history
 
 #branch
       - name: Allure Generate Report
