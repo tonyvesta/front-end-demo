@@ -37,4 +37,4 @@ jobs:
           projectKey: COM
           issueRegex: ((?<!([A-Z]))[A-Z]+-\d+)
           version: ${{ steps.tag_version.outputs.new_tag }}
-          draft: false
+          draft: true
