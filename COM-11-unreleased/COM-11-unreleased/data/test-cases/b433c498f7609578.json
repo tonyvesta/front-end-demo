@@ -1,0 +1,183 @@
+{
+  "uid" : "b433c498f7609578",
+  "name" : "can add new todo items",
+  "fullName" : "can add new todo items",
+  "historyId" : "11e27f90a890d381c425d8178efb0505",
+  "time" : {
+    "start" : 1638810345334,
+    "stop" : 1638810346194,
+    "duration" : 860
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1638810345335,
+        "stop" : 1638810345677,
+        "duration" : 342
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://example.cypress.io/todo",
+        "time" : {
+          "start" : 1638810345366,
+          "stop" : 1638810345676,
+          "duration" : 310
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get [data-test=new-todo]",
+      "time" : {
+        "start" : 1638810345678,
+        "stop" : 1638810345696,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type Feed the cat{enter}",
+      "time" : {
+        "start" : 1638810345696,
+        "stop" : 1638810346127,
+        "duration" : 431
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get .todo-list li",
+      "time" : {
+        "start" : 1638810346127,
+        "stop" : 1638810346145,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **[ <li>, 2 more... ]** to have a length of **3**",
+      "time" : {
+        "start" : 1638810346144,
+        "stop" : 1638810346144,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "3"
+      }, {
+        "name" : "expected",
+        "value" : "3"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "last",
+      "time" : {
+        "start" : 1638810346145,
+        "stop" : 1638810346194,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<li>** to have text **Feed the cat**",
+      "time" : {
+        "start" : 1638810346194,
+        "stop" : 1638810346194,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "Feed the cat"
+      }, {
+        "name" : "expected",
+        "value" : "Feed the cat"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "2242793fc065e57f",
+      "name" : "video recording",
+      "source" : "2242793fc065e57f.mp4",
+      "type" : "video/mp4",
+      "size" : 673427
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "example to-do app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b433c498f7609578.json",
+  "parameterValues" : [ ]
+}
