@@ -1,0 +1,83 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "displays two todo items by default",
+    "uid" : "f2a31aabb35c1d41",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638806077123,
+      "stop" : 1638806078171,
+      "duration" : 1048
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "can add new todo items",
+    "uid" : "1429e38f8b68e17",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638806078209,
+      "stop" : 1638806078958,
+      "duration" : 749
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "can check off an item as completed",
+    "uid" : "b153682253c688f4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638806078966,
+      "stop" : 1638806079467,
+      "duration" : 501
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "can filter for uncompleted tasks",
+    "uid" : "2c9e10f1ee9cc839",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638806079483,
+      "stop" : 1638806080090,
+      "duration" : 607
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "can filter for completed tasks",
+    "uid" : "969992f5377b991b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638806080101,
+      "stop" : 1638806080795,
+      "duration" : 694
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "can delete all completed tasks",
+    "uid" : "76c6625e26a7c86f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638806080842,
+      "stop" : 1638806081347,
+      "duration" : 505
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
