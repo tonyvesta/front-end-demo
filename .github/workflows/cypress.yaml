@@ -84,8 +84,8 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./allure-report
-          destination_dir: ${{ env.GITHUB_BRANCH }}/${{ env.GITHUB_BRANCH }}
-
+          destination_dir: ${{ env.GITHUB_BRANCH }}
+          
       - name: Post the link to the report
         if: github.ref != 'refs/heads/main'
         uses: Sibz/github-status-action@v1
