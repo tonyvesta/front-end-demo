@@ -17,6 +17,13 @@ describe('example to-do app', () => {
     // so we must tell it to visit our website with the `cy.visit()` command.
     // Since we want to visit the same URL at the start of all our tests,
     // we include it in our beforeEach function so that it runs before each test
+    cy.allure()
+    .feature('This is feature')
+    .epic('This is epic')
+    .story('story')
+    .issue('DC-1234', 'DC-1234')
+    .parameter('name', 'value')
+    .tag('this is nice tag', 'as well as this');
     cy.visit('https://example.cypress.io/todo')
   })
 
