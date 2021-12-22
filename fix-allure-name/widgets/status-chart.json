@@ -1,60 +1,60 @@
 [ {
-  "uid" : "b521f658c596d5e4",
+  "uid" : "adc9a65ba768abcd",
   "name" : "displays two todo items by default",
   "time" : {
-    "start" : 1639578944973,
-    "stop" : 1639578946733,
-    "duration" : 1760
+    "start" : 1640170882838,
+    "stop" : 1640170884498,
+    "duration" : 1660
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8674a63a985a7f2a",
+  "uid" : "28a87281a16ba4c8",
   "name" : "can add new todo items",
   "time" : {
-    "start" : 1639578946832,
-    "stop" : 1639578947784,
-    "duration" : 952
+    "start" : 1640170884609,
+    "stop" : 1640170885440,
+    "duration" : 831
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "fae780513a0f4a6a",
+  "uid" : "b9ddbebc2e65c287",
   "name" : "can check off an item as completed",
   "time" : {
-    "start" : 1639578947801,
-    "stop" : 1639578948437,
-    "duration" : 636
+    "start" : 1640170885471,
+    "stop" : 1640170886057,
+    "duration" : 586
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "782f3d849ac1ac11",
-  "name" : "can filter for completed tasks",
-  "time" : {
-    "start" : 1639578949255,
-    "stop" : 1639578949982,
-    "duration" : 727
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2bbd5132108db9c",
-  "name" : "can delete all completed tasks",
-  "time" : {
-    "start" : 1639578950012,
-    "stop" : 1639578950702,
-    "duration" : 690
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cc90436281d3f151",
+  "uid" : "5f33d59e9af30512",
   "name" : "can filter for uncompleted tasks",
   "time" : {
-    "start" : 1639578948466,
-    "stop" : 1639578949230,
-    "duration" : 764
+    "start" : 1640170886076,
+    "stop" : 1640170886851,
+    "duration" : 775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca9216af89cbfc30",
+  "name" : "can delete all completed tasks",
+  "time" : {
+    "start" : 1640170887675,
+    "stop" : 1640170888344,
+    "duration" : 669
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2aa30c8b508337a4",
+  "name" : "can filter for completed tasks",
+  "time" : {
+    "start" : 1640170886906,
+    "stop" : 1640170887637,
+    "duration" : 731
   },
   "status" : "passed",
   "severity" : "normal"

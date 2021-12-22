@@ -1,12 +1,12 @@
 {
-  "uid" : "8674a63a985a7f2a",
+  "uid" : "28a87281a16ba4c8",
   "name" : "can add new todo items",
   "fullName" : "can add new todo items",
   "historyId" : "11e27f90a890d381c425d8178efb0505",
   "time" : {
-    "start" : 1639578946832,
-    "stop" : 1639578947784,
-    "duration" : 952
+    "start" : 1640170884609,
+    "stop" : 1640170885440,
+    "duration" : 831
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,17 +17,17 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1639578946832,
-        "stop" : 1639578947237,
-        "duration" : 405
+        "start" : 1640170884609,
+        "stop" : 1640170884915,
+        "duration" : 306
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "visit https://example.cypress.io/todo",
         "time" : {
-          "start" : 1639578946862,
-          "stop" : 1639578947237,
-          "duration" : 375
+          "start" : 1640170884648,
+          "stop" : 1640170884890,
+          "duration" : 242
         },
         "status" : "passed",
         "steps" : [ ],
@@ -39,7 +39,10 @@
         "hasContent" : false
       } ],
       "attachments" : [ ],
-      "parameters" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "value"
+      } ],
       "stepsCount" : 1,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
@@ -47,9 +50,9 @@
     }, {
       "name" : "get [data-test=new-todo]",
       "time" : {
-        "start" : 1639578947243,
-        "stop" : 1639578947259,
-        "duration" : 16
+        "start" : 1640170884917,
+        "stop" : 1640170884938,
+        "duration" : 21
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,9 +65,9 @@
     }, {
       "name" : "type Feed the cat{enter}",
       "time" : {
-        "start" : 1639578947259,
-        "stop" : 1639578947742,
-        "duration" : 483
+        "start" : 1640170884938,
+        "stop" : 1640170885395,
+        "duration" : 457
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +80,9 @@
     }, {
       "name" : "get .todo-list li",
       "time" : {
-        "start" : 1639578947742,
-        "stop" : 1639578947776,
-        "duration" : 34
+        "start" : 1640170885395,
+        "stop" : 1640170885406,
+        "duration" : 11
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,8 +95,8 @@
     }, {
       "name" : "assert expected **[ <li>, 2 more... ]** to have a length of **3**",
       "time" : {
-        "start" : 1639578947776,
-        "stop" : 1639578947776,
+        "start" : 1640170885406,
+        "stop" : 1640170885406,
         "duration" : 0
       },
       "status" : "passed",
@@ -113,9 +116,9 @@
     }, {
       "name" : "last",
       "time" : {
-        "start" : 1639578947777,
-        "stop" : 1639578947783,
-        "duration" : 6
+        "start" : 1640170885406,
+        "stop" : 1640170885440,
+        "duration" : 34
       },
       "status" : "passed",
       "steps" : [ ],
@@ -128,8 +131,8 @@
     }, {
       "name" : "assert expected **<li>** to have text **Feed the cat**",
       "time" : {
-        "start" : 1639578947783,
-        "stop" : 1639578947783,
+        "start" : 1640170885440,
+        "stop" : 1640170885440,
         "duration" : 0
       },
       "status" : "passed",
@@ -148,11 +151,11 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "b4612d9058c4c09f",
+      "uid" : "f358cb01297826d1",
       "name" : "video recording",
-      "source" : "b4612d9058c4c09f.mp4",
+      "source" : "f358cb01297826d1.mp4",
       "type" : "video/mp4",
-      "size" : 669807
+      "size" : 772848
     } ],
     "parameters" : [ ],
     "stepsCount" : 8,
@@ -165,19 +168,38 @@
     "name" : "suite",
     "value" : "example to-do app"
   }, {
+    "name" : "feature",
+    "value" : "This is feature"
+  }, {
+    "name" : "epic",
+    "value" : "This is epic"
+  }, {
+    "name" : "story",
+    "value" : "story"
+  }, {
+    "name" : "tag",
+    "value" : "this is nice tag"
+  }, {
+    "name" : "tag",
+    "value" : "as well as this"
+  }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ ],
-  "links" : [ ],
+  "links" : [ {
+    "name" : "DC-1234",
+    "url" : "https://to-jo.atlassian.net/browse/DC-1234",
+    "type" : "issue"
+  } ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ ]
+    "tags" : [ "this is nice tag", "as well as this" ]
   },
-  "source" : "8674a63a985a7f2a.json",
+  "source" : "28a87281a16ba4c8.json",
   "parameterValues" : [ ]
 }
