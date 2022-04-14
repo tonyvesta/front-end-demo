@@ -1,12 +1,12 @@
 {
-  "uid" : "e780c80aebd9ed74",
-  "name" : "can add new todo items",
-  "fullName" : "can add new todo items",
-  "historyId" : "11e27f90a890d381c425d8178efb0505",
+  "uid" : "affa16b50453393e",
+  "name" : "can check off an item as completed",
+  "fullName" : "can check off an item as completed",
+  "historyId" : "37188c05885f12164a3cd55379335d62",
   "time" : {
-    "start" : 1649933185105,
-    "stop" : 1649933186009,
-    "duration" : 904
+    "start" : 1649933797664,
+    "stop" : 1649933798164,
+    "duration" : 500
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,17 +17,17 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1649933185105,
-        "stop" : 1649933185520,
-        "duration" : 415
+        "start" : 1649933797664,
+        "stop" : 1649933797947,
+        "duration" : 283
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "visit https://example.cypress.io/todo",
         "time" : {
-          "start" : 1649933185157,
-          "stop" : 1649933185520,
-          "duration" : 363
+          "start" : 1649933797718,
+          "stop" : 1649933797946,
+          "duration" : 228
         },
         "status" : "passed",
         "steps" : [ ],
@@ -48,11 +48,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "get [data-test=new-todo]",
+      "name" : "contains Pay electric bill",
       "time" : {
-        "start" : 1649933185527,
-        "stop" : 1649933185538,
-        "duration" : 11
+        "start" : 1649933797952,
+        "stop" : 1649933797970,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
@@ -63,11 +63,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "type Feed the cat{enter}",
+      "name" : "parent",
       "time" : {
-        "start" : 1649933185538,
-        "stop" : 1649933185970,
-        "duration" : 432
+        "start" : 1649933797970,
+        "stop" : 1649933797972,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -78,11 +78,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "get .todo-list li",
+      "name" : "find input[type=checkbox]",
       "time" : {
-        "start" : 1649933185970,
-        "stop" : 1649933186004,
-        "duration" : 34
+        "start" : 1649933797972,
+        "stop" : 1649933797997,
+        "duration" : 25
       },
       "status" : "passed",
       "steps" : [ ],
@@ -93,72 +93,75 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **[ <li>, 2 more... ]** to have a length of **3**",
+      "name" : "check",
       "time" : {
-        "start" : 1649933186003,
-        "stop" : 1649933186003,
+        "start" : 1649933797997,
+        "stop" : 1649933798131,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "contains Pay electric bill",
+      "time" : {
+        "start" : 1649933798131,
+        "stop" : 1649933798139,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "parents li",
+      "time" : {
+        "start" : 1649933798139,
+        "stop" : 1649933798164,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<li.completed>** to have class **completed**",
+      "time" : {
+        "start" : 1649933798164,
+        "stop" : 1649933798164,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "3"
-      }, {
-        "name" : "expected",
-        "value" : "3"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : "last",
-      "time" : {
-        "start" : 1649933186004,
-        "stop" : 1649933186009,
-        "duration" : 5
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
       "parameters" : [ ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : false
-    }, {
-      "name" : "assert expected **<li>** to have text **Feed the cat**",
-      "time" : {
-        "start" : 1649933186009,
-        "stop" : 1649933186009,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "Feed the cat"
-      }, {
-        "name" : "expected",
-        "value" : "Feed the cat"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "14e15a8158f1add7",
+      "uid" : "81cd98340c0d5c28",
       "name" : "video recording",
-      "source" : "14e15a8158f1add7.mp4",
+      "source" : "81cd98340c0d5c28.mp4",
       "type" : "video/mp4",
-      "size" : 705930
+      "size" : 726181
     } ],
     "parameters" : [ ],
-    "stepsCount" : 8,
+    "stepsCount" : 9,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -200,6 +203,6 @@
     "categories" : [ ],
     "tags" : [ "this is nice tag", "as well as this" ]
   },
-  "source" : "e780c80aebd9ed74.json",
+  "source" : "affa16b50453393e.json",
   "parameterValues" : [ ]
 }

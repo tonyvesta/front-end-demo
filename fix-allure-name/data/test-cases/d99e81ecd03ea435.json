@@ -1,12 +1,12 @@
 {
-  "uid" : "cd49793d219661a5",
-  "name" : "displays two todo items by default",
-  "fullName" : "displays two todo items by default",
-  "historyId" : "d1d258d923e649c7e691d13953b42cb2",
+  "uid" : "d99e81ecd03ea435",
+  "name" : "can add new todo items",
+  "fullName" : "can add new todo items",
+  "historyId" : "11e27f90a890d381c425d8178efb0505",
   "time" : {
-    "start" : 1649933183350,
-    "stop" : 1649933185028,
-    "duration" : 1678
+    "start" : 1649933796766,
+    "stop" : 1649933797648,
+    "duration" : 882
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,17 +17,17 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1649933183351,
-        "stop" : 1649933184773,
-        "duration" : 1422
+        "start" : 1649933796766,
+        "stop" : 1649933797114,
+        "duration" : 348
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "visit https://example.cypress.io/todo",
         "time" : {
-          "start" : 1649933183415,
-          "stop" : 1649933184772,
-          "duration" : 1357
+          "start" : 1649933796807,
+          "stop" : 1649933797113,
+          "duration" : 306
         },
         "status" : "passed",
         "steps" : [ ],
@@ -48,11 +48,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "get .todo-list li",
+      "name" : "get [data-test=new-todo]",
       "time" : {
-        "start" : 1649933184789,
-        "stop" : 1649933184875,
-        "duration" : 86
+        "start" : 1649933797124,
+        "stop" : 1649933797137,
+        "duration" : 13
       },
       "status" : "passed",
       "steps" : [ ],
@@ -63,31 +63,25 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **[ <li>, 1 more... ]** to have a length of **2**",
+      "name" : "type Feed the cat{enter}",
       "time" : {
-        "start" : 1649933184874,
-        "stop" : 1649933184874,
-        "duration" : 0
+        "start" : 1649933797137,
+        "stop" : 1649933797617,
+        "duration" : 480
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "2"
-      }, {
-        "name" : "expected",
-        "value" : "2"
-      } ],
+      "parameters" : [ ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true
+      "hasContent" : false
     }, {
       "name" : "get .todo-list li",
       "time" : {
-        "start" : 1649933184875,
-        "stop" : 1649933184890,
+        "start" : 1649933797617,
+        "stop" : 1649933797632,
         "duration" : 15
       },
       "status" : "passed",
@@ -99,25 +93,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "first",
+      "name" : "assert expected **[ <li>, 2 more... ]** to have a length of **3**",
       "time" : {
-        "start" : 1649933184890,
-        "stop" : 1649933184925,
-        "duration" : 35
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "assert expected **<li>** to have text **Pay electric bill**",
-      "time" : {
-        "start" : 1649933184925,
-        "stop" : 1649933184925,
+        "start" : 1649933797631,
+        "stop" : 1649933797631,
         "duration" : 0
       },
       "status" : "passed",
@@ -125,36 +104,21 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "actual",
-        "value" : "Pay electric bill"
+        "value" : "3"
       }, {
         "name" : "expected",
-        "value" : "Pay electric bill"
+        "value" : "3"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "get .todo-list li",
-      "time" : {
-        "start" : 1649933184925,
-        "stop" : 1649933184952,
-        "duration" : 27
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
       "name" : "last",
       "time" : {
-        "start" : 1649933184952,
-        "stop" : 1649933185027,
-        "duration" : 75
+        "start" : 1649933797632,
+        "stop" : 1649933797647,
+        "duration" : 15
       },
       "status" : "passed",
       "steps" : [ ],
@@ -165,10 +129,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **<li>** to have text **Walk the dog**",
+      "name" : "assert expected **<li>** to have text **Feed the cat**",
       "time" : {
-        "start" : 1649933185027,
-        "stop" : 1649933185027,
+        "start" : 1649933797647,
+        "stop" : 1649933797647,
         "duration" : 0
       },
       "status" : "passed",
@@ -176,10 +140,10 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "actual",
-        "value" : "Walk the dog"
+        "value" : "Feed the cat"
       }, {
         "name" : "expected",
-        "value" : "Walk the dog"
+        "value" : "Feed the cat"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
@@ -187,14 +151,14 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "14e15a8158f1add7",
+      "uid" : "81cd98340c0d5c28",
       "name" : "video recording",
-      "source" : "14e15a8158f1add7.mp4",
+      "source" : "81cd98340c0d5c28.mp4",
       "type" : "video/mp4",
-      "size" : 705930
+      "size" : 726181
     } ],
     "parameters" : [ ],
-    "stepsCount" : 10,
+    "stepsCount" : 8,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -236,6 +200,6 @@
     "categories" : [ ],
     "tags" : [ "this is nice tag", "as well as this" ]
   },
-  "source" : "cd49793d219661a5.json",
+  "source" : "d99e81ecd03ea435.json",
   "parameterValues" : [ ]
 }
