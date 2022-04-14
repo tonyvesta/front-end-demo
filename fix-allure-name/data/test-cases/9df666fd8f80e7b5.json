@@ -1,12 +1,12 @@
 {
-  "uid" : "adc9a65ba768abcd",
-  "name" : "displays two todo items by default",
-  "fullName" : "displays two todo items by default",
-  "historyId" : "d1d258d923e649c7e691d13953b42cb2",
+  "uid" : "9df666fd8f80e7b5",
+  "name" : "can check off an item as completed",
+  "fullName" : "can check off an item as completed",
+  "historyId" : "37188c05885f12164a3cd55379335d62",
   "time" : {
-    "start" : 1640170882838,
-    "stop" : 1640170884498,
-    "duration" : 1660
+    "start" : 1649933186043,
+    "stop" : 1649933186414,
+    "duration" : 371
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,17 +17,17 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1640170882839,
-        "stop" : 1640170884263,
-        "duration" : 1424
+        "start" : 1649933186052,
+        "stop" : 1649933186240,
+        "duration" : 188
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "visit https://example.cypress.io/todo",
         "time" : {
-          "start" : 1640170882918,
-          "stop" : 1640170884262,
-          "duration" : 1344
+          "start" : 1649933186082,
+          "stop" : 1649933186239,
+          "duration" : 157
         },
         "status" : "passed",
         "steps" : [ ],
@@ -48,11 +48,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "get .todo-list li",
+      "name" : "contains Pay electric bill",
       "time" : {
-        "start" : 1640170884270,
-        "stop" : 1640170884339,
-        "duration" : 69
+        "start" : 1649933186248,
+        "stop" : 1649933186260,
+        "duration" : 12
       },
       "status" : "passed",
       "steps" : [ ],
@@ -63,138 +63,105 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **[ <li>, 1 more... ]** to have a length of **2**",
+      "name" : "parent",
       "time" : {
-        "start" : 1640170884338,
-        "stop" : 1640170884338,
+        "start" : 1649933186260,
+        "stop" : 1649933186268,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "find input[type=checkbox]",
+      "time" : {
+        "start" : 1649933186268,
+        "stop" : 1649933186273,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "check",
+      "time" : {
+        "start" : 1649933186273,
+        "stop" : 1649933186406,
+        "duration" : 133
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "contains Pay electric bill",
+      "time" : {
+        "start" : 1649933186406,
+        "stop" : 1649933186409,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "parents li",
+      "time" : {
+        "start" : 1649933186409,
+        "stop" : 1649933186414,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<li.completed>** to have class **completed**",
+      "time" : {
+        "start" : 1649933186414,
+        "stop" : 1649933186414,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "2"
-      }, {
-        "name" : "expected",
-        "value" : "2"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : "get .todo-list li",
-      "time" : {
-        "start" : 1640170884339,
-        "stop" : 1640170884368,
-        "duration" : 29
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
       "parameters" : [ ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : false
-    }, {
-      "name" : "first",
-      "time" : {
-        "start" : 1640170884368,
-        "stop" : 1640170884415,
-        "duration" : 47
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "assert expected **<li>** to have text **Pay electric bill**",
-      "time" : {
-        "start" : 1640170884415,
-        "stop" : 1640170884415,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "Pay electric bill"
-      }, {
-        "name" : "expected",
-        "value" : "Pay electric bill"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : "get .todo-list li",
-      "time" : {
-        "start" : 1640170884415,
-        "stop" : 1640170884444,
-        "duration" : 29
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "last",
-      "time" : {
-        "start" : 1640170884444,
-        "stop" : 1640170884496,
-        "duration" : 52
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "assert expected **<li>** to have text **Walk the dog**",
-      "time" : {
-        "start" : 1640170884496,
-        "stop" : 1640170884496,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "Walk the dog"
-      }, {
-        "name" : "expected",
-        "value" : "Walk the dog"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "f358cb01297826d1",
+      "uid" : "14e15a8158f1add7",
       "name" : "video recording",
-      "source" : "f358cb01297826d1.mp4",
+      "source" : "14e15a8158f1add7.mp4",
       "type" : "video/mp4",
-      "size" : 772848
+      "size" : 705930
     } ],
     "parameters" : [ ],
-    "stepsCount" : 10,
+    "stepsCount" : 9,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -236,6 +203,6 @@
     "categories" : [ ],
     "tags" : [ "this is nice tag", "as well as this" ]
   },
-  "source" : "adc9a65ba768abcd.json",
+  "source" : "9df666fd8f80e7b5.json",
   "parameterValues" : [ ]
 }
