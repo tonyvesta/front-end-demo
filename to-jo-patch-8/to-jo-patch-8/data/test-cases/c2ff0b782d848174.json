@@ -1,12 +1,12 @@
 {
-  "uid" : "fec0e1b1b1486508",
-  "name" : "can filter for uncompleted tasks",
-  "fullName" : "can filter for uncompleted tasks",
-  "historyId" : "de58fefe84dc12072bf5ccc96ced797b",
+  "uid" : "c2ff0b782d848174",
+  "name" : "can filter for completed tasks",
+  "fullName" : "can filter for completed tasks",
+  "historyId" : "bc5160b01cfe2ea594415cb79a29e0dc",
   "time" : {
-    "start" : 1651660463780,
-    "stop" : 1651660464339,
-    "duration" : 559
+    "start" : 1651660495466,
+    "stop" : 1651660496161,
+    "duration" : 695
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,17 +17,17 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1651660463787,
-        "stop" : 1651660464003,
-        "duration" : 216
+        "start" : 1651660495466,
+        "stop" : 1651660495744,
+        "duration" : 278
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "visit https://example.cypress.io/todo",
         "time" : {
-          "start" : 1651660463817,
-          "stop" : 1651660463998,
-          "duration" : 181
+          "start" : 1651660495542,
+          "stop" : 1651660495743,
+          "duration" : 201
         },
         "status" : "passed",
         "steps" : [ ],
@@ -47,16 +47,16 @@
     }, {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1651660464014,
-        "stop" : 1651660464140,
-        "duration" : 126
+        "start" : 1651660495777,
+        "stop" : 1651660495955,
+        "duration" : 178
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "contains Pay electric bill",
         "time" : {
-          "start" : 1651660464020,
-          "stop" : 1651660464025,
+          "start" : 1651660495779,
+          "stop" : 1651660495784,
           "duration" : 5
         },
         "status" : "passed",
@@ -70,9 +70,9 @@
       }, {
         "name" : "parent",
         "time" : {
-          "start" : 1651660464025,
-          "stop" : 1651660464027,
-          "duration" : 2
+          "start" : 1651660495784,
+          "stop" : 1651660495800,
+          "duration" : 16
         },
         "status" : "passed",
         "steps" : [ ],
@@ -85,8 +85,8 @@
       }, {
         "name" : "find input[type=checkbox]",
         "time" : {
-          "start" : 1651660464027,
-          "stop" : 1651660464029,
+          "start" : 1651660495800,
+          "stop" : 1651660495802,
           "duration" : 2
         },
         "status" : "passed",
@@ -100,9 +100,9 @@
       }, {
         "name" : "check",
         "time" : {
-          "start" : 1651660464029,
-          "stop" : 1651660464140,
-          "duration" : 111
+          "start" : 1651660495802,
+          "stop" : 1651660495954,
+          "duration" : 152
         },
         "status" : "passed",
         "steps" : [ ],
@@ -120,11 +120,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "contains Active",
+      "name" : "contains Completed",
       "time" : {
-        "start" : 1651660464141,
-        "stop" : 1651660464150,
-        "duration" : 9
+        "start" : 1651660495956,
+        "stop" : 1651660495976,
+        "duration" : 20
       },
       "status" : "passed",
       "steps" : [ ],
@@ -137,9 +137,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1651660464150,
-        "stop" : 1651660464268,
-        "duration" : 118
+        "start" : 1651660495976,
+        "stop" : 1651660496119,
+        "duration" : 143
       },
       "status" : "passed",
       "steps" : [ ],
@@ -150,10 +150,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "new url https://example.cypress.io/todo#/active",
+      "name" : "new url https://example.cypress.io/todo#/completed",
       "time" : {
-        "start" : 1651660464267,
-        "stop" : 1651660464267,
+        "start" : 1651660496118,
+        "stop" : 1651660496118,
         "duration" : 0
       },
       "status" : "passed",
@@ -167,8 +167,8 @@
     }, {
       "name" : "get .todo-list li",
       "time" : {
-        "start" : 1651660464268,
-        "stop" : 1651660464277,
+        "start" : 1651660496119,
+        "stop" : 1651660496128,
         "duration" : 9
       },
       "status" : "passed",
@@ -180,10 +180,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **<li>** to have a length of **1**",
+      "name" : "assert expected **<li.completed>** to have a length of **1**",
       "time" : {
-        "start" : 1651660464277,
-        "stop" : 1651660464277,
+        "start" : 1651660496128,
+        "stop" : 1651660496128,
         "duration" : 0
       },
       "status" : "passed",
@@ -203,9 +203,9 @@
     }, {
       "name" : "first",
       "time" : {
-        "start" : 1651660464277,
-        "stop" : 1651660464296,
-        "duration" : 19
+        "start" : 1651660496129,
+        "stop" : 1651660496147,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
@@ -216,10 +216,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **<li>** to have text **Walk the dog**",
+      "name" : "assert expected **<li.completed>** to have text **Pay electric bill**",
       "time" : {
-        "start" : 1651660464296,
-        "stop" : 1651660464296,
+        "start" : 1651660496147,
+        "stop" : 1651660496147,
         "duration" : 0
       },
       "status" : "passed",
@@ -227,21 +227,21 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "actual",
-        "value" : "Walk the dog"
+        "value" : "Pay electric bill"
       }, {
         "name" : "expected",
-        "value" : "Walk the dog"
+        "value" : "Pay electric bill"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "contains Pay electric bill",
+      "name" : "contains Walk the dog",
       "time" : {
-        "start" : 1651660464296,
-        "stop" : 1651660464338,
-        "duration" : 42
+        "start" : 1651660496147,
+        "stop" : 1651660496160,
+        "duration" : 13
       },
       "status" : "passed",
       "steps" : [ ],
@@ -252,10 +252,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **:not(script,style):cy-contains(**'Pay electric bill'**), [type=**'submit'**][value~=**'Pay electric bill'**]** not to exist in the DOM",
+      "name" : "assert expected **:not(script,style):cy-contains(**'Walk the dog'**), [type=**'submit'**][value~=**'Walk the dog'**]** not to exist in the DOM",
       "time" : {
-        "start" : 1651660464338,
-        "stop" : 1651660464338,
+        "start" : 1651660496160,
+        "stop" : 1651660496160,
         "duration" : 0
       },
       "status" : "passed",
@@ -263,10 +263,10 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "actual",
-        "value" : ":not(script,style):cy-contains(**'Pay electric bill'**), [type=**'submit'**][value~=**'Pay electric bill'**]"
+        "value" : ":not(script,style):cy-contains(**'Walk the dog'**), [type=**'submit'**][value~=**'Walk the dog'**]"
       }, {
         "name" : "expected",
-        "value" : ":not(script,style):cy-contains('Pay electric bill'), [type='submit'][value~='Pay electric bill']"
+        "value" : ":not(script,style):cy-contains('Walk the dog'), [type='submit'][value~='Walk the dog']"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
@@ -274,11 +274,11 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "65332ae1b26d8ca0",
+      "uid" : "73069b78bcb8f9d2",
       "name" : "video recording",
-      "source" : "65332ae1b26d8ca0.mp4",
+      "source" : "73069b78bcb8f9d2.mp4",
       "type" : "video/mp4",
-      "size" : 700629
+      "size" : 621312
     } ],
     "parameters" : [ ],
     "stepsCount" : 16,
@@ -307,6 +307,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "fec0e1b1b1486508.json",
+  "source" : "c2ff0b782d848174.json",
   "parameterValues" : [ ]
 }

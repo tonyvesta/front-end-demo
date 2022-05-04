@@ -1,60 +1,60 @@
 [ {
-  "uid" : "c9501e6d968f598c",
+  "uid" : "38801375e79a69a4",
   "name" : "can delete all completed tasks",
   "time" : {
-    "start" : 1651660465073,
-    "stop" : 1651660465599,
-    "duration" : 526
+    "start" : 1651660496170,
+    "stop" : 1651660496855,
+    "duration" : 685
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "24083d5d32a15486",
-  "name" : "displays two todo items by default",
-  "time" : {
-    "start" : 1651660460930,
-    "stop" : 1651660462456,
-    "duration" : 1526
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b27eee9fe1a37f3c",
-  "name" : "can check off an item as completed",
-  "time" : {
-    "start" : 1651660463247,
-    "stop" : 1651660463757,
-    "duration" : 510
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e9726a198dd26ef9",
-  "name" : "can filter for completed tasks",
-  "time" : {
-    "start" : 1651660464369,
-    "stop" : 1651660465067,
-    "duration" : 698
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fec0e1b1b1486508",
+  "uid" : "380fb84fc1f79299",
   "name" : "can filter for uncompleted tasks",
   "time" : {
-    "start" : 1651660463780,
-    "stop" : 1651660464339,
-    "duration" : 559
+    "start" : 1651660494800,
+    "stop" : 1651660495424,
+    "duration" : 624
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "fea88e5013bffcaa",
+  "uid" : "b66cb25d332fea39",
+  "name" : "displays two todo items by default",
+  "time" : {
+    "start" : 1651660491470,
+    "stop" : 1651660493395,
+    "duration" : 1925
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42b5ca27d44d6b22",
   "name" : "can add new todo items",
   "time" : {
-    "start" : 1651660462531,
-    "stop" : 1651660463218,
-    "duration" : 687
+    "start" : 1651660493474,
+    "stop" : 1651660494226,
+    "duration" : 752
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2ff0b782d848174",
+  "name" : "can filter for completed tasks",
+  "time" : {
+    "start" : 1651660495466,
+    "stop" : 1651660496161,
+    "duration" : 695
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4127201ba293f65",
+  "name" : "can check off an item as completed",
+  "time" : {
+    "start" : 1651660494232,
+    "stop" : 1651660494782,
+    "duration" : 550
   },
   "status" : "passed",
   "severity" : "normal"
