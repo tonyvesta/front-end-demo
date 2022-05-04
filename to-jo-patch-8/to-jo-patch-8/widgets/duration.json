@@ -1,60 +1,60 @@
 [ {
-  "uid" : "6bb708943e9526ef",
-  "name" : "can filter for completed tasks",
-  "time" : {
-    "start" : 1651659476695,
-    "stop" : 1651659477256,
-    "duration" : 561
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5a439c668365eb1e",
-  "name" : "can delete all completed tasks",
-  "time" : {
-    "start" : 1651659477279,
-    "stop" : 1651659477842,
-    "duration" : 563
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "354946250d5141c5",
-  "name" : "can check off an item as completed",
-  "time" : {
-    "start" : 1651659475740,
-    "stop" : 1651659476118,
-    "duration" : 378
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4617385225d4a72a",
-  "name" : "can add new todo items",
-  "time" : {
-    "start" : 1651659475036,
-    "stop" : 1651659475725,
-    "duration" : 689
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2f427ce6d25980c8",
-  "name" : "can filter for uncompleted tasks",
-  "time" : {
-    "start" : 1651659476137,
-    "stop" : 1651659476666,
-    "duration" : 529
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "85fd990fb3eb275e",
+  "uid" : "6cb783fe5cdeb61b",
   "name" : "displays two todo items by default",
   "time" : {
-    "start" : 1651659473404,
-    "stop" : 1651659474968,
-    "duration" : 1564
+    "start" : 1651660002104,
+    "stop" : 1651660002961,
+    "duration" : 857
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c27a24112b1f1f4",
+  "name" : "can filter for completed tasks",
+  "time" : {
+    "start" : 1651660004537,
+    "stop" : 1651660004982,
+    "duration" : 445
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4440495bd531d3b",
+  "name" : "can check off an item as completed",
+  "time" : {
+    "start" : 1651660003596,
+    "stop" : 1651660004025,
+    "duration" : 429
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0cabf84951212f6",
+  "name" : "can filter for uncompleted tasks",
+  "time" : {
+    "start" : 1651660004041,
+    "stop" : 1651660004523,
+    "duration" : 482
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90930e4c192cc3d8",
+  "name" : "can delete all completed tasks",
+  "time" : {
+    "start" : 1651660004988,
+    "stop" : 1651660005404,
+    "duration" : 416
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ee2afd09b4873e5",
+  "name" : "can add new todo items",
+  "time" : {
+    "start" : 1651660002974,
+    "stop" : 1651660003574,
+    "duration" : 600
   },
   "status" : "passed",
   "severity" : "normal"
