@@ -1,12 +1,12 @@
 {
-  "uid" : "71f5e978b93132dc",
+  "uid" : "fec0e1b1b1486508",
   "name" : "can filter for uncompleted tasks",
   "fullName" : "can filter for uncompleted tasks",
   "historyId" : "de58fefe84dc12072bf5ccc96ced797b",
   "time" : {
-    "start" : 1651660011859,
-    "stop" : 1651660012501,
-    "duration" : 642
+    "start" : 1651660463780,
+    "stop" : 1651660464339,
+    "duration" : 559
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,173 +17,173 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1651660011859,
-        "stop" : 1651660012096,
-        "duration" : 237
+        "start" : 1651660463787,
+        "stop" : 1651660464003,
+        "duration" : 216
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "visit https://example.cypress.io/todo",
         "time" : {
-          "start" : 1651660011886,
-          "stop" : 1651660012095,
-          "duration" : 209
+          "start" : 1651660463817,
+          "stop" : 1651660463998,
+          "duration" : 181
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 1,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
-      "stepsCount" : 1
+      "hasContent" : true
     }, {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1651660012128,
-        "stop" : 1651660012331,
-        "duration" : 203
+        "start" : 1651660464014,
+        "stop" : 1651660464140,
+        "duration" : 126
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "contains Pay electric bill",
         "time" : {
-          "start" : 1651660012129,
-          "stop" : 1651660012144,
-          "duration" : 15
+          "start" : 1651660464020,
+          "stop" : 1651660464025,
+          "duration" : 5
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "parent",
         "time" : {
-          "start" : 1651660012144,
-          "stop" : 1651660012153,
-          "duration" : 9
+          "start" : 1651660464025,
+          "stop" : 1651660464027,
+          "duration" : 2
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "find input[type=checkbox]",
         "time" : {
-          "start" : 1651660012153,
-          "stop" : 1651660012159,
-          "duration" : 6
+          "start" : 1651660464027,
+          "stop" : 1651660464029,
+          "duration" : 2
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "check",
         "time" : {
-          "start" : 1651660012159,
-          "stop" : 1651660012331,
-          "duration" : 172
+          "start" : 1651660464029,
+          "stop" : 1651660464140,
+          "duration" : 111
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 4,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
-      "stepsCount" : 4
+      "hasContent" : true
     }, {
       "name" : "contains Active",
       "time" : {
-        "start" : 1651660012332,
-        "stop" : 1651660012350,
-        "duration" : 18
+        "start" : 1651660464141,
+        "stop" : 1651660464150,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1651660012350,
-        "stop" : 1651660012467,
-        "duration" : 117
+        "start" : 1651660464150,
+        "stop" : 1651660464268,
+        "duration" : 118
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "new url https://example.cypress.io/todo#/active",
       "time" : {
-        "start" : 1651660012466,
-        "stop" : 1651660012466,
+        "start" : 1651660464267,
+        "stop" : 1651660464267,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "get .todo-list li",
       "time" : {
-        "start" : 1651660012467,
-        "stop" : 1651660012479,
-        "duration" : 12
+        "start" : 1651660464268,
+        "stop" : 1651660464277,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "assert expected **<li>** to have a length of **1**",
       "time" : {
-        "start" : 1651660012479,
-        "stop" : 1651660012479,
+        "start" : 1651660464277,
+        "stop" : 1651660464277,
         "duration" : 0
       },
       "status" : "passed",
@@ -196,30 +196,30 @@
         "name" : "expected",
         "value" : "1"
       } ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
-      "stepsCount" : 0
+      "hasContent" : true
     }, {
       "name" : "first",
       "time" : {
-        "start" : 1651660012479,
-        "stop" : 1651660012496,
-        "duration" : 17
+        "start" : 1651660464277,
+        "stop" : 1651660464296,
+        "duration" : 19
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "assert expected **<li>** to have text **Walk the dog**",
       "time" : {
-        "start" : 1651660012496,
-        "stop" : 1651660012496,
+        "start" : 1651660464296,
+        "stop" : 1651660464296,
         "duration" : 0
       },
       "status" : "passed",
@@ -232,30 +232,30 @@
         "name" : "expected",
         "value" : "Walk the dog"
       } ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
-      "stepsCount" : 0
+      "hasContent" : true
     }, {
       "name" : "contains Pay electric bill",
       "time" : {
-        "start" : 1651660012496,
-        "stop" : 1651660012501,
-        "duration" : 5
+        "start" : 1651660464296,
+        "stop" : 1651660464338,
+        "duration" : 42
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "assert expected **:not(script,style):cy-contains(**'Pay electric bill'**), [type=**'submit'**][value~=**'Pay electric bill'**]** not to exist in the DOM",
       "time" : {
-        "start" : 1651660012501,
-        "stop" : 1651660012501,
+        "start" : 1651660464338,
+        "stop" : 1651660464338,
         "duration" : 0
       },
       "status" : "passed",
@@ -268,23 +268,23 @@
         "name" : "expected",
         "value" : ":not(script,style):cy-contains('Pay electric bill'), [type='submit'][value~='Pay electric bill']"
       } ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
-      "stepsCount" : 0
+      "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "8de4e3db9c11dd0",
+      "uid" : "65332ae1b26d8ca0",
       "name" : "video recording",
-      "source" : "8de4e3db9c11dd0.mp4",
+      "source" : "65332ae1b26d8ca0.mp4",
       "type" : "video/mp4",
-      "size" : 678351
+      "size" : 700629
     } ],
     "parameters" : [ ],
+    "stepsCount" : 16,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 16
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -307,6 +307,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "71f5e978b93132dc.json",
+  "source" : "fec0e1b1b1486508.json",
   "parameterValues" : [ ]
 }

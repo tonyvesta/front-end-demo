@@ -1,12 +1,12 @@
 {
-  "uid" : "ed65a69da079adac",
+  "uid" : "b27eee9fe1a37f3c",
   "name" : "can check off an item as completed",
   "fullName" : "can check off an item as completed",
   "historyId" : "37188c05885f12164a3cd55379335d62",
   "time" : {
-    "start" : 1651660011488,
-    "stop" : 1651660011840,
-    "duration" : 352
+    "start" : 1651660463247,
+    "stop" : 1651660463757,
+    "duration" : 510
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,151 +17,151 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1651660011489,
-        "stop" : 1651660011690,
-        "duration" : 201
+        "start" : 1651660463248,
+        "stop" : 1651660463523,
+        "duration" : 275
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "visit https://example.cypress.io/todo",
         "time" : {
-          "start" : 1651660011514,
-          "stop" : 1651660011690,
-          "duration" : 176
+          "start" : 1651660463286,
+          "stop" : 1651660463523,
+          "duration" : 237
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 1,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
-      "stepsCount" : 1
+      "hasContent" : true
     }, {
       "name" : "contains Pay electric bill",
       "time" : {
-        "start" : 1651660011692,
-        "stop" : 1651660011706,
-        "duration" : 14
+        "start" : 1651660463524,
+        "stop" : 1651660463552,
+        "duration" : 28
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "parent",
       "time" : {
-        "start" : 1651660011706,
-        "stop" : 1651660011715,
+        "start" : 1651660463552,
+        "stop" : 1651660463561,
         "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "find input[type=checkbox]",
       "time" : {
-        "start" : 1651660011715,
-        "stop" : 1651660011717,
+        "start" : 1651660463561,
+        "stop" : 1651660463563,
         "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "check",
       "time" : {
-        "start" : 1651660011717,
-        "stop" : 1651660011830,
-        "duration" : 113
+        "start" : 1651660463563,
+        "stop" : 1651660463730,
+        "duration" : 167
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "contains Pay electric bill",
       "time" : {
-        "start" : 1651660011830,
-        "stop" : 1651660011834,
+        "start" : 1651660463730,
+        "stop" : 1651660463734,
         "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "parents li",
       "time" : {
-        "start" : 1651660011834,
-        "stop" : 1651660011839,
-        "duration" : 5
+        "start" : 1651660463734,
+        "stop" : 1651660463757,
+        "duration" : 23
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "assert expected **<li.completed>** to have class **completed**",
       "time" : {
-        "start" : 1651660011839,
-        "stop" : 1651660011839,
+        "start" : 1651660463757,
+        "stop" : 1651660463757,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "8de4e3db9c11dd0",
+      "uid" : "65332ae1b26d8ca0",
       "name" : "video recording",
-      "source" : "8de4e3db9c11dd0.mp4",
+      "source" : "65332ae1b26d8ca0.mp4",
       "type" : "video/mp4",
-      "size" : 678351
+      "size" : 700629
     } ],
     "parameters" : [ ],
+    "stepsCount" : 9,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 9
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -181,6 +181,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ed65a69da079adac.json",
+  "source" : "b27eee9fe1a37f3c.json",
   "parameterValues" : [ ]
 }

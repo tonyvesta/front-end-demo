@@ -2,9 +2,9 @@
   "name" : "GitHub Actions",
   "type" : "github",
   "url" : "https://tonyvesta.github.io/front-end-demo",
-  "buildOrder" : 167,
-  "buildName" : "GitHub Actions Run #2269170068",
-  "buildUrl" : "https://github.com/tonyvesta/front-end-demo/actions/runs/2269170068",
+  "buildOrder" : 168,
+  "buildName" : "GitHub Actions Run #2269202865",
+  "buildUrl" : "https://github.com/tonyvesta/front-end-demo/actions/runs/2269202865",
   "reportName" : "Allure Report with history",
-  "reportUrl" : "https://tonyvesta.github.io/front-end-demo/167/"
+  "reportUrl" : "https://tonyvesta.github.io/front-end-demo/168/"
 } ]

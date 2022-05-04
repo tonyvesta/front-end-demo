@@ -1,79 +1,79 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "can filter for uncompleted tasks",
-    "uid" : "71f5e978b93132dc",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1651660011859,
-      "stop" : 1651660012501,
-      "duration" : 642
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "can check off an item as completed",
-    "uid" : "ed65a69da079adac",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1651660011488,
-      "stop" : 1651660011840,
-      "duration" : 352
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "can add new todo items",
-    "uid" : "909ee22ed2f4ad72",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1651660010715,
-      "stop" : 1651660011480,
-      "duration" : 765
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "can filter for completed tasks",
-    "uid" : "c37595dda5bbf8c4",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1651660012536,
-      "stop" : 1651660013071,
-      "duration" : 535
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
     "name" : "displays two todo items by default",
-    "uid" : "f7ba1851350c1ab1",
+    "uid" : "24083d5d32a15486",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1651660009580,
-      "stop" : 1651660010697,
-      "duration" : 1117
+      "start" : 1651660460930,
+      "stop" : 1651660462456,
+      "duration" : 1526
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "can delete all completed tasks",
-    "uid" : "3c3e52ed0685c8a6",
+    "uid" : "c9501e6d968f598c",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1651660013100,
-      "stop" : 1651660013713,
-      "duration" : 613
+      "start" : 1651660465073,
+      "stop" : 1651660465599,
+      "duration" : 526
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "can check off an item as completed",
+    "uid" : "b27eee9fe1a37f3c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1651660463247,
+      "stop" : 1651660463757,
+      "duration" : 510
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "can filter for completed tasks",
+    "uid" : "e9726a198dd26ef9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1651660464369,
+      "stop" : 1651660465067,
+      "duration" : 698
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "can filter for uncompleted tasks",
+    "uid" : "fec0e1b1b1486508",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1651660463780,
+      "stop" : 1651660464339,
+      "duration" : 559
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "can add new todo items",
+    "uid" : "fea88e5013bffcaa",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1651660462531,
+      "stop" : 1651660463218,
+      "duration" : 687
     },
     "flaky" : false,
     "newFailed" : false,
