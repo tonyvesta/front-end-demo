@@ -15,7 +15,7 @@ jobs:
         matrix:
           # run 3 copies of the current job in parallel
           #containers: [1, 2, 3]
-          containers: [1]
+          containers: [1, 2]
     
     steps:
       - name: Checkout
@@ -33,7 +33,7 @@ jobs:
           # quote the url to be safe against YML parsing surprises
           #wait-on: 'http://localhost:8888'
           #command: npx cypress run
-          command: npm run cypress:run --parallel true --record true
+          command: npm run cypress:run
           parallel: true
           group: 'Actions example'
         env:
