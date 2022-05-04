@@ -1,12 +1,12 @@
 {
-  "uid" : "9257c2ec963efdd4",
-  "name" : "displays two todo items by default",
-  "fullName" : "displays two todo items by default",
-  "historyId" : "d1d258d923e649c7e691d13953b42cb2",
+  "uid" : "4617385225d4a72a",
+  "name" : "can add new todo items",
+  "fullName" : "can add new todo items",
+  "historyId" : "11e27f90a890d381c425d8178efb0505",
   "time" : {
-    "start" : 1651658945517,
-    "stop" : 1651658946826,
-    "duration" : 1309
+    "start" : 1651659475036,
+    "stop" : 1651659475725,
+    "duration" : 689
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,17 +17,17 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1651658945518,
-        "stop" : 1651658946640,
-        "duration" : 1122
+        "start" : 1651659475036,
+        "stop" : 1651659475284,
+        "duration" : 248
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "visit https://example.cypress.io/todo",
         "time" : {
-          "start" : 1651658945591,
-          "stop" : 1651658946639,
-          "duration" : 1048
+          "start" : 1651659475072,
+          "stop" : 1651659475283,
+          "duration" : 211
         },
         "status" : "passed",
         "steps" : [ ],
@@ -45,11 +45,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "get .todo-list li",
+      "name" : "get [data-test=new-todo]",
       "time" : {
-        "start" : 1651658946643,
-        "stop" : 1651658946726,
-        "duration" : 83
+        "start" : 1651659475286,
+        "stop" : 1651659475295,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
@@ -60,10 +60,40 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **[ <li>, 1 more... ]** to have a length of **2**",
+      "name" : "type Feed the cat{enter}",
       "time" : {
-        "start" : 1651658946726,
-        "stop" : 1651658946726,
+        "start" : 1651659475295,
+        "stop" : 1651659475680,
+        "duration" : 385
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get .todo-list li",
+      "time" : {
+        "start" : 1651659475681,
+        "stop" : 1651659475699,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **[ <li>, 2 more... ]** to have a length of **3**",
+      "time" : {
+        "start" : 1651659475699,
+        "stop" : 1651659475699,
         "duration" : 0
       },
       "status" : "passed",
@@ -71,87 +101,21 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "actual",
-        "value" : "2"
+        "value" : "3"
       }, {
         "name" : "expected",
-        "value" : "2"
+        "value" : "3"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : true
-    }, {
-      "name" : "get .todo-list li",
-      "time" : {
-        "start" : 1651658946726,
-        "stop" : 1651658946738,
-        "duration" : 12
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "first",
-      "time" : {
-        "start" : 1651658946738,
-        "stop" : 1651658946764,
-        "duration" : 26
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "assert expected **<li>** to have text **Pay electric bill**",
-      "time" : {
-        "start" : 1651658946764,
-        "stop" : 1651658946764,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "Pay electric bill"
-      }, {
-        "name" : "expected",
-        "value" : "Pay electric bill"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : "get .todo-list li",
-      "time" : {
-        "start" : 1651658946764,
-        "stop" : 1651658946774,
-        "duration" : 10
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
     }, {
       "name" : "last",
       "time" : {
-        "start" : 1651658946774,
-        "stop" : 1651658946824,
-        "duration" : 50
+        "start" : 1651659475700,
+        "stop" : 1651659475724,
+        "duration" : 24
       },
       "status" : "passed",
       "steps" : [ ],
@@ -162,10 +126,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **<li>** to have text **Walk the dog**",
+      "name" : "assert expected **<li>** to have text **Feed the cat**",
       "time" : {
-        "start" : 1651658946824,
-        "stop" : 1651658946824,
+        "start" : 1651659475724,
+        "stop" : 1651659475724,
         "duration" : 0
       },
       "status" : "passed",
@@ -173,10 +137,10 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "actual",
-        "value" : "Walk the dog"
+        "value" : "Feed the cat"
       }, {
         "name" : "expected",
-        "value" : "Walk the dog"
+        "value" : "Feed the cat"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
@@ -184,14 +148,14 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "15385ebb005c6329",
+      "uid" : "298ed172f59eca8a",
       "name" : "video recording",
-      "source" : "15385ebb005c6329.mp4",
+      "source" : "298ed172f59eca8a.mp4",
       "type" : "video/mp4",
-      "size" : 643906
+      "size" : 685201
     } ],
     "parameters" : [ ],
-    "stepsCount" : 10,
+    "stepsCount" : 8,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -214,6 +178,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9257c2ec963efdd4.json",
+  "source" : "4617385225d4a72a.json",
   "parameterValues" : [ ]
 }

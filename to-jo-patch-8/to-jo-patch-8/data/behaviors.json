@@ -2,78 +2,78 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "displays two todo items by default",
-    "uid" : "9257c2ec963efdd4",
+    "uid" : "85fd990fb3eb275e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1651658945517,
-      "stop" : 1651658946826,
-      "duration" : 1309
+      "start" : 1651659473404,
+      "stop" : 1651659474968,
+      "duration" : 1564
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "can add new todo items",
-    "uid" : "f2c4537e0e18af33",
+    "uid" : "4617385225d4a72a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1651658947090,
-      "stop" : 1651658948079,
-      "duration" : 989
+      "start" : 1651659475036,
+      "stop" : 1651659475725,
+      "duration" : 689
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "can check off an item as completed",
-    "uid" : "fb951c1cb1566561",
+    "uid" : "354946250d5141c5",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1651658948094,
-      "stop" : 1651658948559,
-      "duration" : 465
+      "start" : 1651659475740,
+      "stop" : 1651659476118,
+      "duration" : 378
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "can filter for uncompleted tasks",
-    "uid" : "167133e1669b85c1",
+    "uid" : "2f427ce6d25980c8",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1651658948579,
-      "stop" : 1651658949246,
-      "duration" : 667
+      "start" : 1651659476137,
+      "stop" : 1651659476666,
+      "duration" : 529
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "can filter for completed tasks",
-    "uid" : "a10492f65cb5c8b0",
+    "uid" : "6bb708943e9526ef",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1651658949270,
-      "stop" : 1651658949927,
-      "duration" : 657
+      "start" : 1651659476695,
+      "stop" : 1651659477256,
+      "duration" : 561
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "can delete all completed tasks",
-    "uid" : "d762e5bce0557ab6",
+    "uid" : "5a439c668365eb1e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1651658949971,
-      "stop" : 1651658950566,
-      "duration" : 595
+      "start" : 1651659477279,
+      "stop" : 1651659477842,
+      "duration" : 563
     },
     "flaky" : false,
     "newFailed" : false,
