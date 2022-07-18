@@ -1,10 +1,1 @@
-[ {
-  "name" : "GitHub Actions",
-  "type" : "github",
-  "url" : "https://tonyvesta.github.io/front-end-demo",
-  "buildOrder" : 164,
-  "buildName" : "GitHub Actions Run #2166757860",
-  "buildUrl" : "https://github.com/tonyvesta/front-end-demo/actions/runs/2166757860",
-  "reportName" : "Allure Report with history",
-  "reportUrl" : "https://tonyvesta.github.io/front-end-demo/164/"
-} ]
+[{"name":"GitHub Actions","type":"github","url":"https://tonyvesta.github.io/front-end-demo","buildOrder":169,"buildName":"GitHub Actions Run #2691735502","buildUrl":"https://github.com/tonyvesta/front-end-demo/actions/runs/2691735502","reportName":"Allure Report with history","reportUrl":"https://tonyvesta.github.io/front-end-demo/169/"}]
