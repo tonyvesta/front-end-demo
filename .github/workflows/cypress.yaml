@@ -84,8 +84,8 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./allure-report
-          destination_dir: ${{ env.GITHUB_BRANCH }}/${{ env.GITHUB_BRANCH }}
-
+          destination_dir: ${{ env.GITHUB_BRANCH }}
+          
       - name: Post the link to the report
         if: github.ref != 'refs/heads/main'
         uses: Sibz/github-status-action@v1
@@ -94,6 +94,6 @@ jobs:
             context: 'Allure Report'
             state: 'success'
             sha: ${{ github.event.pull_request.head.sha }}
-            target_url: https://tonyvesta.github.io/front-end-demo/${{ env.GITHUB_BRANCH }}/allure-report
+            target_url: https://tonyvesta.github.io/front-end-demo/${{ env.GITHUB_BRANCH }}
             #target_url: https://waterscorporation.github.io/wcc-auditlog/${{ env.GITHUB_BRANCH }}/${{ github.run_number }}
             
